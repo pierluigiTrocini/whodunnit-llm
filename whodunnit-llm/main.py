@@ -4,9 +4,19 @@ import ast
 import re
 import numpy
 
+import tiktoken, transformers, sentencepiece
+
 from utility import *
 
 from openai import OpenAI
+
+ON_FILE = False
+
+def print_n_log(string: str, log_file: str = 'output.txt' ):
+    with open(log_file, 'a') as f:
+        print(string)
+        if ON_FILE:
+            f.write(string + "\n")
 
 class Episode():
     def __init__(self, filename: str):
@@ -35,34 +45,56 @@ def generate_dataset() -> dict:
     
     return data
 
+def test(episode_filename: str, n_scene_chunks: int = 4, model: str = GPT_4O_MINI, log_file: str = 'output.txt'):
+    episode: Episode = Episode(filename = episode_filename)
+
+    print_n_log(string = f"[DEBUG] Test for season: {episode.season}, episode: {episode.episode} [Model: {model} | Scene chunks (= n. prompt): {n_scene_chunks}]", log_file = log_file)
+
+    scenes_chunks = numpy.array_split(episode.scene_list, n_scene_chunks)
+
+    chat = OpenAI(
+        base_url = OPENROUTER_BASE_URL,
+        api_key = os.environ['OPENROUTER_API_KEY']
+    ).chat.completions.create(
+        model = model,
+        messages = [
+            { "role": "system", "content" : INSTRUCTION }
+        ]
+    )
+
+    print_n_log(string = chat.choices[-1].message)
+
+    # messages = [{"role": "user", "content": INSTRUCTION}]
+
+    # for i in range(len(scenes_chunks)):
+    #     messages.append(
+    #         {
+    #             "role": "user",
+    #             "content": f"season: {episode.season}, episode: {episode.episode}, chunk: {i}\n{''.join(scenes_chunks[i])}"
+    #         }
+    #     )  
+
+    #     response = OpenAI(
+    #         base_url=OPENROUTER_BASE_URL,
+    #         api_key=os.environ['OPENROUTER_API_KEY']   
+    #     ).chat.completions.create(
+    #         model = DEEPSEEK_R1,
+    #         messages=messages
+    #     ).choices[-1].message.content
+
+    #     print_n_log(string = f"[DEBUG][gpt] {response}", log_file = log_file)
+
+    #     messages.append({
+    #         "role": "assistant",
+    #         "content": response
+    #     })
+    
+    print_n_log(string = f"\n[DEBUG]---------------------------------------\n", log_file = log_file)
+
 if __name__ == '__main__':
-    episode: Episode = Episode(filename='s01e07.csv')
-
-    CHUNKS = 4
-
-    messages = [{"role": "user", "content": INSTRUCTION}]
-
-    scenes_chunks = numpy.array_split(episode.scene_list, CHUNKS)
-
-    for i in range(len(scenes_chunks)):
-        messages.append(
-            {
-                "role": "user",
-                "content": f"season: {episode.season}, episode: {episode.episode}, chunk: {i}\n{''.join(scenes_chunks[i])}"
-            }
-        )  
-
-        response = OpenAI().chat.completions.create(
-            model = "gemini-2.0-flash",
-            messages=messages
-        ).choices[-1].message.content
-
-        print(f"[DEBUG][gpt] {response}")
-
-        messages.append({
-            "role": "assistant",
-            "content": response
-        })
+    test(episode_filename = str('s01e07.csv'), n_scene_chunks = 4, model = GPT_4O_MINI)
+    # for csv_fileanme in os.listdir(SCENE_LEVEL_N_ASPECTS):
+    #     test(episode_filename = str(csv_fileanme), n_scene_chunks = 4, model = DEEPSEEK_R1)
 
 
 
