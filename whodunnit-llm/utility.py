@@ -14,6 +14,8 @@ GEMINI_2_0_FLASH_EXPERIMENTAL_FREE = "google/gemini-2.0-flash-exp:free"
 LLAMA_SCOUT_4_FREE = "meta-llama/llama-4-scout:free"
 DEEPSEEK_V3_BASE_FREE = "deepseek/deepseek-v3-base:free"
 
+TIKTOKEN_ENCODER = 'cl100k_base'
+
 INSTRUCTION = """
     # Identity
     You are a forense specialist that helps a crime investigation team.
@@ -22,7 +24,7 @@ INSTRUCTION = """
     # Instruction
     * Every scenario has one or more cases. 
     * For each case, only output a single line in your response with no additional commentary.
-    * Format ofthe response:
+    * Format of the response:
         season: <season_number> | episode: <episode_number> | chunk: <chunk_number> | case: <case> | perpetrator: <perpetrator_name>.
 
     # Examples

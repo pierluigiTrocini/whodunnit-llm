@@ -45,6 +45,13 @@ def generate_dataset() -> dict:
     
     return data
 
+def _token_estimation(messages: list) -> int:
+    n_token = len(tiktoken.get_encoding(TIKTOKEN_ENCODER).encode(''.join([m['content'] for m in messages if 'content' in m])))
+    print(f"Token estimation (encoding: {TIKTOKEN_ENCODER}) - {n_token} tokens")
+
+    return n_token
+
+
 def test(episode_filename: str, n_scene_chunks: int = 4, model: str = GPT_4O_MINI, log_file: str = 'output.txt'):
     episode: Episode = Episode(filename = episode_filename)
 
@@ -52,17 +59,21 @@ def test(episode_filename: str, n_scene_chunks: int = 4, model: str = GPT_4O_MIN
 
     scenes_chunks = numpy.array_split(episode.scene_list, n_scene_chunks)
 
+    messages = [{ "role": "system", "content" : INSTRUCTION }]
+
     chat = OpenAI(
         base_url = OPENROUTER_BASE_URL,
         api_key = os.environ['OPENROUTER_API_KEY']
     ).chat.completions.create(
         model = model,
-        messages = [
-            { "role": "system", "content" : INSTRUCTION }
-        ]
+        messages = messages
     )
 
-    print_n_log(string = chat.choices[-1].message)
+    for i in range(len(scenes_chunks)):
+        messages.append({
+            "role": "user",
+            "content": f""
+        })
 
     # messages = [{"role": "user", "content": INSTRUCTION}]
 
