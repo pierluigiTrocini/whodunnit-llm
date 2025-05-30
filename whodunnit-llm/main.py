@@ -3,19 +3,20 @@ import os
 import ast
 import re
 import numpy
+import logging
+from time import sleep
 
-import tiktoken, transformers, sentencepiece
+import tiktoken
 
 from utility import *
 
 from openai import OpenAI
+from groq import Groq
 
-ON_FILE = False
-
-def print_n_log(string: str, log_file: str = 'output.txt' ):
+def print_n_log(string: str, log_file: str = 'output.txt', on_file: bool = False):
     with open(log_file, 'a') as f:
         print(string)
-        if ON_FILE:
+        if on_file:
             f.write(string + "\n")
 
 class Episode():
@@ -47,65 +48,59 @@ def generate_dataset() -> dict:
 
 def _token_estimation(messages: list) -> int:
     n_token = len(tiktoken.get_encoding(TIKTOKEN_ENCODER).encode(''.join([m['content'] for m in messages if 'content' in m])))
-    print(f"Token estimation (encoding: {TIKTOKEN_ENCODER}) - {n_token} tokens")
-
-    return n_token
+    return n_token    
 
 
-def test(episode_filename: str, n_scene_chunks: int = 4, model: str = GPT_4O_MINI, log_file: str = 'output.txt'):
+def test(
+        episode_filename: str,
+        n_scene_chunks: int = 4,
+        platform: Platform = Platform.OPEN_AI_API,
+        model: str = GPT_4O_MINI,
+        log_file: str = 'output.txt'):
+    # retrieve information about episode and scenes
     episode: Episode = Episode(filename = episode_filename)
+    scene_chunks = numpy.array_split(episode.scene_list, n_scene_chunks)
 
-    print_n_log(string = f"[DEBUG] Test for season: {episode.season}, episode: {episode.episode} [Model: {model} | Scene chunks (= n. prompt): {n_scene_chunks}]", log_file = log_file)
+    print_n_log(string = f"[DEBUG][Test] Test for episode {episode.season}x{episode.episode} [Api: {platform.name} | Model: {model} | chunks: {n_scene_chunks}]", log_file = log_file, on_file = False)
 
-    scenes_chunks = numpy.array_split(episode.scene_list, n_scene_chunks)
+    # client declaration
+    client = OpenAI(base_url = OPENROUTER_BASE_URL, api_key = os.environ['OPENROUTER_API_KEY']) \
+        if platform == Platform.OPEN_AI_API else Groq(api_key = os.environ['GROQ_API_KEY'])
 
-    messages = [{ "role": "system", "content" : INSTRUCTION }]
+    # System instruction
+    messages = [{
+        "role": "system",
+        "content": str(INSTRUCTION)
+    }]
 
-    chat = OpenAI(
-        base_url = OPENROUTER_BASE_URL,
-        api_key = os.environ['OPENROUTER_API_KEY']
-    ).chat.completions.create(
-        model = model,
-        messages = messages
-    )
+    # chat creation
+    chat = client.chat.completions.create(model = model, messages = messages)
 
-    for i in range(len(scenes_chunks)):
-        messages.append({
-            "role": "user",
-            "content": f""
-        })
+    current_total_tokens = 0
+    current_total_tokens += _token_estimation(messages = messages)
 
-    # messages = [{"role": "user", "content": INSTRUCTION}]
+    for s in range(len(scene_chunks)):
+        messages.append({ "role": "user", "content": f"{str(scene_chunks[s])}" })
+        current_total_tokens += _token_estimation(messages = messages)
+        print_n_log(f"[DEBUG][token estimation] current tokens: {current_total_tokens} tkn", log_file = log_file, on_file = False)
+        chat = client.chat.completions.create(model = model, messages = messages)
+        print_n_log(f"[DEBUG][llm response] {episode.season}, {episode.episode}, {s}, {chat.choices[-1].message.content}", log_file = log_file, on_file = True)
+        messages.append({ "role": "assistant", "content": f"{chat.choices[-1].message.content}" })
 
-    # for i in range(len(scenes_chunks)):
-    #     messages.append(
-    #         {
-    #             "role": "user",
-    #             "content": f"season: {episode.season}, episode: {episode.episode}, chunk: {i}\n{''.join(scenes_chunks[i])}"
-    #         }
-    #     )  
-
-    #     response = OpenAI(
-    #         base_url=OPENROUTER_BASE_URL,
-    #         api_key=os.environ['OPENROUTER_API_KEY']   
-    #     ).chat.completions.create(
-    #         model = DEEPSEEK_R1,
-    #         messages=messages
-    #     ).choices[-1].message.content
-
-    #     print_n_log(string = f"[DEBUG][gpt] {response}", log_file = log_file)
-
-    #     messages.append({
-    #         "role": "assistant",
-    #         "content": response
-    #     })
-    
-    print_n_log(string = f"\n[DEBUG]---------------------------------------\n", log_file = log_file)
+    print_n_log(f"[DEBUG][Test] End of test\n", log_file = log_file, on_file = True)    
 
 if __name__ == '__main__':
-    test(episode_filename = str('s01e07.csv'), n_scene_chunks = 4, model = GPT_4O_MINI)
-    # for csv_fileanme in os.listdir(SCENE_LEVEL_N_ASPECTS):
-    #     test(episode_filename = str(csv_fileanme), n_scene_chunks = 4, model = DEEPSEEK_R1)
+    for csv_filename in sorted(os.listdir(SCENE_LEVEL_N_ASPECTS)):
+        test(
+            episode_filename = str(csv_filename), 
+            n_scene_chunks = 4, 
+            platform = Platform.GROQ_AI_API, 
+            model = GEMMA_2_9B_IT,
+            log_file = 'results.txt'    
+        )
+        
+        print_n_log("[DEBUG][system] sleep between tests")
+        sleep(5)
 
 
 

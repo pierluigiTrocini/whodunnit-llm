@@ -1,3 +1,9 @@
+from enum import Enum
+
+class Platform(Enum):
+    OPEN_AI_API = 1,
+    GROQ_AI_API = 2
+
 SCENE_LEVEL_N_ASPECTS = "csi-corpus/screenplay_summarization/scene_level_n_aspects/"
 PERPETRATOR_IDENTIFICATION = "csi-corpus/perpetrator_identification/"
 
@@ -7,35 +13,42 @@ DEEPSEEK_BASE_URL = "https://api.deepseek.com/"
 
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
+
+# Models for Openrouter platform
 GPT_4O_MINI = "openai/gpt-4o-mini"
 DEEPSEEK_R1 = "deepseek/deepseek-r1:free"
-
 GEMINI_2_0_FLASH_EXPERIMENTAL_FREE = "google/gemini-2.0-flash-exp:free"
 LLAMA_SCOUT_4_FREE = "meta-llama/llama-4-scout:free"
 DEEPSEEK_V3_BASE_FREE = "deepseek/deepseek-v3-base:free"
+# -------------------------------------------------
+
+# Models for Groq platform
+LLAMA_3_3_70B_VERSATILE = "llama-3.3-70b-versatile"
+GEMMA_2_9B_IT = "gemma2-9b-it"
+DEEPSEEK_R1_DISTILL_LLAMA_70b = "deepseek-r1-distill-llama-70b"
+QWEN_QWQ_32B = "qwen-qwq-32b"
+MISTRAL_SABA_24b = "mistral-saba-24b"
+
+
+# -------------------------------------------------
 
 TIKTOKEN_ENCODER = 'cl100k_base'
 
 INSTRUCTION = """
-    # Identity
-    You are a forense specialist that helps a crime investigation team.
-    Given chunks of dialogues, identify the perpetrator of each case.
+Identity:
+You are a forensic specialist assisting a crime investigation team. 
+Given chunks of dialogues, your task is to identify the perpetrator of the case.
 
-    # Instruction
-    * Every scenario has one or more cases. 
-    * For each case, only output a single line in your response with no additional commentary.
-    * Format of the response:
-        season: <season_number> | episode: <episode_number> | chunk: <chunk_number> | case: <case> | perpetrator: <perpetrator_name>.
+Instruction:
+* Respond with a single line only, without any additional commentary.
+* Use the format: <case>, <perpetrator_name>
+* If you don't find any perpetrator, respond with: <case>, no perpetrator
 
-    # Examples
-    <user_query>
-        season: 1, episode: 1, chunk: 1
+Example:
+User:
+[[Detective]] Alice, you killed Bob!
+[[Alice]] No, that's not true!
 
-        [[Detective]] Alice, you killed Bob!
-        [[Alice]] No, that's not true!
-    </user_query>
-
-    <assistant_response>
-        Season 1 | Episode 1 | Chunk 1 | Bob's murder | Alice
-    </assistant_response>
+Assistant:
+Bob's murder, Alice
 """
