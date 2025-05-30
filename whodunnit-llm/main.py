@@ -82,10 +82,10 @@ def test(
     for s in range(len(scene_chunks)):
         messages.append({ "role": "user", "content": f"{str(scene_chunks[s])}" })
         current_total_tokens += _token_estimation(messages = messages)
-        print_n_log(f"[DEBUG][token estimation] current tokens: {current_total_tokens} tkn", log_file = log_file, on_file = False)
+        print_n_log(f"[DEBUG][token estimation] current tokens: {current_total_tokens} tokens", log_file = log_file, on_file = False)
         chat = client.chat.completions.create(model = model, messages = messages)
         print_n_log(f"[DEBUG][llm response] {episode.season}, {episode.episode}, {s}, {chat.choices[-1].message.content}", log_file = log_file, on_file = True)
-        messages.append({ "role": "assistant", "content": f"{chat.choices[-1].message.content}" })
+        messages.append({ "role": "assistant", "content": f"{chat.choices[-1].message.content}"})
 
     print_n_log(f"[DEBUG][Test] End of test\n", log_file = log_file, on_file = True)    
 
