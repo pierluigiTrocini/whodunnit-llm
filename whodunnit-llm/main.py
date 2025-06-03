@@ -19,6 +19,21 @@ def print_n_log(string: str, log_file: str = 'output.txt', on_file: bool = False
         if on_file:
             f.write(string + "\n")
 
+def get_only_one_case_episode() -> list:
+    files = []
+
+    for tsv_filename in sorted(os.listdir(PERPETRATOR_IDENTIFICATION)):
+        if not tsv_filename.endswith('.tsv'):
+            continue
+        with open(f"{PERPETRATOR_IDENTIFICATION}{tsv_filename}", newline="") as tsvfile:
+            reader = csv.DictReader(tsvfile, delimiter='\t')
+            caseid_values = [row['caseID'] for row in reader if 'caseID' in row]
+            if caseid_values and all(val == '1' for val in caseid_values):
+                files.append(str(tsv_filename.replace('.tsv', '.csv')))
+    
+    return files
+
+
 class Episode():
     def __init__(self, filename: str):
         self.filename = filename
@@ -52,25 +67,35 @@ def _token_estimation(messages: list) -> int:
 
 
 def test(
-        episode_filename: str,
+        episode: Episode,
         n_scene_chunks: int = 4,
-        platform: Platform = Platform.OPEN_AI_API,
-        model: str = GPT_4O_MINI,
-        log_file: str = 'output.txt'):
+        platform: Platform = Platform.GROQ_AI_API,
+        model: str = OPENAI__GPT_4O_MINI,
+        log_file: str = 'output.txt',
+        time_sleep: int = 0):
     # retrieve information about episode and scenes
-    episode: Episode = Episode(filename = episode_filename)
+    if episode == None:
+        raise Exception("[ERROR] no episode as parameter")
     scene_chunks = numpy.array_split(episode.scene_list, n_scene_chunks)
 
     print_n_log(string = f"[DEBUG][Test] Test for episode {episode.season}x{episode.episode} [Api: {platform.name} | Model: {model} | chunks: {n_scene_chunks}]", log_file = log_file, on_file = False)
 
-    # client declaration
-    client = OpenAI(base_url = OPENROUTER_BASE_URL, api_key = os.environ['OPENROUTER_API_KEY']) \
-        if platform == Platform.OPEN_AI_API else Groq(api_key = os.environ['GROQ_API_KEY'])
+
+    client = None
+    if platform == Platform.OPEN_AI_API:
+        client = OpenAI(base_url = OPENAI_BASE_URL, api_key = os.environ['OPENAI_API_KEY'])
+    elif platform == Platform.OPENROUTER_AI_API:
+        client = OpenAI(base_url = OPENROUTER_BASE_URL, api_key = os.environ['OPENROUTER_API_KEY'])
+    elif platform == Platform.GROQ_AI_API:
+        client = Groq(api_key = os.environ['GROQ_API_KEY'])
+    
+    if client == None:
+        raise Exception("[ERROR] No API object declared\n")
 
     # System instruction
     messages = [{
         "role": "system",
-        "content": str(INSTRUCTION)
+        "content": INSTRUCTION
     }]
 
     # chat creation
@@ -79,28 +104,30 @@ def test(
     current_total_tokens = 0
     current_total_tokens += _token_estimation(messages = messages)
 
+
     for s in range(len(scene_chunks)):
-        messages.append({ "role": "user", "content": f"{str(scene_chunks[s])}" })
+        messages.append({ "role": "user", "content": f"season: {episode.season}, episode: {episode.episode}, scene_chunk: {s}\n{str(scene_chunks[s])}" })
         current_total_tokens += _token_estimation(messages = messages)
         print_n_log(f"[DEBUG][token estimation] current tokens: {current_total_tokens} tokens", log_file = log_file, on_file = False)
         chat = client.chat.completions.create(model = model, messages = messages)
-        print_n_log(f"[DEBUG][llm response] {episode.season}, {episode.episode}, {s}, {chat.choices[-1].message.content}", log_file = log_file, on_file = True)
+        print_n_log(f"[DEBUG][llm response]{chat.choices[-1].message.content}", log_file = log_file, on_file = True)
         messages.append({ "role": "assistant", "content": f"{chat.choices[-1].message.content}"})
 
     print_n_log(f"[DEBUG][Test] End of test\n", log_file = log_file, on_file = True)    
 
+    if time_sleep > 0:
+        print(f"[DEBUG][time_sleep] Time sleep: {time_sleep} sec.\n")
+        sleep(time_sleep)
+
 if __name__ == '__main__':
-    for csv_filename in sorted(os.listdir(SCENE_LEVEL_N_ASPECTS)):
+    for csv_filename in sorted(get_only_one_case_episode()[13:]):
         test(
-            episode_filename = str(csv_filename), 
+            episode = Episode(filename = str(csv_filename)), 
             n_scene_chunks = 4, 
             platform = Platform.GROQ_AI_API, 
-            model = GEMMA_2_9B_IT,
-            log_file = 'results.txt'    
-        )
-        
-        print_n_log("[DEBUG][system] sleep between tests")
-        sleep(5)
+            model = GROQ__LLAMA_3_3_70B_VERSATILE,
+            log_file = 'results_only_one_case_episodes_llama33_70b.txt',
+            time_sleep = 60)
 
 
 
