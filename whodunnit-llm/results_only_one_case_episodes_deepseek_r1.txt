@@ -58,3 +58,50 @@
 [DEBUG][llm response]4,14,3,Store robbery and shooting,Raul Valdez
 [DEBUG][Test] End of test
 
+[DEBUG][llm response]4, 22, 0, Ernie Menlo's murder, no perpetrator
+[DEBUG][llm response]4,22,1,Ted Deller and Davis Mullin's murder,no perpetrator
+[DEBUG][llm response]4,22,2,Teddy Deller and Davis Mullin's murder,Joseph Greene
+[DEBUG][llm response]4,22,3,Teddy Deller and Davis Mullin's murder,Joseph Greene
+[DEBUG][Test] End of test
+
+[DEBUG][llm response]4, 23, 0, Emma Dobbins' murder and sexual assault, Todd Coombs
+[DEBUG][llm response]4, 23, 1, Emma Dobbins' murder and sexual assault, Roger Coombs
+[DEBUG][llm response]4,23,2,Linley Parker's rape and murder,Todd Coombs
+[DEBUG][llm response]4,23,3,Emma Dobbins' and Linley Parker's murders and sexual assaults,Todd Coombs
+[DEBUG][Test] End of test
+
+[DEBUG][llm response]5, 3, 0, Alicia Perez's disappearance/kidnapping, Sybil Perez and Carlos Perez
+[DEBUG][llm response]5, 3, 1, Alicia Perez's murder, Sybil Perez and Carlos Perez
+[DEBUG][llm response]
+[DEBUG][llm response]5,3,3,Alicia Perez's murder,Sybil Perez and Carlos Perez
+[DEBUG][Test] End of test
+
+[DEBUG][llm response]5, 6, 3, Jonathan Avery Haywood III's death, Frat_Boy_(#56)
+[DEBUG][llm response]5, 6, 1, Debby Reston's murder, Dustin Preeger
+[DEBUG][llm response]5, 6, 2, John Mathers and accomplice's crimes, John Mathers
+[DEBUG][llm response]5, 6, 3, John Mathers and accomplice's crimes, Kevin Greer
+[DEBUG][Test] End of test
+
+[DEBUG][llm response]5, 8, 0, Wendy Garner's murder, Dina
+[DEBUG][llm response]5, 8, 1, Wendy Garner's murder, Dina
+[DEBUG][llm response]5, 8, 2, Wendy Garner's murder, Mona Lavalle (Karl Benway)
+[DEBUG][llm response]5, 8, 3, Wendy Garner's murder, Francis
+[DEBUG][Test] End of test
+
+[DEBUG][llm response]5, 13, 0, Jane Doe murders, Andrew Melton
+[DEBUG][llm response]5, 13, 1, Jane Doe murders, Andrew Melton
+[DEBUG][llm response]5, 13, 2, Jane Doe murders, Andrew Melton
+[DEBUG][llm response]5, 13, 3, Jane Doe murders, Andrew Melton
+[DEBUG][Test] End of test
+
+[DEBUG][llm response]5, 21, 0, Robbie's murder and evidence investigation, no perpetrator
+[DEBUG][llm response]5, 21, 1, Robbie's murder and evidence investigation, Adam
+[DEBUG][llm response]5, 21, 2, Robbie's murder and evidence investigation, Joanne McKay
+[DEBUG][llm response]5, 21, 3, Robbie's murder and evidence investigation, Joanne McKay
+[DEBUG][Test] End of test
+
+[DEBUG][llm response]5,22,0,Alice Granger's murder,no perpetrator
+[DEBUG][llm response]5,22,1,Alice Granger's murder,Jeff Simon
+[DEBUG][llm response]5,22,2,Alice Granger's murder,Jeff Simon
+[DEBUG][llm response]5,22,3,Alice Granger's murder,Jeff Simon
+[DEBUG][Test] End of test

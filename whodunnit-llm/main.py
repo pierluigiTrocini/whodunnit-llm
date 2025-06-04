@@ -120,14 +120,16 @@ def test(
         sleep(time_sleep)
 
 if __name__ == '__main__':
-    for csv_filename in sorted(get_only_one_case_episode()[13:]):
+    # si riparte da 17 per llama
+
+    for csv_filename in sorted(get_only_one_case_episode()[17:]):
         test(
             episode = Episode(filename = str(csv_filename)), 
             n_scene_chunks = 4, 
             platform = Platform.GROQ_AI_API, 
             model = GROQ__LLAMA_3_3_70B_VERSATILE,
-            log_file = 'results_only_one_case_episodes_llama33_70b.txt',
-            time_sleep = 60)
+            log_file = 'results_only_one_case_episodes_deepseek_r1.txt',
+            time_sleep = 120)
 
 
 

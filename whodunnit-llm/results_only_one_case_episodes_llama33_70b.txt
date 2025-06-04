@@ -70,3 +70,26 @@
 [DEBUG][llm response]4, 22, 3, Teddy Deller and Davis Mullins' murder, Joseph Greene
 [DEBUG][Test] End of test
 
+[DEBUG][llm response]5, 3, 0, Alicia Perez's disappearance, no perpetrator
+[DEBUG][llm response]5, 3, 1, Alicia Perez's murder, Sybil Perez
+[DEBUG][llm response]5, 3, 2, Alicia Perez's murder, Sybil Perez
+[DEBUG][llm response]5, 3, 3, Alicia Perez's murder, Daniel Perez
+[DEBUG][Test] End of test
+
+[DEBUG][llm response]5, 6, 0, Fraternity pledge's murder, Frat_Boy_(#56)
+[DEBUG][llm response]5, 6, 1, Debby Reston's murder, no perpetrator
+[DEBUG][llm response]5, 6, 2, Debby Reston's murder, no perpetrator
+[DEBUG][llm response]5, 6, 3, Debby Reston's murder, Kevin Greer
+[DEBUG][Test] End of test
+
+[DEBUG][llm response]5, 8, 0, Transgender woman's murder, no perpetrator
+[DEBUG][llm response]5, 8, 1, Transgender woman's murder, no perpetrator
+[DEBUG][llm response]5, 8, 2, Transgender woman's murder, Mona_Lavalle_(Karl_Benway)
+[DEBUG][llm response]5, 8, 3, Transgender woman's murder, Francis
+[DEBUG][Test] End of test
+
+[DEBUG][llm response]5, 13, 0, Jane Doe's murder, Andrew Melton
+[DEBUG][llm response]5, 13, 1, Svetlana's murder, Andrew Melton
+[DEBUG][llm response]5, 13, 2, Svetlana's murder, Andrew Melton
+[DEBUG][llm response]5, 13, 3, Svetlana's murder, Vlad
+[DEBUG][Test] End of test
