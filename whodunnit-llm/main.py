@@ -127,8 +127,8 @@ if __name__ == '__main__':
             episode = Episode(filename = str(csv_filename)), 
             n_scene_chunks = 4, 
             platform = Platform.OPENROUTER_AI_API, 
-            model = OPENROUTER__GEMINI_2_0_FLASH_EXPERIMENTAL_FREE,
-            log_file = 'results_only_one_case_episodes_gemini_2_0_flash_exp.txt',
+            model = OPENROUTER__DEEPSEEK_R1,
+            log_file = 'results_only_one_case_episodes_deepseek_r1.txt',
             time_sleep = 120)
 
 
