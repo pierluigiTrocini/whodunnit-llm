@@ -105,3 +105,10 @@
 [DEBUG][llm response]5,22,2,Alice Granger's murder,Jeff Simon
 [DEBUG][llm response]5,22,3,Alice Granger's murder,Jeff Simon
 [DEBUG][Test] End of test
+
+[DEBUG][llm response]5, 22, 0, Alice Granger's murder, no perpetrator
+[DEBUG][llm response]5, 22, 1, Alice Granger's murder, Jeff Simon
+[DEBUG][llm response]5, 22, 2, Holly Pearson's murder, Adam Novak
+[DEBUG][llm response]
+[DEBUG][Test] End of test
+
