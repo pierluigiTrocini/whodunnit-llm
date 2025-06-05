@@ -1,12 +1,21 @@
 from enum import Enum
+from pydantic import BaseModel
 
 class Platform(Enum):
     OPEN_AI_API = 1,
     GROQ_AI_API = 2,
     OPENROUTER_AI_API = 3
 
+class Response(BaseModel):
+    season: int
+    episode: int
+    scene_chunk: int
+    case_summary: str
+    perpetrator_name: str
+
 SCENE_LEVEL_N_ASPECTS = "csi-corpus/screenplay_summarization/scene_level_n_aspects/"
 PERPETRATOR_IDENTIFICATION = "csi-corpus/perpetrator_identification/"
+LOGS_PATH = 'logs/'
 
 GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
 OPENAI_BASE_URL = "https://api.openai.com/v1/"
