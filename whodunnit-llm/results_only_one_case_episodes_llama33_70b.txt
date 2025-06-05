@@ -94,3 +94,15 @@
 [DEBUG][llm response]5, 13, 3, Svetlana's murder, Vlad
 [DEBUG][Test] End of test
 
+[DEBUG][llm response]5, 21, 0, Robbie's murder, no perpetrator
+[DEBUG][llm response]5, 21, 1, Robbie's murder, no perpetrator
+[DEBUG][llm response]5, 21, 2, Robbie's murder, Joanne_McKay
+[DEBUG][llm response]5, 21, 3, Robbie's murder, Joanne_McKay
+[DEBUG][Test] End of test
+
+[DEBUG][llm response]5, 22, 0, Alice Granger's murder, no perpetrator
+[DEBUG][llm response]5, 22, 1, Alice Granger's murder, Jeff Simon
+[DEBUG][llm response]5, 22, 2, Holly Pearson's murder, Adam Novak
+[DEBUG][llm response]5, 22, 3, Alice Granger and Holly Pearson's murders, Jeff Simon
+[DEBUG][Test] End of test
+
