@@ -1,5 +1,6 @@
 from enum import Enum
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
+from typing import Annotated
 
 class Platform(Enum):
     OPEN_AI_API = 1,
@@ -7,15 +8,16 @@ class Platform(Enum):
     OPENROUTER_AI_API = 3
 
 class Response(BaseModel):
-    season: int
-    episode: int
-    scene_chunk: int
-    case_summary: str
-    perpetrator_name: str
+    season: int = Field(description = 'season number')
+    episode: int = Field(description = 'episode number')
+    scene_chunk: int = Field(description = 'scene chunk given')
+    case_summary: str = Field(description = '3-4 word long case summary')
+    perpetrator_name: str = Field(description = 'the name of the perpetrator in lowercase, or \'no perpetrator\' if none can be identified')
 
 SCENE_LEVEL_N_ASPECTS = "csi-corpus/screenplay_summarization/scene_level_n_aspects/"
 PERPETRATOR_IDENTIFICATION = "csi-corpus/perpetrator_identification/"
 LOGS_PATH = 'logs/'
+RESULTS_PATH = 'test_results/'
 
 GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
 OPENAI_BASE_URL = "https://api.openai.com/v1/"
@@ -49,23 +51,34 @@ TIKTOKEN_ENCODER = 'cl100k_base'
 
 INSTRUCTION = """
 Identity:
-You are a forensic specialist assisting a crime investigation team. 
-Given chunks of dialogues, your task is to identify the perpetrator of the case.
+You are a forensic specialist assisting a crime investigation team.
+Given chunks of dialogues, your task is to identify the perpetrator(s) for each case present in the episode.
 
 Instruction:
-- Respond with a single line in exactly this format:
-  <season>, <episode>, <scene_chunk>, <case>, <perpetrator_name>
-- If you cannot identify a perpetrator for the case, use:
-  <season>, <episode>, <scene_chunk>, <case>, no perpetrator
-- Assume there is only one case per episode. Respond with a single line for the case.
-- Do not add any commentary or explanation. Output only the required line.
+- Return the output as a structured JSON object that maps directly to the Response(BaseModel) schema.
+- Ensure the output is a list of Response objects, with one object for each case found in the episode.
+- Output only the required JSON structure.
 
 Example:
-User:
-season: 1, episode: 7, scene_chunk: 3
-[[Detective]] Alice, you killed Bob!
-[[Alice]] No, that's not true!
+Input:
+season: 1, episode: 2, scene_chunk: 3
+[[Detective]] Alice killed Bob, and Derek killed Sarah!
 
-Assistant:
-1, 7, 3, Bob's murder, Alice
+Output:
+[
+    {
+        "season": 1,
+        "episode": 2,
+        "scene_chunk": 3,
+        "case_summary": "bob's murder",
+        "perpetrator_name": "alice"
+    },
+    {
+      "season": 1,
+      "episode": 2,
+      "scene_chunk": 3,
+      "case_summary": "sarah's murder",
+      "perpetrator_name": "derek"
+    }
+]
 """
