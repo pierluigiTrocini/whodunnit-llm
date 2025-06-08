@@ -120,11 +120,11 @@ def test(
 
     client = None
     if platform == Platform.OPEN_AI_API:
-        client = instructor.from_openai(OpenAI(base_url = OPENAI_BASE_URL, api_key = os.environ['OPENAI_API_KEY']))
+        client = instructor.from_openai(OpenAI(base_url = OPENAI_BASE_URL, api_key = os.environ['OPENAI_API_KEY']), mode = instructor.Mode.TOOLS)
     elif platform == Platform.OPENROUTER_AI_API:
-        client = instructor.from_openai(OpenAI(base_url = OPENROUTER_BASE_URL, api_key = os.environ['OPENROUTER_API_KEY']))
+        client = instructor.from_openai(OpenAI(base_url = OPENROUTER_BASE_URL, api_key = os.environ['OPENROUTER_API_KEY']), mode = instructor.Mode.TOOLS)
     elif platform == Platform.GROQ_AI_API:
-        client = instructor.from_groq(Groq(api_key = os.environ['GROQ_API_KEY']))
+        client = instructor.from_groq(Groq(api_key = os.environ['GROQ_API_KEY']), mode = instructor.Mode.TOOLS)
     
     if client == None:
         logging.error("No API object declared")
@@ -149,7 +149,7 @@ def test(
 
         show_results(path = f"{RESULTS_PATH}{output_file}", response_list = response, write_on_file = write_on_output)
 
-        messages.append({ "role": "assistant", "content": f"{response}"})
+        messages.append({ "role": "assistant", "content": f"{str(response)}"})
 
     logging.info(f"[Test] End of test")    
 
@@ -159,13 +159,15 @@ def test(
 if __name__ == '__main__':
     loggingConfig()
     
+    # llama 3.3 70b versatile: parte da 5
+
     for csv_filename in sorted(os.listdir(SCENE_LEVEL_N_ASPECTS)):
         test(
             episode = Episode(filename = str(csv_filename)), 
             n_scene_chunks = 4, 
-            platform = Platform.OPENROUTER_AI_API, 
-            model = OPENROUTER__DEEPSEEK_R1,
-            output_file = 'deepseek_r1.csv',
+            platform = Platform.GROQ_AI_API, 
+            model = GROQ__GEMMA_2_9B_IT,
+            output_file = 'gemma_2_9b_it.csv',
             write_on_output = True,
             time_sleep = 120)
 
