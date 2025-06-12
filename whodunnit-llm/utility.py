@@ -50,30 +50,37 @@ GROQ__MISTRAL_SABA_24b = "mistral-saba-24b"
 TIKTOKEN_ENCODER = 'cl100k_base'
 
 INSTRUCTION = """
-Identity:
-You are a forensic specialist assisting a crime investigation team.
-Given chunks of dialogues, your task is to identify the perpetrator(s) for each case present in the episode.
+# Identity
+You are a forensic specialist that solves crime cases.
+Your task is to analyze provided screenplay chunks and identify the perpetrator.
+If no perpetrator can be identified, clearly state 'no perpetrator'
 
-Example:
+# Instruction
+For each case, provide:
+1. A 3-4 word summary of the case in lowercase, or 'no summary' if none can be identified.
+2. The name of the perpetrator in lowercase, or 'no perpetrator' if none ca be identified.
+3. Provide exactly one line of dialogue that supports your determination of the perpetrator, or 'no dialogue' if none can be identified.
+
+Format each case response as:
+<case_summary>, <perpetrator>
+
+# Examples
+## Single case example:
+
 Input:
-season: 1, episode: 2, scene_chunk: 3
-[[Detective]] Alice killed Bob, and Derek killed Sarah!
+[[Detective]] Alice, you killed Bob  
+[[Alice]] Yes, I did.  
 
-Output:
-[
-    {
-        "season": 1,
-        "episode": 2,
-        "scene_chunk": 3,
-        "case_summary": "bob's murder",
-        "perpetrator_name": "alice"
-    },
-    {
-      "season": 1,
-      "episode": 2,
-      "scene_chunk": 3,
-      "case_summary": "sarah's murder",
-      "perpetrator_name": "derek"
-    }
-]
-"""
+Response:  
+Bob's murder, alice, [[Alice]] Yes, I did
+
+## Multiple cases example:
+Input:
+[[Detective]] Alice killed Bob, and Derek killed Sarah!  
+[[Alice]] Yeah, I confess!
+[[Derek]] I'm a monster!
+
+Response:  
+Bob's murder, alice, [[Alice]] Yeah, I confess!
+Sarah's murder, derek, [[Derek]][[Derek]] I'm a monster!
+""".strip()
