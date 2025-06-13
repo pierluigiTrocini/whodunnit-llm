@@ -148,18 +148,18 @@ if __name__ == '__main__':
     loggingConfig()
 
     # groq/llama3.3: parte da 4
-    # openrouter/deepseek-r1: parte da 11
+    # openrouter/deepseek-r1: [11:]
     # groq/gemma2: parte da 2 (problemi con la context lenght)
     # groq/mistral: parte da 1 (problemi con la context lenght)
-    # gemini/gemini2.0.flash: [15:]
+    # gemini/gemini2.0.flash: [20:]
 
-    for filename in sorted(os.listdir(SCENE_LEVEL_N_ASPECTS))[15:]:
+    for filename in sorted(os.listdir(SCENE_LEVEL_N_ASPECTS))[20:]:
         test_openrouter(
             episode = Episode(filename = str(filename)),
             platform = Platform.GEMINI_AI_API,
             model = GEMINI__GEMINI_2_0_FLASH,
             write_on_output_file = True,
-            time_sleep = 45
+            time_sleep = 60
         )
 
         

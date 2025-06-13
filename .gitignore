@@ -2,3 +2,4 @@ whodunnit-llm/__pycache__/utility.cpython-312.pyc
 whodunnit-llm/output.txt
 whodunnit-llm/scratch.py
 whodunnit-llm/logs/*.log
+whodunnit-llm/fetch_perpetrators.py
