@@ -37,10 +37,15 @@ def show_results(filename: str, model_used: str, response: str, comment: str = '
         logging.warning("no response as output")
         return
     
-    # folder creation
+    model_name =  model_used.replace('!@#$%^&*()[];:,./<>?`~-=_+','-')
+    
+    # folder creation (if not exists)
     os.makedirs(name = RESULTS_PATH, exist_ok = True)
 
-    csv_filename = f'{RESULTS_PATH}{filename.replace('.csv','')}___{model_used.replace('/','-')}__{comment}.csv'
+    # subfolder creation (if not exists)
+    os.makedirs(name = f'{RESULTS_PATH}{model_name}/', exist_ok = True)
+    
+    csv_filename = f'{RESULTS_PATH}{model_name}/{filename.replace('.csv','')}___{model_name}__{comment}.csv'
     logging.info(f'[results][test_results] write on {csv_filename}')
 
     with open(file = f'{csv_filename}', mode = 'a+', newline = '') as file:
@@ -139,16 +144,16 @@ def test_openrouter(
 if __name__ == '__main__':
     loggingConfig()
 
-    # groq/llama3.3: parte da 6 (manca il primo)
-    # openrouter/deepseek-r1: parte da 1
-    # groq/gemma2: parte da 5
+    # groq/llama3.3: 
+    # openrouter/deepseek-r1: 
+    # groq/gemma2: 
     # groq/mistral: 
 
     for filename in sorted(os.listdir(SCENE_LEVEL_N_ASPECTS)):
         test_openrouter(
             episode = Episode(filename = str(filename)),
             platform = Platform.GROQ_AI_API,
-            model = GROQ__MISTRAL_SABA_24b,
+            model = GROQ__LLAMA_3_3_70B_VERSATILE,
             write_on_output_file = True,
             time_sleep = 60
         )
