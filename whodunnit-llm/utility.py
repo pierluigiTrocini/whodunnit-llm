@@ -5,7 +5,8 @@ from typing import Annotated
 class Platform(Enum):
     OPEN_AI_API = 1,
     GROQ_AI_API = 2,
-    OPENROUTER_AI_API = 3
+    OPENROUTER_AI_API = 3,
+    GEMINI_AI_API = 4
 
 class Response(BaseModel):
     season: int = Field(description = 'season number')
@@ -28,6 +29,9 @@ OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
 # Models for OpenAI platform
 OPENAI__GPT_4O_MINI = "gpt-4o-mini"
+
+# Models for Gemini platform
+GEMINI__GEMINI_2_0_FLASH = "gemini-2.0-flash"
 
 # Models for Openrouter platform
 OPENROUTER__GPT_4O_MINI = "openai/gpt-4o-mini"

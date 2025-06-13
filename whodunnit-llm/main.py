@@ -94,6 +94,8 @@ def test_openrouter(
         client: Optional[OpenAI] = OpenAI(base_url = OPENROUTER_BASE_URL, api_key = os.environ['OPENROUTER_API_KEY'])
     elif platform == Platform.OPEN_AI_API:
         client: Optional[OpenAI] = OpenAI(api_key = os.environ['OPENAI_API_KEY'])
+    elif platform == Platform.GEMINI_AI_API:
+        client: Optional[OpenAI] = OpenAI(base_url = GEMINI_BASE_URL, api_key = os.environ['GEMINI_API_KEY'])
     elif platform == Platform.GROQ_AI_API:
         client: Optional[Groq] = Groq(api_key = os.environ['GROQ_API_KEY'])
 
@@ -147,16 +149,17 @@ if __name__ == '__main__':
 
     # groq/llama3.3: parte da 4
     # openrouter/deepseek-r1: parte da 11
-    # groq/gemma2: 
-    # groq/mistral: 
+    # groq/gemma2: parte da 2 (problemi con la context lenght)
+    # groq/mistral: parte da 1 (problemi con la context lenght)
+    # gemini/gemini2.0.flash: [15:]
 
-    for filename in sorted(os.listdir(SCENE_LEVEL_N_ASPECTS))[4:]:
+    for filename in sorted(os.listdir(SCENE_LEVEL_N_ASPECTS))[15:]:
         test_openrouter(
             episode = Episode(filename = str(filename)),
-            platform = Platform.GROQ_AI_API,
-            model = GROQ__LLAMA_3_3_70B_VERSATILE,
+            platform = Platform.GEMINI_AI_API,
+            model = GEMINI__GEMINI_2_0_FLASH,
             write_on_output_file = True,
-            time_sleep = 60
+            time_sleep = 45
         )
 
         
