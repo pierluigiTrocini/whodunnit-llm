@@ -36,16 +36,17 @@ def show_results(filename: str, model_used: str, response: str, comment: str = '
     if response == '' or response == None:
         logging.warning("no response as output")
         return
-    
-    model_name =  model_used.replace('!@#$%^&*()[];:,./<>?`~-=_+','-')
+
+    for char in "!@#$%^&*()[];:,./<>?~-=_+'`":
+        model_used = model_used.replace(char, '-')
     
     # folder creation (if not exists)
     os.makedirs(name = RESULTS_PATH, exist_ok = True)
 
     # subfolder creation (if not exists)
-    os.makedirs(name = f'{RESULTS_PATH}{model_name}/', exist_ok = True)
+    os.makedirs(name = f'{RESULTS_PATH}{model_used}/', exist_ok = True)
     
-    csv_filename = f'{RESULTS_PATH}{model_name}/{filename.replace('.csv','')}___{model_name}__{comment}.csv'
+    csv_filename = f'{RESULTS_PATH}{model_used}/{filename.replace('.csv','')}___{model_used}__{comment}.csv'
     logging.info(f'[results][test_results] write on {csv_filename}')
 
     with open(file = f'{csv_filename}', mode = 'a+', newline = '') as file:
@@ -144,16 +145,16 @@ def test_openrouter(
 if __name__ == '__main__':
     loggingConfig()
 
-    # groq/llama3.3: 
-    # openrouter/deepseek-r1: 
+    # groq/llama3.3: parte da 4
+    # openrouter/deepseek-r1: parte da 11
     # groq/gemma2: 
     # groq/mistral: 
 
     for filename in sorted(os.listdir(SCENE_LEVEL_N_ASPECTS)):
         test_openrouter(
             episode = Episode(filename = str(filename)),
-            platform = Platform.GROQ_AI_API,
-            model = GROQ__LLAMA_3_3_70B_VERSATILE,
+            platform = Platform.OPENROUTER_AI_API,
+            model = OPENROUTER__DEEPSEEK_R1,
             write_on_output_file = True,
             time_sleep = 60
         )
