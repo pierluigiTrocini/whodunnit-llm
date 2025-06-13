@@ -150,11 +150,11 @@ if __name__ == '__main__':
     # groq/gemma2: 
     # groq/mistral: 
 
-    for filename in sorted(os.listdir(SCENE_LEVEL_N_ASPECTS)):
+    for filename in sorted(os.listdir(SCENE_LEVEL_N_ASPECTS))[4:]:
         test_openrouter(
             episode = Episode(filename = str(filename)),
-            platform = Platform.OPENROUTER_AI_API,
-            model = OPENROUTER__DEEPSEEK_R1,
+            platform = Platform.GROQ_AI_API,
+            model = GROQ__LLAMA_3_3_70B_VERSATILE,
             write_on_output_file = True,
             time_sleep = 60
         )
