@@ -35,7 +35,7 @@ GEMINI__GEMINI_2_0_FLASH = "gemini-2.0-flash"
 
 # Models for Openrouter platform
 OPENROUTER__GPT_4O_MINI = "openai/gpt-4o-mini"
-OPENROUTER__DEEPSEEK_R1 = "deepseek/deepseek-r1:free"
+OPENROUTER__DEEPSEEK_R1_FREE = "deepseek/deepseek-r1:free"
 OPENROUTER__GEMINI_2_0_FLASH_EXPERIMENTAL_FREE = "google/gemini-2.0-flash-exp:free"
 OPENROUTER__LLAMA_SCOUT_4_FREE = "meta-llama/llama-4-scout:free"
 OPENROUTER__DEEPSEEK_V3_BASE_FREE = "deepseek/deepseek-v3-base:free"
@@ -46,6 +46,7 @@ OPENROUTER__DEEPSEEK_R1 = 'deepseek/deepseek-r1-0528:free'
 OPENROUTER__LLAMA_4_MAVERICK = 'meta-llama/llama-4-maverick'
 OPENROUTER__GPT_4_1_NANO = 'openai/gpt-4.1-nano'
 OPENROUTER__GPT_4_1_MINI = 'openai/gpt-4.1-mini'
+OPENROUTER__DEEPSEEK_R1 = 'deepseek/deepseek-r1'
 # -------------------------------------------------
 
 # Models for Groq platform

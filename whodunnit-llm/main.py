@@ -155,10 +155,7 @@ if __name__ == '__main__':
         test_openrouter(
             episode = Episode(filename = str(filename)),
             platform = Platform.OPENROUTER_AI_API,
-            model = OPENROUTER__GPT_4_1_MINI,
+            model = OPENROUTER__DEEPSEEK_R1,
             write_on_output_file = True,
             time_sleep = 15
         )
-
-        
-    

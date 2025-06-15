@@ -1,0 +1,8 @@
+scene_chunk,case_summary,perpetrator,evidence_in_dialogue
+0,linley parker assault,no perpetrator,no dialogue  
+0,emma dobbins murder,no perpetrator,no dialogue
+1,linley parker assault,roger coombs,[[Todd_Coombs]] i do n't know ,call roger -- he 'll know what to do
+2,linley parker murder,roger coombs,[[Todd_Coombs]] i do n't know ,call roger -- he 'll know what to do
+3,linley parker assault,todd coombs,[[Todd_Coombs]] i raped and murdered emma dobbins and linley parker  
+3,linley parker murder,todd coombs,[[Todd_Coombs]] i raped and murdered emma dobbins and linley parker  
+3,emma dobbins murder,todd coombs,[[Todd_Coombs]] i raped and murdered emma dobbins and linley parker
