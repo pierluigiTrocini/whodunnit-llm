@@ -1,0 +1,26 @@
+scene_chunk,case_summary,perpetrator,evidence_in_dialogue
+0,murder at motel,no perpetrator,no dialogue 
+0,
+0,It is not possible to determine the perpetrator based on the provided screenplay chunks as they describe two separate cases (Martha Krell and ty hawkins). For Martha Krell's murder,there is a suspicious man in a dark-colored jacket seen in the stairwell and later near her motel room,however,his connection to the crime is not explicitly confirmed in the dialogue. 
+0,
+0,For the second case (ty hawkins),there is not enough information to identify the perpetrator.
+0,
+0,If we consider only the first case (Martha Krell),the response is: 
+0,murder at motel,no perpetrator,no dialogue
+1,child's murder,martin hawkins,[[Det._Chris_Cavaliere]] years of listening to the parents of dead children
+1,martha krell's murder,no perpetrator,no dialogue 
+1,
+1,For the two cases described,there is not enough evidence in the provided dialogue to conclusively identify the perpetrator of Martha Krell's murder. However,for the case of ty hawkins (the child),while not directly stated,the dialogue and context suggest that the parents,Martin and Yvonne Hawkins,are under suspicion. The response for ty hawkins' case is:
+1,child's murder,no perpetrator, [[Det._Chris_Cavaliere]] years of listening to the parents of dead children 
+1,
+1,If we were to consider the closest to a perpetrator based on the given data for ty hawkins,it could be one of the parents. The actual response for Martha Krell's case remains:
+1,murder at motel,no perpetrator,no dialogue
+2,ty hawkins' murder,matthew hawkins,[[Catherine]] i 'll take them to trace 
+2,martha krell's murder,hayden michaels,[[Grissom]] so you must have had your vasectomy reversed
+2,
+2,For ty hawkins' case,the evidence points towards Matthew Hawkins as a potential suspect due to a matching shoe impression and hair consistency. 
+2,For Martha Krell's case,Hayden Michaels becomes a suspect due to the mention of his vasectomy reversal,which matches the profile of the killer as determined by the forensic analysis.
+3,martha krell's murder,hayden michaels,[[Sara]] western airlines issues this exact type of 'wheelie' to all its flight attendants
+3,ty hawkins' murder,matthew hawkins,[[Matthew_Hawkins]] he told
+3,
+3,For both cases,the perpetrators are revealed through the provided dialogue and flashbacks. Hayden Michaels is identified as the perpetrator of Martha Krell's murder,and Matthew Hawkins is identified as the perpetrator of Ty Hawkins' murder.

@@ -1,0 +1,17 @@
+scene_chunk,case_summary,perpetrator,evidence_in_dialogue
+0,supermarket shooting,no perpetrator,no dialogue 
+0,
+0,Reasoning: 
+0,The provided screenplay chunks describe a scene where a police officer,Officer Clay,enters a supermarket and discovers a robbery in progress. The situation escalates into a shooting,resulting in multiple casualties. The investigation team,including Grissom,Catherine,and Warrick,processes the crime scene. While the narrative describes the events and the victims,"it does not directly identify a single perpetrator responsible for the shooting. The suspects are described as wearing ski masks and are referred to as ""john does,"" indicating that their identities are not immediately known. Therefore",based on the information given,it's not possible to determine the perpetrator's identity.
+1,supermarket robbery,clyde tremmel,[[Robbins]] officer clay was killed by a single close-range shotgun blast to the back of the head
+1,
+1,Reasoning: 
+1,The provided screenplay chunks reveal details about the supermarket robbery and the subsequent investigation. The narrative identifies two suspects,Clyde Tremmel and Jack Delver,who were involved in the robbery. The autopsy report presented by Robbins links Clyde Tremmel to the murder of Officer Clay,stating that he was killed by a single close-range shotgun blast to the back of the head,attributed to Tremmel,"""the tec-9 guy."" Although the text later refers to Tremmel as the ""shotgun guy,"" the initial description associates him with a TEC-9. The dialogue from Robbins directly implicates Clyde Tremmel in the killing of Officer Clay",making him a perpetrator in the case.
+2,stolen car inquiry,todd hallickey,[[Todd_Hallickey]] i test-drove this old honda accord this guy was trying to unload
+2,
+2,Reasoning: 
+2,The provided screenplay chunks describe the investigation into a getaway car used in a robbery. The detectives,Warrick and Brass,examine the car and find evidence,including a cell phone with a repeated number in the call history. They trace the number and interview Todd Hallickey,whose prints are found in the car. Hallickey provides an alibi,stating he test-drove the car but did not buy it,"and describes the seller as ""shady."" While Hallickey is not directly implicated in the robbery",his involvement with the car is established. However,the primary case being summarized here relates to the stolen car inquiry rather than the robbery itself. The dialogue that supports the determination is Hallickey's admission of test-driving the car,which links him to the vehicle used by the suspects.
+3,robbery investigation,todd hallickey,[[Warrick]] what the hell is this?
+3,
+3,Reasoning: 
+3,"The provided screenplay chunks describe the ongoing investigation into the supermarket robbery and the evidence gathered against Todd Hallickey. Warrick presents test results showing a ""bullet wipe"" on a jacket found in Hallickey's apartment",indicating that the jacket was hit by a bullet. This evidence links Hallickey to the crime scene. Although Hallickey lawyers up and remains silent,the physical evidence,including the jacket with the bullet hole and the chemical burn on his knuckles (linked to sodium hydroxide from drain cleaner),implicates him in the robbery. The dialogue from Warrick,"""what the hell is this?"" upon presenting the test results",supports the determination that Hallickey is involved,making him a perpetrator.

@@ -1,0 +1,51 @@
+scene_chunk,case_summary,perpetrator,evidence_in_dialogue
+0,woman's murder,dan keaton,[[Dan_Keaton]] she was
+0,landlord's death,no perpetrator,no dialogue 
+0,
+0,Here is the explanation:
+0,
+0,For the woman's murder:
+0,"The case summary is ""woman's murder"" as it involves the death of Vanessa Keaton. "
+0,"The perpetrator is identified as ""dan keaton"" based on the evidence and dialogue throughout the provided text. "
+0,"The supporting dialogue is ""[[Dan_Keaton]] she was""","specifically the full line is ""[[Dan_Keaton]] yeah ","i was n't in the mood [[Dan_Keaton]] she was""",suggesting he knew something about her activities that evening.
+0,
+0,For the landlord's death:
+0,"The case summary is ""landlord's death"" since it is related to the death of the landlord. "
+0,"The perpetrator is ""no perpetrator"" as the text does not conclusively identify who pushed him into the saw."
+0,The supporting evidence for 'no perpetrator' is the absence of a clear identification of the killer in the provided dialogue,hence 'no dialogue'.
+1,woman's murder,paul brady,[[Paul_Brady]] yeah
+1,landlord's death,charles pinscher,[[Charles_Pinscher]] i did n't kill him 
+1,
+1,Here is the explanation:
+1,
+1,For the woman's (Vanessa Keaton) murder:
+1,"The case summary is ""woman's murder"" as it involves the death of Vanessa Keaton. "
+1,"The perpetrator is identified as ""paul brady"" based on the evidence and dialogue throughout the provided text",suggesting a motive related to their 'swinging' lifestyle and an affair with the victim.
+1,"The supporting dialogue is ""[[Paul_Brady]] yeah"" in response to Sara's question about having sex with Vanessa Keaton",indicating a close relationship that could be a motive for the crime.
+1,
+1,For the landlord's death (Mr. Basengi):
+1,"The case summary is ""landlord's death"" since it is related to the death of the landlord. "
+1,"The perpetrator is ""charles pinscher"" as he confessed to killing the landlord and there is physical evidence (blood on his watch matching Basengi's DNA) linking him to the crime."
+1,"The supporting dialogue is not directly a confession but ""[[Charles_Pinscher]] i did n't kill him"" is a relevant line",though it is a denial. A more accurate supporting line would be found in the original text snippet: [[Warrick]] charlie confessed to killing the landlord. However,to follow the format,we stick with the given dialogue,even though it's not ideal.
+2,vanessa's murder,no perpetrator,no dialogue
+2,melissa's murder,mrs. basengi,[[Mrs._Basengi]] you slut !
+2,
+2,Here is the explanation:
+2,
+2,For Vanessa's murder:
+2,"The case summary is ""vanessa's murder"" as it involves the death of Vanessa Keaton. "
+2,"The perpetrator is ""no perpetrator"" as the provided text does not conclusively identify who killed Vanessa Keaton",and it is revealed that the initial assumption about the victim was incorrect,complicating the case.
+2,The supporting evidence for 'no perpetrator' is the lack of a clear identification of the killer in the provided dialogue,hence 'no dialogue'.
+2,
+2,For Melissa's murder:
+2,"The case summary is ""melissa's murder"" since it is related to the death of Melissa Poolie. "
+2,"The perpetrator is ""mrs. basengi"" based on the evidence and the flashback scene showing her killing Melissa Poolie with a bat."
+2,"The supporting dialogue is ""[[Mrs._Basengi]] you slut !"" which is part of the argument that escalated into the murder."
+3,vanessa's murder,amy keaton,[[Amy_Keaton]] he was trying to protect me
+3,
+3,Here is the explanation:
+3,
+3,For Vanessa's murder:
+3,"The case summary is ""vanessa's murder"" as it involves the death of Vanessa Keaton. "
+3,"The perpetrator is identified as ""amy keaton"" based on the evidence and dialogue throughout the provided text",including the discovery of her fingerprints on the murder weapon and her admission of involvement.
+3,"The supporting dialogue is ""[[Amy_Keaton]] he was trying to protect me""",which indicates her involvement in the crime and her attempt to protect Tom Cunningham,with whom she was having an affair.

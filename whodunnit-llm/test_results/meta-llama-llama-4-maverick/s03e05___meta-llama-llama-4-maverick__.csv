@@ -1,0 +1,111 @@
+scene_chunk,case_summary,perpetrator,evidence_in_dialogue
+0,Here are the case summaries,perpetrators,and supporting dialogues for each case:
+0,
+0,### Case 1: Zephyr's Magic Trick
+0,magic trick gone wrong,zephyr,[[Zephyr]] step into the box
+0,
+0,### Case 2: Gus Kenyon's Death
+0,lead singer's death,road manager,[[Manager]] he killed himself
+0,
+0,However,upon closer inspection,it appears that the perpetrator is not clearly identified in the provided snippet. A more accurate response would be:
+0,lead singer's death,no perpetrator,no dialogue
+0,
+0,### Case 3: Autopsy Results
+0,autopsy results revealed,no perpetrator,[[Robbins]] standard black printing ink
+0,
+0,However,a more detailed analysis suggests that the perpetrator might be related to the person who injected the air bubble. A more accurate response would be:
+0,murder by injection,no perpetrator,no dialogue
+0,
+0,But if we had to choose a line: 
+0,murder by injection,manager,[[Manager]] he killed himself
+0,
+0,### Case 4: Processing the Glass Box
+0,processing glass box,no perpetrator,no dialogue
+0,
+0,Here is the formatted response for the four cases:
+0,magic trick gone wrong,zephyr,[[Zephyr]] step into the box
+0,lead singer's death,no perpetrator,no dialogue
+0,murder by injection,no perpetrator,no dialogue
+0,processing glass box,no perpetrator,no dialogue
+0,
+0,Let me reformat the response to exactly follow the requested format:
+0,
+0,magic trick gone wrong,zephyr
+0,lead singer's death,no perpetrator
+0,murder by injection,no perpetrator
+0,processing glass box,no perpetrator
+1,Here are the case summaries,perpetrators,and supporting dialogues for each case:
+1,
+1,### Case 1: Matching Prints
+1,matching prints found,no perpetrator,[[Grissom]] there are no secrets
+1,
+1,### Case 2: Gus Kenyon's Investigation
+1,Gus Kenyon's investigation,no perpetrator,[[Catherine]] standard printing ink
+1,
+1,### Case 3: Hidden Heroin
+1,hidden heroin found,no perpetrator,[[Catherine]] seems like nothing on that bus does
+1,
+1,### Case 4: Zoe Clein's House
+1,Zoe Clein's house,no perpetrator,[[Sara]] zoe 's bedroom seems intact
+1,
+1,### Case 5: Chamber of Doom Blueprints
+1,Chamber of Doom blueprints,no perpetrator,[[Grissom]] designed by zoe clein
+1,
+1,Here is the formatted response for the five cases:
+1,matching prints found,no perpetrator,[[Grissom]] there are no secrets
+1,Gus Kenyon's investigation,no perpetrator,[[Catherine]] standard printing ink
+1,hidden heroin found,no perpetrator,[[Catherine]] seems like nothing on that bus does
+1,Zoe Clein's house,no perpetrator,[[Sara]] zoe 's bedroom seems intact
+1,Chamber of Doom blueprints,no perpetrator,[[Grissom]] designed by zoe clein
+1,
+1,Let me reformat the response to exactly follow the requested format:
+1,
+1,matching prints found,no perpetrator
+1,Gus Kenyon's investigation,no perpetrator
+1,hidden heroin found,no perpetrator
+1,Zoe Clein's house,no perpetrator
+1,Chamber of Doom blueprints,no perpetrator
+2,Here are the case summaries,perpetrators,and supporting dialogues for each case:
+2,
+2,### Case 1: Samantha Dean's Alibi
+2,Samantha Dean's alibi,samantha dean,[[Samantha_Dean]] we 're both in bed by nine
+2,
+2,### Case 3: Backstage Photo
+2,Gus Kenyon's connection,samantha dean,[[Catherine]] samantha dean
+2,
+2,### Case 5: Zephyr's Autopsy
+2,Zephyr's autopsy,no perpetrator,[[Robbins]] surgically created soft tissue pouches within the gingivae
+2,
+2,Here is the formatted response for the five cases (only 3 are analyzed as per the response):
+2,Samantha Dean's alibi,samantha dean
+2,Gus Kenyon's murder,samantha dean
+2,Zephyr's autopsy,no perpetrator
+2,
+2,Let me reformat the response to exactly follow the requested format for the 3 analyzed cases:
+2,Samantha Dean's alibi,samantha dean,[[Samantha_Dean]] we 're both in bed by nine
+2,Gus Kenyon's connection,samantha dean,[[Catherine]] samantha dean
+2,Zephyr's autopsy,no perpetrator,[[Robbins]] surgically created soft tissue pouches within the gingivae
+2,
+2,And the final reformatted response:
+2,Samantha Dean's alibi,samantha dean
+2,Gus Kenyon's murder,samantha dean
+2,Zephyr's autopsy,no perpetrator
+3,Here are the case summaries,perpetrators,and supporting dialogues for each case:
+3,
+3,### Case 1: Samantha Dean's Confession
+3,Samantha Dean's confession,samantha dean,[[Samantha_Dean]] what would you be willing to do to save the life of your child ?
+3,
+3,### Case 2: Zephyr's True Identity
+3,Zephyr's true identity,zephyr,[[Zephyr]] you made her disappear
+3,
+3,Here is the formatted response for the two cases:
+3,Samantha Dean's confession,samantha dean,[[Samantha_Dean]] what would you be willing to do to save the life of your child ?
+3,Zephyr's true identity,zephyr,[[Zephyr]] you made her disappear
+3,
+3,Let me reformat the response to exactly follow the requested format:
+3,Samantha Dean's confession,samantha dean
+3,Zephyr's true identity,zephyr
+3,
+3,And with the supporting dialogue:
+3,Samantha Dean's confession,samantha dean,[[Samantha_Dean]] what would you be willing to do to save the life of your child ?
+3,Zephyr's true identity,zephyr,[[Zephyr]] you made her disappear

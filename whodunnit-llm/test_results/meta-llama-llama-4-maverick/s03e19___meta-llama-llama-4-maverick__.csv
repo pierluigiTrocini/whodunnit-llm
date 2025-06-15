@@ -1,0 +1,16 @@
+scene_chunk,case_summary,perpetrator,evidence_in_dialogue
+0,murder in theatre,no perpetrator,no dialogue 
+0,
+0,It is not possible to determine the perpetrator from the provided screenplay chunks as they describe a murder investigation but do not provide a direct confession or clear indication of the killer's identity.
+1,theatre murder,no perpetrator,no dialogue
+1,warehouse murder,kevin mccallum,[[Kevin_McCallum]] he begged me
+1,staged suicide,no perpetrator,no dialogue 
+1,murder investigation,no perpetrator,no dialogue
+2,theatre murder,no perpetrator,no dialogue
+2,warehouse murder,kevin mccallum,[[Kevin_McCallum]] i ca n't talk about it
+2,staged suicide,no perpetrator,no dialogue 
+2,murder investigation,anthony haines,[[Anthony_Haines]] she a dancer ?
+3,murder clues,kelly goodson,[[Kelly_Goodson]] is it any good ?
+3,warehouse murder,kevin mccallum,[[Kevin_McCallum]] i ca n't talk about it
+3,investigation update,no perpetrator,no dialogue 
+3,case evidence,no perpetrator,no dialogue

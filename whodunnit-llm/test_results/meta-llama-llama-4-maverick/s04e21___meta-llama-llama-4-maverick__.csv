@@ -1,0 +1,20 @@
+scene_chunk,case_summary,perpetrator,evidence_in_dialogue
+0,roller coaster accident,woody,[[Woody]] there 's never been an accident like this anywhere
+0,tessa's murder,no perpetrator,no dialogue
+1,roller coaster deaths,jim nevins,[[Grissom]] albert ... dead men do n't ride roller coasters
+1,jim nevins murder,jim nevins,[[Grissom]] everything 's relevant greg ,until it 's not 
+1,(I revised the response to: 
+1,roller coaster deaths,woody,[[Woody]] there 's never been an accident like this anywhere
+1,jim nevins murder,jim nevins,[[Grissom]] everything 's relevant greg ,until it 's not)
+1,
+1,However,a more accurate response would be:
+1,roller coaster deaths,woody,[[Woody]] there 's never been an accident like this anywhere
+1,jim nevins murder,no perpetrator,no dialogue 
+1,
+1,Here's the reformatted response:
+1,roller coaster deaths,woody
+1,jim nevins murder,no perpetrator
+2,tessa's murder,justin mack,[[Justin_Mack]] do n't you need a warrant ?
+2,doxepin ointment case,no perpetrator,[[David_Hodges]] your killer has a rash
+3,tessa's murder,raina press,[[Raina_Press]] she was trying to steal him from me
+3,roller coaster sabotage,zack lawrence,[[Zack_Lawrence]] oh ,but you see ,she was lying

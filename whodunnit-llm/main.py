@@ -134,32 +134,30 @@ def test_openrouter(
 
         messages.append({"role": "assistant", "content": f'{str(response)}'})
         
-        logging.info(f'[time_sleep] time sleep: {time_sleep} sec')
-        time.sleep(time_sleep)
+        # logging.info(f'[time_sleep] time sleep: {time_sleep} sec')
+        # time.sleep(time_sleep)
     
     logging.info(f'[Test] end of test')
 
-    logging.info(f'[time_sleep] time sleep: {time_sleep * 2} sec')
-    time.sleep(time_sleep * 2)
+    logging.info(f'[time_sleep] time sleep: {time_sleep} sec')
+    time.sleep(time_sleep)
 
 
 
 if __name__ == '__main__':
     loggingConfig()
 
-    # groq/llama3.3: parte da 4
-    # openrouter/deepseek-r1: [11:]
-    # groq/gemma2: parte da 2 (problemi con la context lenght)
-    # groq/mistral: parte da 1 (problemi con la context lenght)
-    # gemini/gemini2.0.flash: [20:]
+    # groq/llama3.3: [11:]
+    # openrouter/deepseek-r1: [23:]
+    # openrouter/gpt 4.1 mini: [17:]
 
-    for filename in sorted(os.listdir(SCENE_LEVEL_N_ASPECTS))[20:]:
+    for filename in sorted(os.listdir(SCENE_LEVEL_N_ASPECTS)):
         test_openrouter(
             episode = Episode(filename = str(filename)),
-            platform = Platform.GEMINI_AI_API,
-            model = GEMINI__GEMINI_2_0_FLASH,
+            platform = Platform.OPENROUTER_AI_API,
+            model = OPENROUTER__GPT_4_1_MINI,
             write_on_output_file = True,
-            time_sleep = 60
+            time_sleep = 15
         )
 
         

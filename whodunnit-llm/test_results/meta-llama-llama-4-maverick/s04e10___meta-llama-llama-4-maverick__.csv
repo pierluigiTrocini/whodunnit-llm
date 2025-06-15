@@ -1,0 +1,85 @@
+scene_chunk,case_summary,perpetrator,evidence_in_dialogue
+0,Here are the case summaries,perpetrators,and supporting dialogues for each case:
+0,
+0,## Case 1: Construction Site Murder
+0,construction site murder,no perpetrator,no dialogue
+0,
+0,## Case 2: Marlene Mitchell's Murder
+0,marlene's murder,todd,[[Mr._Mitchell]] her ex ,todd ,shows up
+0,
+0,## Case 3: Mall Murder
+0,mall murder,no perpetrator,no dialogue
+0,
+0,## Case 4: Gunshot Victim Autopsy
+0,gunshot victim,no perpetrator,no dialogue
+0,
+0,Here are the formatted responses:
+0,
+0,construction site murder,no perpetrator
+0,marlene's murder,todd,[[Mr._Mitchell]] her ex ,todd ,shows up
+0,mall murder,no perpetrator,no dialogue 
+0,should be rewritten to 
+0,mall murder,no perpetrator
+0,gunshot victim,no perpetrator
+1,Here are the case summaries,perpetrators,and supporting dialogues for each case:
+1,
+1,## Case1: Mall Murder Investigation
+1,mall murder,no perpetrator,[[Sara]] without a name ,we do n't have much
+1,
+1,## Case2: Brian Haddick's Murder
+1,brian's murder,ashley curtwell,[[Grissom]] do you recognize this girl ?
+1,
+1,## Case3: Ballistic Gel Experiment
+1,ballistic gel,no perpetrator,no dialogue 
+1,
+1,## Case4: Marlene Mitchell's Murder Investigation
+1,marlene's murder,todd,[[Nick]] it had to have come from somewhere ... on that arc
+1,
+1,Here are the formatted responses:
+1,
+1,mall murder,no perpetrator
+1,brian's murder,ashley curtwell,[[Grissom]] do you recognize this girl ?
+1,ballistic gel,no perpetrator 
+1,marlene's murder,todd,[[Nick]] it had to have come from somewhere ... on that arc
+2,Here are the case summaries,perpetrators,and supporting dialogues for each case:
+2,
+2,## Case 1: Construction Site Murder Investigation
+2,construction site murder,benny lizzio,[[Warrick]] we got a problem
+2,
+2,## Case 2: High School Investigation
+2,high school,benny lizzio,[[Benny_Lizzio]] sometimes i go to the construction site just the hang out
+2,
+2,## Case 3: Evidence Analysis
+2,evidence analysis,aaron gilbert,[[Warrick]] the deejay maybe ?
+2,
+2,Here are the formatted responses:
+2,
+2,construction site murder,benny lizzio,[[Warrick]] we got a problem
+2,high school,benny lizzio,[[Benny_Lizzio]] sometimes i go to the construction site just the hang out
+2,evidence analysis,aaron gilbert,[[Warrick]] the deejay maybe ?
+3,Here are the case summaries,perpetrators,and supporting dialogues for each case:
+3,
+3,## Case 1: Marlene Mitchell's Murder Witness
+3,marlene's murder,no perpetrator,[[Young_Mother]] johnnie ,the idiot behind us ,was playing like g.i joe in his backyard
+3,
+3,## Case 2: Aaron Gilbert's Interview
+3,aaron gilbert,aaron gilbert,[[Sara]] yeah ,she gave us your hammer and this
+3,
+3,## Case 3: Gilbert Brothers' Interrogation
+3,gilbert brothers,jared gilbert,[[Warrick]] that would be your dna
+3,
+3,## Case 4: Case Discussion
+3,brian's murder,gilbert brothers,[[Grissom]] $ 375
+3,
+3,Here are the formatted responses:
+3,
+3,marlene's murder,no perpetrator,[[Young_Mother]] johnnie ,the idiot behind us ,was playing like g.i joe in his backyard
+3,aaron gilbert,aaron gilbert,[[Sara]] yeah ,she gave us your hammer and this
+3,gilbert brothers,jared gilbert,[[Warrick]] that would be your dna
+3,brian's murder,gilbert brothers,[[Grissom]] $ 375 
+3,
+3,should be rewritten to 
+3,marlene's murder,no perpetrator
+3,aaron gilbert,aaron gilbert,[[Sara]] yeah ,she gave us your hammer and this
+3,gilbert brothers,jared gilbert,[[Warrick]] that would be your dna
+3,brian's murder,gilbert brothers,[[Grissom]] $ 375
