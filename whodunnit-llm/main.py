@@ -44,7 +44,9 @@ def show_results(filename: str, model_used: str, response: str, comment: str = '
     os.makedirs(name = RESULTS_PATH, exist_ok = True)
 
     # subfolder creation (if not exists)
-    os.makedirs(name = f'{RESULTS_PATH}{model_used}/', exist_ok = True)
+    subfolder_name = f'{RESULTS_PATH}{model_used}_{comment}/' if comment != '' else f'{RESULTS_PATH}{model_used}/'
+
+    os.makedirs(name = subfolder_name, exist_ok = True)
     
     csv_filename = f'{RESULTS_PATH}{model_used}/{filename.replace('.csv','')}___{model_used}__{comment}.csv'
     logging.info(f'[results][test_results] write on {csv_filename}')
@@ -147,15 +149,11 @@ def test_openrouter(
 if __name__ == '__main__':
     loggingConfig()
 
-    # groq/llama3.3: [11:]
-    # openrouter/deepseek-r1: [23:]
-    # openrouter/gpt 4.1 mini: [17:]
-
     for filename in sorted(os.listdir(SCENE_LEVEL_N_ASPECTS)):
         test_openrouter(
             episode = Episode(filename = str(filename)),
             platform = Platform.OPENROUTER_AI_API,
-            model = OPENROUTER__DEEPSEEK_R1,
+            model = OPENROUTER__GPT_4_1_MINI,
             write_on_output_file = True,
             time_sleep = 15
         )

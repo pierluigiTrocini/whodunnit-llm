@@ -8,13 +8,6 @@ class Platform(Enum):
     OPENROUTER_AI_API = 3,
     GEMINI_AI_API = 4
 
-class Response(BaseModel):
-    season: int = Field(description = 'season number')
-    episode: int = Field(description = 'episode number')
-    scene_chunk: int = Field(description = 'scene chunk given')
-    case_summary: str = Field(description = '3-4 word long case summary')
-    perpetrator_name: str = Field(description = 'the name of the perpetrator in lowercase, or \'no perpetrator\' if none can be identified')
-
 SCENE_LEVEL_N_ASPECTS = "csi-corpus/screenplay_summarization/scene_level_n_aspects/"
 PERPETRATOR_IDENTIFICATION = "csi-corpus/perpetrator_identification/"
 LOGS_PATH = 'logs/'
@@ -94,5 +87,5 @@ Input:
 
 Response:  
 Bob's murder, alice, [[Alice]] Yeah, I confess!
-Sarah's murder, derek, [[Derek]][[Derek]] I'm a monster!
+Sarah's murder, derek, [[Derek]] I'm a monster!
 """.strip()
