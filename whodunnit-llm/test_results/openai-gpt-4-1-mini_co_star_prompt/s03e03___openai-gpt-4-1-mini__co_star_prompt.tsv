@@ -1,0 +1,13 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue
+0	Monica Newman murder	NO PERPETRATOR	[[Brass]] so what are we calling this , murder , suicide , what ?
+0	Cal Newman drowning	NO PERPETRATOR	[[Nick]] i 'll go in the pool
+1	Mandy Kirk attack	NO PERPETRATOR	[[David_Phillips]] so whoever did this to her also has e-coli
+1	Cal Newman drowning	NO PERPETRATOR	[[Robbins]] he drowned
+1	Monica Newman murder	NO PERPETRATOR	[[Grissom]] she had help
+2	Cal Newman murder evidence	NICK	[[Nick]] some hairs , may have found a filling
+2	Chuck Darwell poisoning	GREG	[[Greg]] oh , and pele used an interesting dressing
+2	Cal Newman pool investigation	WARRICK	[[Warrick]] prints came back to the pool boy
+2	Nicole Exmoor illness	NO PERPETRATOR	[[Lockwood]] school nurse said she could n't stop throwing up
+3	Mandy Kirk murder	Nicole_Exmoor	[[Lockwood]] i 'm placing you under arrest for the murder of amanda kirk
+3	Mildew infection	GREG	[[Greg]] you infected me with mildew ?
+3	Murder for hire	Jeri_Newman	[[Catherine]] you hired him to kill your ex-husband and his new wife

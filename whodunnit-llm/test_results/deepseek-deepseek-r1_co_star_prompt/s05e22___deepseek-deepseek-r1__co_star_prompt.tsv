@@ -1,0 +1,8 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue
+0	Alice Granger's murder	NO PERPETRATOR	[[Catherine]] maybe she knew her attacker
+1	Alice Granger's murder	Jeff_Simon	[[Douglas_Granger]] jeff simon , her ex-boyfriend  
+1	GPS tracking case	Jeff_Simon	[[Catherine]] he was tracking her car
+2	Holly Pearson's murder	Adam_Novak	[[Catherine]] let’s run his prints against this  
+2	Car break-in theft	NO PERPETRATOR	[[Nick]] somebody could’ve swiped his keycard
+3	Alice Granger's murder	Jeff_Simon	[[Jeff_Simon]] (covers Alice's face with her jacket)  
+3	Holly Pearson's murder	Jeff_Simon	[[Catherine]] you followed her home and worked up the nerve

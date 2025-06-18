@@ -1,0 +1,61 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue
+0	Here are the cases identified in the given screenplay chunks, formatted as per the required TSV style:
+0	
+0	Murder case    Andrew_Melton   [[Sara]] or got buried a few feet under it
+0	Jane Doe's murder    NO PERPETRATOR   [[Catherine]] well , doc robbins told me that she had severe trauma to the skull , probably what killed her
+0	Svetlana's murder    NO PERPETRATOR   [[Sara]] or got buried a few feet under it
+0	
+0	Here's a brief explanation for each case:
+0	
+0	1. **Murder case / Svetlana's murder**: The screenplay chunk discusses a case involving a woman named Svetlana, who was allegedly murdered by her husband, Andrew Melton. Although Andrew Melton is suspected, the perpetrator is not directly identified in the provided dialogue. Hence, the perpetrator is listed as 'Andrew_Melton', and a supporting dialogue line is provided.
+0	2. **Jane Doe's murder**: The screenplay chunk describes the discovery of a woman's body (later referred to as Jane Doe) buried in a construction site. The perpetrator is not identified in the given dialogue. Hence, 'NO PERPETRATOR' is listed.
+0	3. The second instance is a repeat, so it is ignored.
+0	
+0	If the output were to be written to a TSV file, it would look like this:
+0	
+0	```
+0	Murder case    Andrew_Melton   [[Sara]] or got buried a few feet under it
+0	Jane Doe's murder    NO PERPETRATOR   [[Catherine]] well , doc robbins told me that she had severe trauma to the skull , probably what killed her
+0	```
+1	Here are the cases identified in the given screenplay chunks, formatted as per the required TSV style:
+1	
+1	Svetlana's murder    Ken Wellstone   [[Chloe_Daniels]] ken wellstone
+1	
+1	Here's a brief explanation for the case:
+1	
+1	1. **Svetlana's murder**: The screenplay chunk discusses a case involving a woman named Svetlana Melton, who was murdered. Ken Wellstone is identified as a potential suspect. Chloe Daniels recognizes Ken Wellstone from a photo found in Svetlana's pocket dictionary.
+1	
+1	If the output were to be written to a TSV file, it would look like this:
+1	
+1	```
+1	Svetlana's murder    Ken Wellstone   [[Chloe_Daniels]] ken wellstone
+1	```
+2	Here are the cases identified in the given screenplay chunks, formatted as per the required TSV style:
+2	
+2	Svetlana's murder    Andrew_Melton   [[Warrick]] he beat her , killed her and took back the only thing he valued
+2	
+2	Here's a brief explanation for the case:
+2	
+2	1. **Svetlana's murder**: The screenplay chunk discusses a case involving a woman named Svetlana Melton, who was murdered. Andrew Melton is identified as the perpetrator. The evidence includes Svetlana's blood on the necklace worn by Andrew Melton's current wife, June, and a flashback scene where Andrew Melton is seen kneeling over Svetlana's dead body and removing the necklace.
+2	
+2	If the output were to be written to a TSV file, it would look like this:
+2	
+2	```
+2	Svetlana's murder    Andrew_Melton   [[Warrick]] he beat her , killed her and took back the only thing he valued
+2	```
+3	Here are the cases identified in the given screenplay chunks, formatted as per the required TSV style:
+3	
+3	Svetlana's murder    Andrew_Melton   [[Andrew_Melton]] is that what you want ?
+3	Burying bodies    Vlad   [[Vlad]] girl already dead
+3	
+3	Here's a brief explanation for each case:
+3	
+3	1. **Svetlana's murder**: The screenplay chunk discusses a case involving a woman named Svetlana Melton, who was murdered by Andrew Melton. A flashback scene shows Andrew Melton attacking Svetlana in the beauty shop, throwing hair dye at her, and punching her in the face. The dialogue line supporting this is from the flashback scene.
+3	2. **Burying bodies**: The screenplay chunk also reveals that Vlad was involved in burying Svetlana's body and another woman's body. Vlad confesses to Warrick that he helped cover up Svetlana's murder and buried another woman who was dead on arrival in a suitcase.
+3	
+3	If the output were to be written to a TSV file, it would look like this:
+3	
+3	```
+3	Svetlana's murder    Andrew_Melton   [[Andrew_Melton]] is that what you want ?
+3	Burying bodies    Vlad   [[Vlad]] girl already dead
+3	```

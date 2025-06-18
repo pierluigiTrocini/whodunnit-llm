@@ -48,12 +48,12 @@ def show_results(filename: str, model_used: str, response: str, comment: str = '
 
     os.makedirs(name = subfolder_name, exist_ok = True)
     
-    csv_filename = f'{RESULTS_PATH}{model_used}/{filename.replace('.csv','')}___{model_used}__{comment}.csv'
+    csv_filename = f'{subfolder_name}/{filename.replace('.csv','')}___{model_used}__{comment}.tsv'
     logging.info(f'[results][test_results] write on {csv_filename}')
 
     with open(file = f'{csv_filename}', mode = 'a+', newline = '') as file:
         file.seek(0)
-        csv_writer, csv_reader = csv.writer(file), csv.reader(file)
+        csv_writer, csv_reader = csv.writer(file, delimiter='\t'), csv.reader(file)
 
         if not any(csv_reader):
             if write_on_file:
@@ -61,7 +61,7 @@ def show_results(filename: str, model_used: str, response: str, comment: str = '
 
         logging.info(f'[llm response]\n{response}\n')
         if write_on_file:
-            csv_writer.writerows([line.split(', ') for line in response.splitlines()])
+            csv_writer.writerows([line.split('\t') for line in response.splitlines()])
 
 
 class Episode():
@@ -84,6 +84,7 @@ def test_openrouter(
         n_scene_chunks: int = 4,
         platform: Platform = Platform.OPENROUTER_AI_API,
         model: str = OPENROUTER__GPT_4O_MINI,
+        system_instruction: str = INSTRUCTION,
         write_on_output_file: bool = False,
         comment_output_file: str = '',
         time_sleep: int = 0):
@@ -110,7 +111,7 @@ def test_openrouter(
     # declare system instruction
     messages = [{
         "role": "system",
-        "content": INSTRUCTION
+        "content": system_instruction
     }]
 
     for i in range(len(scene_chunks)):
@@ -129,31 +130,34 @@ def test_openrouter(
         show_results(
             filename = episode.filename, 
             model_used = model, 
-            response = f'{'\n'.join([f'{i}, {line}' for line in response.strip().split('\n')])}',
+            response = f'{'\n'.join([f'{i}\t{line}' for line in response.strip().split('\n')])}',
             write_on_file = write_on_output_file,
             comment = comment_output_file
         )
 
         messages.append({"role": "assistant", "content": f'{str(response)}'})
         
-        # logging.info(f'[time_sleep] time sleep: {time_sleep} sec')
-        # time.sleep(time_sleep)
+        logging.info(f'[time_sleep] time sleep: {time_sleep} sec')
+        time.sleep(time_sleep)
     
     logging.info(f'[Test] end of test')
 
-    logging.info(f'[time_sleep] time sleep: {time_sleep} sec')
-    time.sleep(time_sleep)
+    # logging.info(f'[time_sleep] time sleep: {time_sleep} sec')
+    # time.sleep(time_sleep)
 
 
 
 if __name__ == '__main__':
     loggingConfig()
 
-    for filename in sorted(os.listdir(SCENE_LEVEL_N_ASPECTS)):
+    for filename in sorted(os.listdir(SCENE_LEVEL_N_ASPECTS))[31:]:
         test_openrouter(
             episode = Episode(filename = str(filename)),
             platform = Platform.OPENROUTER_AI_API,
             model = OPENROUTER__GPT_4_1_MINI,
+            system_instruction = CO_STAR_INSTRUCTION,
             write_on_output_file = True,
-            time_sleep = 15
+            time_sleep = 5,
+
+            comment_output_file='co_star_prompt'
         )

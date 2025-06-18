@@ -40,6 +40,7 @@ OPENROUTER__LLAMA_4_MAVERICK = 'meta-llama/llama-4-maverick'
 OPENROUTER__GPT_4_1_NANO = 'openai/gpt-4.1-nano'
 OPENROUTER__GPT_4_1_MINI = 'openai/gpt-4.1-mini'
 OPENROUTER__DEEPSEEK_R1 = 'deepseek/deepseek-r1'
+OPENROUTER__GEMINI_2_0_FLASH = 'google/gemini-2.0-flash-001'
 # -------------------------------------------------
 
 # Models for Groq platform
@@ -54,20 +55,69 @@ GROQ__MISTRAL_SABA_24b = "mistral-saba-24b"
 
 TIKTOKEN_ENCODER = 'cl100k_base'
 
+CO_STAR_INSTRUCTION = """
+# CONTEXT #
+You are a forensic specialist that solves crime cases.
+
+##############
+
+# OBJECTIVE #
+Given chunks of screenplays, identify all the cases mentioned. 
+For each case:
+1. provide a 3-4 word, case summary, or 'NO SUMMARY' if none can be identified.
+2. provide the perpetrator/culprit's name, or 'NO PERPETRATOR' if none can be identified.
+3. Provide exactly one line of dialogue that supports your determination of the perpetrator, or 'NO DIALOGUE' if none can be identified.
+
+##############
+
+# STYLE #
+Follow the TSV style.
+
+##############
+
+# AUDIENCE #
+Tailor the response toward a tsv file,
+
+##############
+
+# RESPONSE #
+For each case identified, maintain the following tsv file format:
+<case_summary>  <name>  <dialogue_line>
+
+Here's some examples
+
+Screenplay chunk:
+[[Detective]] Alice, you killed Bob
+[[Alice_Foo]] Yes, I did!
+
+Response:
+Bob's murder    Alice_Foo   [[Alice_Foo]] Yes, I did!
+
+Screenplay chunk:
+[[Detecive]] Alice killed Bob, and Derek killed Sarah!
+[[Alice_Foo]] Yeah, I confess!
+[[Derek_Baz]] I want a lawyer!
+
+Response:
+Bob's murder    Alice_Foo   [[Alice_Foo]] Yeah, I confess!
+Sarah's murder  Derek_Baz   [[Derek_Baz]] I want a lawyer!
+
+##############
+"""
+
 INSTRUCTION = """
 # Identity
 You are a forensic specialist that solves crime cases.
-Your task is to analyze provided screenplay chunks and identify the perpetrator.
-If no perpetrator can be identified, clearly state 'no perpetrator'
+Your task is to analyze provided screenplay chunks and solve the cases.
 
 # Instruction
-For each case, provide:
+A screenplay could have 1 up to 2 cases. For each case, provide:
 1. A 3-4 word summary of the case in lowercase, or 'no summary' if none can be identified.
-2. The name of the perpetrator in lowercase, or 'no perpetrator' if none ca be identified.
+2. The name of the perpetrator, or 'no perpetrator' if none ca be identified.
 3. Provide exactly one line of dialogue that supports your determination of the perpetrator, or 'no dialogue' if none can be identified.
 
 Format each case response as:
-<case_summary>, <perpetrator>
+<case_summary>, <perpetrator>, <
 
 # Examples
 ## Single case example:
