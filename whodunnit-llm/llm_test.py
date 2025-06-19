@@ -150,7 +150,7 @@ def test_openrouter(
 if __name__ == '__main__':
     loggingConfig()
 
-    for filename in sorted(os.listdir(SCENE_LEVEL_N_ASPECTS))[31:]:
+    for filename in sorted(os.listdir(SCENE_LEVEL_N_ASPECTS))[33:]:
         test_openrouter(
             episode = Episode(filename = str(filename)),
             platform = Platform.OPENROUTER_AI_API,

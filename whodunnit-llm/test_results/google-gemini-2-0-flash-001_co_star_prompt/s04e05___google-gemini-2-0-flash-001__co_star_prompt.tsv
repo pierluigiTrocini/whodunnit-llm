@@ -1,10 +1,10 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue
-0	Car accident  NO PERPETRATOR  [[Truck_Driver]] you can breathalize me all you want , but the broad came right at me
-0	Freezer murder  NO PERPETRATOR  [[Sara]] single blast
-0	Raccoon suit murder  NO PERPETRATOR  [[Catherine]] so , he was shot and hit by a car
-1	Robert Pitt's murder   NO PERPETRATOR  [[Warrick]] i got an afis hit
-1	Freezer murder  Gunman  [[Gunman]] shut up !
-2	Robert Pitt's murder   NO PERPETRATOR  [[Grissom]] so i guess we 're looking for a wolf ... in wolf 's clothing
-2	Al Sesto's murder  George_Bartell  [[Sara]] george\n [[Sara]] i 'm afraid you and your pants are going to be here for a while
-3	Al Sesto's murder  Virgil  [[Virgil]] i should have shot you in that freezer
-3	Car accident  NO PERPETRATOR  [[Ranger]] must be here about that accident
+0	Car accident	NO PERPETRATOR	[[Truck_Driver]] you can breathalize me all you want , but the broad came right at me
+0	Freezer murder	NO PERPETRATOR	[[Sara]] single blast
+0	Raccoon suit murder	NO PERPETRATOR	[[Catherine]] so , he was shot and hit by a car
+1	Robert Pitt's murder	NO PERPETRATOR	[[Warrick]] i got an afis hit
+1	Freezer murder	Gunman	[[Gunman]] shut up !
+2	Robert Pitt's murder	NO PERPETRATOR	[[Grissom]] so i guess we 're looking for a wolf ... in wolf 's clothing
+2	Al Sesto's murder	George_Bartell	[[Sara]] george\n [[Sara]] i 'm afraid you and your pants are going to be here for a while
+3	Al Sesto's murder	Virgil	[[Virgil]] i should have shot you in that freezer
+3	Car accident	NO PERPETRATOR	[[Ranger]] must be here about that accident

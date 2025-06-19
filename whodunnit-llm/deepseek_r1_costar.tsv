@@ -1,0 +1,425 @@
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Tina Collins' distress                  	 NO PERPETRATOR                 	 [[Tina_Collins]] help me !
+0          	 Male's stabbing death                   	 NO PERPETRATOR                 	 [[Grissom]] multiple stab wounds to the back and neck
+1          	 Mrs. Collins' murder                    	 Teenager                       	 [[Nick]] probably a teenager
+1          	 Sons' stabbing deaths                   	 Teenager                       	 [[Nick]] probably a teenager
+1          	 Tire track evidence                     	 NO PERPETRATOR                 	 [[Warrick]] somebody came out of the house and got on what looks to be a step down from a motorcycle
+2          	 Mrs. Collins' murder                    	 Jesse_Overton                  	 [[Warrick]] i dmv 'd it
+2          	 Scooter tire evidence                   	 Jesse_Overton                  	 [[Warrick]] a kid four blocks away from the scene owns the same make
+2          	 Match evidence link                     	 Jesse_Overton                  	 [[Nick]] houston , we have liftoff
+3          	 Mr. Collins' sexual abuse               	 Mr. Collins                    	 [[Tina_Collins]] my father
+3          	 Collins family murders                  	 Tina_Collins                   	 [[Tina_Collins]] i protected her
+3          	 Getaway vehicle disposal                	 Jesse_Overton                  	 [[Brass]] this is the getaway vehicle
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Royce Harmon's staged suicide           	 NO PERPETRATOR                 	 [[Grissom]] turned out the suicide was staged
+0          	 Stuart Rampler's murder                 	 NO PERPETRATOR                 	 [[Brass]] killer may have struck again
+1          	 Royce Harmon's staged suicide           	 NO PERPETRATOR                 	 [[Grissom]] turned out the suicide was staged
+1          	 Stuart Rampler's murder                 	 NO PERPETRATOR                 	 [[Brass]] killer may have struck again
+1          	 Walter Banglor's accident               	 NO PERPETRATOR                 	 [[Warrick]] take his money
+1          	 Suicide script pattern                  	 NO PERPETRATOR                 	 [[Catherine]] he's just reading from a suicide script
+1          	 Birthday connection case                	 NO PERPETRATOR                 	 [[Grissom]] see if anything pops up with the same m.o
+2          	 Royce Harmon's staged suicide           	 NO PERPETRATOR                 	 [[Grissom]] turned out the suicide was staged
+2          	 Stuart Rampler's murder                 	 NO PERPETRATOR                 	 [[Brass]] killer may have struck again
+2          	 Grissom's framed print                  	 Paul Millander                 	 [[Grissom]] he's got me under his thumb
+2          	 ATM scam investigation                  	 NO PERPETRATOR                 	 [[Grissom]] there's our guy ... handing it off
+2          	 Mystery dust analysis                   	 NO PERPETRATOR                 	 [[Greg_Sanders]] your mystery dust is ... silicon blue dye
+3          	 Walter Banglor's robbery                	 Pool Player/Thug               	 [[Pool_Player]] hit him take everything he's got
+3          	 ATM scam setup                          	 Paul Millander                 	 [[Grissom]] paul millander he set me up
+3          	 John Millander's murder                 	 Hotel Security Guards          	 [[Sara]] father escorted into bathtub at gunpoint
+3          	 Birthday pattern killings               	 Paul Millander                 	 [[Catherine]] killing men born on same day
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Security guard bombing                  	 NO PERPETRATOR                 	 NO DIALOGUE
+0          	 Assault/Kidnapping attempt              	 Jack_Willman                   	 [[Jack_Willman]] you 're not going anywhere
+1          	 Bombing investigation                   	 NO PERPETRATOR                 	 [[Catherine]] whoever did this is playing with us
+1          	 Kristy Hopkins' murder                  	 NO PERPETRATOR                 	 [[Officer_Arvington]] dead prostitute
+2          	 Kristy Hopkins' murder                  	 NO PERPETRATOR                 	 [[Catherine]] raccoon eyes excoriation around the neck
+2          	 ThriftRight/Hansen bombings             	 Norman_Stirling                	 [[Sara]] well , those orange jackets over there appear to match the materials the bombs were wrapped in
+3          	 Kristy Hopkins' murder                  	 Jack_Willman                   	 [[Jack_Willman]] i was her pimp
+3          	 ThriftRight/Hansen bombings             	 Tyler_Stirling                 	 [[Tyler_Stirling]] i did it for you
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Zack's kidnapping                       	 NO PERPETRATOR                 	 [[Grissom]] i have your son ... and he 's just left us the first piece of the puzzle
+1          	 Zack's kidnapping                       	 NO PERPETRATOR                 	 [[Grissom]] i have your son ... and he 's just left us the first piece of the puzzle
+1          	 Zack's death                            	 NO PERPETRATOR                 	 [[Gwen_Anderson]] my baby !
+2          	 Zack's death                            	 NO PERPETRATOR                 	 [[Dr._Albert_Robbins]] sternum was cracked
+2          	 Zack's kidnapping                       	 Steve_Anderson                 	 [[Nick]] picked up a hint of some kind of booze
+2          	 Zack's death                            	 NO PERPETRATOR                 	 [[Sara]] it's found in things that are made to be near fire and flames
+3          	 Zack's accidental death                 	 Robbie_Anderson                	 [[Tyler_Anderson]] what did you do , robbie ? !
+3          	 Staged kidnapping                       	 Steve_Anderson                 	 [[Steve_Anderson]] we wanted to protect robbie
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Brian Clemonds' murder                  	 NO PERPETRATOR                 	 [[Sara]] that ended in murder
+0          	 Corpse hit by car                       	 NO PERPETRATOR                 	 [[Grissom]] i think they ran over a corpse
+0          	 Coffee shop massacre                    	 NO PERPETRATOR                 	 [[Catherine]] assuming flynn was the target , and it was a hit
+1          	 Brian Clemonds' murder                  	 NO PERPETRATOR                 	 [[Sara]] that ended in murder
+1          	 Frankie Flynn's hit                     	 NO PERPETRATOR                 	 [[Dr._Albert_Robbins]] shooter could have saved himself a lot of trouble if he 'd waited a month or two
+1          	 Coffee shop massacre                    	 NO PERPETRATOR                 	 [[Catherine]] assuming flynn was the target , and it was a hit
+1          	 Hit-and-run suspect ID                  	 NO PERPETRATOR                 	 [[Grissom]] what do you call a guy with blue-dotted blood , lice and keys to a ford explorer ?
+2          	 Brian Clemonds' hit-and-run             	 Adam Walkey                    	 [[Grissom]] we have a suspect
+2          	 Adam Walkey's blood warrant             	 Adam Walkey                    	 [[Grissom]] i just want his blood
+2          	 Coffee shop target revelation           	 NO PERPETRATOR                 	 [[Catherine]] the target was erin ... the pregnant girl and the rest was damage control
+3          	 Brian Clemonds' murder                  	 Mark Rucker                    	 [[Grissom]] brian clemonds was deaf
+3          	 Hit-and-run evidence                    	 Adam Walkey                    	 [[Sara]] this fabric matches the victim 's sweater
+3          	 Erin's pregnancy paternity              	 Brad Kendall                   	 [[Brad_Kendall]] it was a one-time thing
+3          	 Coffee shop target motive               	 NO PERPETRATOR                 	 [[Catherine]] the target was erin ... the pregnant girl and the rest was damage control
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Strip Strangler case                    	 NO PERPETRATOR                 	 [[Agent_Rick_Culpepper]] he strangles them near las vegas boulevard then removes their clothes
+1          	 Hotel wife's murder                     	 Brad Walden                    	 [[Grissom]] suspect
+1          	 Glove evidence case                     	 NO PERPETRATOR                 	 [[Dr._Albert_Robbins]] cross-hatched leather, with tiny air holes for breathing
+2          	 Hotel wife's murder                     	 Brad Walden                    	 [[Grissom]] suspect
+2          	 Glove evidence case                     	 NO PERPETRATOR                 	 [[Dr._Albert_Robbins]] cross-hatched leather, with tiny air holes for breathing
+3          	 Strip Strangler case                    	 Syd_Goggle                     	 [[Syd_Goggle]] everybody knows white cotton fibers aren't like fingerprints
+3          	 Assault on Grissom                      	 Syd_Goggle                     	 [[Syd_Goggle]] you were in my apartment
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Tony Braun's overdose                   	 NO PERPETRATOR                 	 [[Brass]] drug overdose
+1          	 Tony Braun's suffocation                	 Janine_Haywood                 	 [[Grissom]] janine haywood said that she left the house when the drug dealer arrived
+1          	 Duct tape evidence case                 	 Walt_Braun                     	 [[Nick]] came back : 'walt braun '
+2          	 Tony Braun's murder                     	 Walt_Braun                     	 [[Grissom]] walt braun lied
+2          	 Marital conflict case                   	 NO PERPETRATOR                 	 [[Bonnie_Ritten]] me or her ?
+3          	 Inheritance dispute murder              	 Walt_Braun                     	 [[Brass]] tony promised he'd take care of him
+3          	 Earring evidence case                   	 Bonnie_Ritten                  	 [[Catherine]] 'hell hath no fury ... '
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Locker vandalism                        	 Barry_Schickle                 	 [[Catherine]] and was this a first or has the deceased spray-painted his locker before ?
+0          	 Barry Schickle's murder                 	 NO PERPETRATOR                 	 NO DIALOGUE
+1          	 Mr. Cartsen's homicide                  	 NO PERPETRATOR                 	 [[Sara]] i 'm going to get homicide to check the va medical database for a 'w
+1          	 Roman Nini's connection                 	 NO PERPETRATOR                 	 [[Nick]] nightclub for boomers off the strip
+2          	 William Cartsen's homicide              	 NO PERPETRATOR                 	 [[Sara]] coroner says he 's been dead two months
+3          	 Barry Schickel's murder                 	 Julia_Barett                   	 [[Grissom]] too soon for barry schickel
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Body found                              	 Benjamin_Jennings              	 [[Sgt._O'Riley]] caught him red-handed
+0          	 Shelley Danvers' death                  	 NO PERPETRATOR                 	 NO DIALOGUE
+0          	 Lawyer's asphyxiation                   	 NO PERPETRATOR                 	 [[Robbins]] tie probably closed the windpipe
+1          	 Body found via radar                    	 Benjamin_Jennings              	 [[Sgt._O'Riley]] caught him red-handed
+1          	 Shelley Danvers' death                  	 NO PERPETRATOR                 	 [[Robbins]] rules out your jacuzzi theory
+1          	 Hotel spa investigation                 	 NO PERPETRATOR                 	 [[Catherine]] we need someone to give us the truth about last night
+2          	 Body found via radar                    	 Benjamin_Jennings              	 [[Sgt._O'Riley]] caught him red-handed
+2          	 Shelley Danvers' death                  	 NO PERPETRATOR                 	 [[Brass]] tina and shelley were having a catfight over some dude named jeremy
+2          	 Kenny Ramirez's murder                  	 NO PERPETRATOR                 	 [[Nick]] ramirez kenny
+2          	 Benjamin's wrongful accusation          	 Roger_Jennings                 	 [[Nick]] we might have been wrong
+3          	 Oliver Dunne's murder                   	 Roger_Jennings                 	 [[Grissom]] the flour said you did
+3          	 Kenny Ramirez's shooting                	 Benjamin_Jennings              	 [[Roger_Jennings]] ben did it
+3          	 Shelley Danvers' allergic death         	 Tina_Kolas                     	 [[Tina_Kolas]] i did n't mean to kill her
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Casino robbery                          	 NO PERPETRATOR                 	 [[Grissom]] ... no
+0          	 Store clerk murder                      	 NO PERPETRATOR                 	 [[Sara]] a poor man 's silencer
+1          	 Adam Brower's murder                    	 Red (Adam's Apple)             	 [[Grissom]] that must be the one that killed brower
+1          	 Kidnapper's murder                      	 Tammy Felton                   	 [[Catherine]] when she found out the truth , she killed him
+2          	 Store clerk murder                      	 Darin Hanson                   	 [[Sara]] the print on the outside doorknob belongs to an ex-con , darin hanson
+2          	 Tammy Felton's murder                   	 NO PERPETRATOR                 	 [[Catherine]] it 's tammy
+3          	 Casino heist collaboration              	 Max Duncan                     	 [[Grissom]] you found our mole
+3          	 Darin Hanson's murder                   	 Officer_Spencer                	 [[Warrick]] shot with a .45
+3          	 Tammy Felton's murder                   	 NO PERPETRATOR                 	 [[Catherine]] it 's tammy
+3          	 Police corruption                       	 Officer_Spencer                	 [[Brass]] and absconding with a quarter of mill stolen money
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Casino chip scam                        	 Vincent_Avery                  	 [[Brass]] guy was running one of the oldest scams in vegas
+1          	 Drug trafficking homicide               	 Keith_Driscoll                 	 [[Brass]] you got her mixed up in homicide over at the
+1          	 Getaway car murder                      	 NO PERPETATOR                  	 [[Warrick]] this was the getaway car used in the murder
+2          	 Keith Driscoll's murder                 	 NO PERPETRATOR                 	 [[Warrick]] man , brass did n't shoot this guy
+3          	 Keith Driscoll's murder                 	 Marty_Gillmore                 	 [[Warrick]] you shot driscoll ... ... with his firearm
+3          	 Vincent Avery's shooting                	 Ellie                          	 [[Marty_Gillmore]] she 's supposed to be in jail for shooting avery at the casino
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Body Farm Contamination                 	 NO PERPETRATOR                 	 [[Grissom]] we got cross contamination !                                                                                                                  	 
+0          	 Mike Kimble's Murder                    	 NO PERPETRATOR                 	 [[Catherine]] database says that our victim is mike kimble age 38
+1          	 Arson cover-up                          	 NO PERPETRATOR                 	 [[Nick]] this fire is just a cover up                                                                                                                     	 
+1          	 Mike Kimble's Murder                    	 Russ_Bradley                   	 [[Russ_Bradley]] i stop paying alimony the day mike and jane get married
+2          	 Mike Kimble's Murder                    	 Russ_Bradley                   	 [[Russ_Bradley]] i stop paying alimony the day mike and jane get married
+3          	 Arson cover-up                          	 NO PERPETRATOR                 	 [[Nick]] this fire is just a cover up                                                                                                                     	 
+3          	 Mike Kimble's Murder                    	 Russ_Bradley                   	 [[Russ_Bradley]] i stop paying alimony the day mike and jane get married
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Monica Newman's murder                  	 Cal Newman                     	 [[Catherine]] dead female spouse plus missing husband ... equals murder
+0          	 Cal Newman's death                      	 NO PERPETRATOR                 	 NO DIALOGUE
+1          	 Mandy Kirk's murder                     	 NO PERPETRATOR                 	 [[David_Phillips]] they 're human
+1          	 Monica Newman's murder                  	 Cal Newman                     	 [[Catherine]] dead female spouse plus missing husband ... equals murder
+1          	 Cal Newman's death                      	 NO PERPETRATOR                 	 NO DIALOGUE
+2          	 Mandy Kirk's murder                     	 NO PERPETRATOR                 	 [[David_Phillips]] they 're human
+2          	 Monica Newman's murder                  	 Cal Newman                     	 [[Grissom]] she did n't shoot herself
+2          	 Cal Newman's death                      	 NO PERPETRATOR                 	 NO DIALOGUE
+3          	 Mandy Kirk's murder                     	 Nicole Exmoor                  	 [[Lockwood]] i 'm placing you under arrest for the murder of amanda kirk
+3          	 Monica Newman's murder                  	 Jeri Newman                    	 [[Catherine]] you hired him to kill your ex-husband and his new wife
+3          	 Cal Newman's murder                     	 Jeri Newman                    	 [[Catherine]] you hired him to kill your ex-husband and his new wife
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Case Summary                            	 Perpetrator                    	 Dialogue Line
+0          	 Volunteer's disappearance               	 NO PERPETRATOR                 	 [[Matilda]] : i do n't know where she is
+0          	 Gus Kenyon's murder                     	 NO PERPETRATOR                 	 [[Nick]] it's tied the other way, pulled away from him
+0          	 Gus Kenyon's murder                     	 NO PERPETRATOR                 	 [[Robbins]] embolism to the heart
+1          	 Gus Kenyon's murder                     	 NO PERPETRATOR                 	 [[Nick]] bet it matches that smack we found on the needle
+1          	 Chamber of Doom design                  	 Zoe Clein                      	 [[Grissom]] designed by zoe clein
+1          	 Blood storage discovery                 	 NO PERPETRATOR                 	 [[Warrick]] six pints of 'a' positive
+1          	 Volunteer disappearance case            	 Zoe Clein                      	 [[Grissom]] property of Zoe Clein All Rights Reserved
+2          	 Gus Kenyon's murder                     	 Samantha Dean                  	 [[Catherine]] gus kenyon looked up your number and address in this directory and , uh , called you last night
+2          	 Gus Kenyon's murder                     	 Samantha Dean                  	 [[Catherine]] samantha dean she knows him
+2          	 Gus Kenyon's murder                     	 Samantha Dean                  	 [[Catherine]] there was a scuff on samantha dean 's door
+2          	 Zephyr's death                          	 NO PERPETRATOR                 	 [[Robbins]] laryngeal spasm
+2          	 Zephyr's death                          	 NO PERPETRATOR                 	 [[Grissom]] i 've never heard of skin pockets
+3          	 Gus Kenyon's murder                     	 Samantha Dean                  	 [[Samantha_Dean]] i carry needles in my kit
+3          	 Punky Dillinger's murder                	 Zephyr                         	 [[Grissom]] you switched with your son, punky to set up toby arcane for your murder
+3          	 Zoe Clein's disappearance               	 Zephyr                         	 [[Zephyr]] i 'assumed' her
+3          	 Chamber of Doom trick                   	 Zephyr                         	 [[Zephyr]] not to mention a prop like a packet full of zoe 's blood
+3          	 Toby Arcane's setup                     	 Zephyr                         	 [[Grissom]] to set up toby arcane for your murder
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Snuff film murder                       	 NO PERPETRATOR                 	 [[Grissom]] it's human... that was a murder
+0          	 Ant-infested corpse case                	 NO PERPETRATOR                 	 [[Grissom]] with enough colonies they can kill people
+0          	 Skeletal trauma investigation           	 NO PERPETRATOR                 	 [[Grissom]] a pupa case... establish entomological timeline
+1          	 Snull cleaning investigation            	 NO PERPETRATOR                 	 [[Grissom]] he was probably murdered near some large animals
+1          	 Circular saw fragment analysis          	 NO PERPETRATOR                 	 [[Nick]] i've seen one of these before, man... a spur
+1          	 Down's syndrome victim ID               	 NO PERPETRATOR                 	 [[Teri_Miller]] your victim was born with trisomy of the twenty-first chromosome
+1          	 Saliva DNA evidence collection          	 NO PERPETRATOR                 	 [[Catherine]] i'll process for dna, run it through codis
+2          	 Butterscotch soil evidence              	 NO PERPETRATOR                 	 [[Warrick]] remember that body dump a couple years back... butterscotch-colored soil
+2          	 Spur-toolbox match                      	 NO PERPETRATOR                 	 NO DIALOGUE
+2          	 Rodeo spur ownership                    	 Billy Rattison                 	 [[Pete_Banson]] billy rattison
+3          	 Susan Hodap's murder                    	 NO PERPETRATOR                 	 [[Robbins]] exsanguination from a trans-section of the carotid artery
+3          	 Spur corrosion timeline                 	 NO PERPETRATOR                 	 [[Grissom]] corrosion versus time
+3          	 Randy Traschel's murder                 	 Billy Rattison                 	 [[Nick]] positive for blood
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Linda Damen's death                     	 NO PERPETRATOR                 	 [[Det._'Sully'_Sulik]] girl's name is linda damen , 23 , apparent suicide
+0          	 Petrov Samsko investigation             	 Petrov Samsko                  	 [[Grissom]] petrov samsko
+0          	 Human hand discovery                    	 NO PERPETRATOR                 	 NO DIALOGUE
+1          	 Petrov Samsko's murder                  	 NO PERPETRATOR                 	 [[Grissom]] dismembered
+1          	 Linda Damen's homicide                  	 NO PERPETRATOR                 	 [[Sara]] there's no way she could have fought somebody off
+2          	 Linda Damen's overdose                  	 Jane Damen                     	 [[Det._'Sully'_Sulik]] her mother does -- jane damen
+3          	 Linda Damen's homicide                  	 John_Damen                     	 [[John_Damen]] it was supposed to be a suicide attempt
+3          	 Petrov Samsko's murder                  	 Hostess                        	 [[Hostess]] i-i went into the walk-in to , to get some lemons
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Fred Stearns' death                     	 NO PERPETRATOR                 	 [[Robbins]] case 03-615
+0          	 Spinal disc investigation               	 Amy_Ennis                      	 [[Robbins]] amy ennis
+0          	 Blood evidence inquiry                  	 NO PERPETRATOR                 	 [[Daniel_Easton]] no
+1          	 Snake venom poisoning                   	 Marty_Gibson                   	 [[Grissom]] the organic poison came back snake venom
+1          	 Amy Ennis identity theft                	 Kelly_Easton                   	 [[Nick]] prints came back to somebody named 'kelly easton '
+2          	 Fred Stearns' murder                    	 Marty_Gibson                   	 [[Grissom]] the trace lab found venom proteins in his coffee cup
+2          	 Snake venom poisoning                   	 Marty_Gibson                   	 [[Nancy_Linden]] the goodwill guy who got coffee for everybody else
+3          	 Kelly Easton's murder                   	 Nora_Easton                    	 [[Catherine]] it's what the evidence tells us really happened
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Gus Sugarman's murder                   	 NO PERPETRATOR                 	 [[Catherine]] i was n't the only one who dropped something tonight
+0          	 Timmy McCallum's shooting               	 NO PERPETRATOR                 	 [[O'Riley]] passing motorist heard gunshots
+1          	 Gus Sugarman's murder                   	 NO PERPETRATOR                 	 [[Catherine]] our only suspect apparently commits suicide
+1          	 Timmy McCallum's shooting               	 NO PERPETRATOR                 	 [[Warrick]] he was shot from above
+1          	 Audrey Hilden's murder                  	 NO PERPETRATOR                 	 [[Grissom]] she was strangled first and then hanged
+2          	 Gus Sugarman's murder                   	 Kelly Goodson                  	 [[Grissom]] two strangers meet on a train , make a pact to get rid of each other 's problems
+2          	 Timmy McCallum's shooting               	 Kevin McCallum                 	 [[Warrick]] those are the same markings your brother had
+2          	 Audrey Hilden's murder                  	 Kelly Goodson                  	 [[Grissom]] she was strangled first and then hanged
+3          	 Gus Sugarman's murder                   	 Kelly Goodson                  	 [[Grissom]] two strangers meet on a train , make a pact to get rid of each other 's problems
+3          	 Timmy McCallum's shooting               	 Kevin McCallum                 	 [[Warrick]] those are the same markings your brother had
+3          	 Audrey Hilden's murder                  	 Kelly Goodson                  	 [[Grissom]] she was strangled first and then hanged
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Lori Hutchins' death                    	 NO PERPETRATOR                 	 [[Grissom]] of course                                                                                                                                     	 (Accidental death caused by horse during turbulence)
+0          	 Toby Wellstone's overdose               	 NO PERPETRATOR                 	 [[Warrick]] intentional overdose                                                                                                                          	 (Possible fentanyl overdose with unclear circumstances)
+1          	 Lori Hutchins' homicide                 	 Rhone Confer                   	 [[Grissom]] rhone confer
+1          	 Toby Wellstone's overdose               	 NO PERPETRATOR                 	 [[Robbins]] third time's the charm
+1          	 Prom dress suicide                      	 NO PERPETRATOR                 	 [[Sara]] seems like romeo had a juliet
+2          	 Lori Hutchins' homicide                 	 Rhone Confer                   	 [[Grissom]] rhone confer
+2          	 Toby Wellstone's suicide                	 NO PERPETRATOR                 	 [[Robbins]] third time's the charm
+2          	 Diamond smuggling operation             	 NO PERPETRATOR                 	 [[Grissom]] the horse is a 'mule'
+2          	 Toby and Jill's baby                    	 NO PERPETRATOR                 	 [[Greg]] two halves make a whole
+3          	 Lori Hutchins' homicide                 	 Rhone Confer                   	 [[Grissom]] evidence of a struggle
+3          	 Toby & Jill's murder                    	 Mrs. Frommer                   	 [[Warrick]] you drove them out to death valley after their last meal
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Car accident death                      	 NO PERPETRATOR                 	 [[Truck_Driver]] i swear , it was n't my fault
+0          	 Raccoon suit murder                     	 NO PERPETRATOR                 	 [[Grissom]] his suit 's not bulletproof
+0          	 Freezer shotgun death                   	 NO PERPETRATOR                 	 [[Nick]] check out the shotgun spatter
+1          	 Raccoon suit death                      	 NO PERPETRATOR                 	 [[Greg]] your manimal died sober
+1          	 Freezer shotgun murder                  	 NO PERPETRATOR                 	 [[Rich]] it's from a shotgun stock
+1          	 Al Sesto's shooting                     	 NO PERPETRATOR                 	 [[George_Bartell]] he shot al
+2          	 Rocky Raccoon investigation             	 NO PERPETRATOR                 	 [[Grissom]] there you go
+2          	 Freezer murder evidence                 	 NO PERPETRATOR                 	 [[David_Hodges]] dual layers
+2          	 Civet oil discovery                     	 NO PERPETRATOR                 	 [[Grissom]] smell this
+3          	 Al Sesto's murder                       	 Virgil                         	 [[Virgil]] i should have shot you in that freezer
+3          	 Raccoon suit death                      	 Ranger                         	 [[Ranger]] i, uh, took care of it
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Decapitated head case                   	 NO PERPETRATOR                 	 [[Grissom]] the unkindest cut of all
+0          	 Torture burial murder                   	 NO PERPETRATOR                 	 [[Grissom]] this was n't just murder
+1          	 Ross Jenson's disappearance             	 NO PERPETRATOR                 	 [[Catherine]] has ross spent a lot of time up in northern nevada ?
+1          	 GHB-laced dog sedation                  	 NO PERPETRATOR                 	 [[Grissom]] it 's also a powerful sedative
+2          	 Ross Jenson's movements                 	 NO PERPETRATOR                 	 [[Catherine]] there were traces of aspen leaves in his dorm room closet
+2          	 Leland Brooks' son link                 	 NO PERPETRATOR                 	 [[Dale_Sterling]] you guys going to tell him about his dad ?
+3          	 Ross Jenson's murder                    	 Eric_Brooks                    	 [[Catherine]] you were there
+3          	 Leland Brooks' secret relationship      	 NO PERPETRATOR                 	 [[Brass]] did you know your father was having a sexual relationship with ross jenson ?
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Valet explosion                         	 Adam_Watson                    	 [[Adam_Watson]] grab the one in the trunk
+0          	 Amelia Rueben's death                   	 NO PERPETRATOR                 	 [[Sara]] mr rueben , i 'm very sorry to have to tell you this , but your wife is dead
+1          	 Amelia Rueben's poisoning               	 Sam_Hopkins                    	 [[Sara]] prt on the hot tub dial was sam hopkins
+1          	 Amelia Rueben's poisoning               	 Sam_Hopkins                    	 [[Greg]] i found trace amounts of hydrofluoric acid in the vino
+2          	 Bomb-making materials found             	 Beth_Dunbar                    	 [[Grissom]] aluminum powder
+2          	 Garden hose tampering                   	 Beth_Dunbar                    	 [[Catherine]] take her in
+3          	 Amelia Rueben's poisoning               	 Sam_Hopkins                    	 [[Sara]] prt on the hot tub dial was sam hopkins
+3          	 Bomb-making materials possession        	 Beth_Dunbar                    	 [[Grissom]] aluminum powder
+3          	 Hotel bombing deaths                    	 Beth_Dunbar                    	 [[Beth_Dunbar]] that bomb was supposed to go off at 8:30 on his way to the airport
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Construction site death                 	 NO PERPETRATOR                 	 [[Construction_Worker]] boss !
+0          	 Blunt force murder                      	 NO PERPETRATOR                 	 [[Sara]] that 's a hammerhead
+0          	 Marlene Mitchell shooting               	 NO PERPETRATOR                 	 [[Mr._Mitchell]] he knows he 's not supposed to come within 100 yards of her
+0          	 Mall suspect tracking                   	 NO PERPETRATOR                 	 [[K-9_Officer]] she 's got a hit on the dumpster
+1          	 Mall suspect identity                   	 NO PERPETRATOR                 	 [[Sara]] connection between this girl and a construction worker ?
+1          	 Brian Haddick's murder                  	 NO PERPETRATOR                 	 [[Grissom]] did brian ever mention the name ashley curtwell ?
+1          	 Marlene Mitchell ballistics             	 NO PERPETRATOR                 	 [[Bobby_Dawson]] same as ms mitchell
+2          	 Brian Haddick's murder                  	 Benny_Lizzio                   	 [[Warrick]] the blood on your shoe is a match to brian haddick 's
+2          	 Construction site trespassing           	 Benny_Lizzio                   	 [[Benny_Lizzio]] sometimes i go to the construction site just to hang out
+2          	 Gilbert Farms connection                	 Aaron_Gilbert                  	 [[Sara]] watermelon is n't cheap , particularly organic
+3          	 Marlene Mitchell shooting               	 NO PERPETRATOR                 	 [[Young_Mother]] johnnie , the idiot behind us , was playing like g.i
+3          	 Brian Haddick's murder                  	 Aaron_Gilbert                  	 [[Sara]] she gave us your hammer and this
+3          	 Robbery motive                          	 Gilbert brothers               	 [[Brass]] same as your brother 's secret stash
+3          	 Premeditated robbery                    	 Gilbert brothers & Benny_Lizzio	 [[Grissom]] the smashed watermelon suggests the whole thing was premeditated
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Young woman's murder                    	 NO PERPETRATOR                 	 NO DIALOGUE
+0          	 Debbie Marlin's murder                  	 Michael Clark                  	 [[Brass]] dr clark and his 'steady hand ' have n't been seen or heard from since , so you do n't have to be a brain surgeon to guess what i 'm thinking
+1          	 Dismembered body parts                  	 NO PERPETRATOR                 	 [[Warrick]] well , if this is our boyfriend , then ... brass is looking for a ghost
+1          	 DNA destruction attempt                 	 NO PERPETRATOR                 	 [[Sara]] killer poured bleach down all the drains
+2          	 Male dismemberment case                 	 NO PERPETRATOR                 	 [[Catherine]] a killer with knowledge of anatomy whose tool is a scalpel
+2          	 Hair analysis evidence                  	 NO PERPETRATOR                 	 [[Greg]] i got four peaks : ethyl alcohol , propylene glycol , minoxidil , and finasteride
+3          	 Debbie Marlin's murder                  	 Vincent_Lurie                  	 [[Grissom]] you killed them both
+3          	 Michael Clark's murder                  	 Vincent_Lurie                  	 [[Grissom]] you killed them both
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Supermarket robbery shootout            	 NO PERPETRATOR                 	 [[Brass]] engaged two suspects
+1          	 Supermarket robbery shootout            	 Clyde Tremmel, Jack Delver     	 [[Grissom]] afis hits on our suspects , both just recently released from five-year sentences at lompoc
+2          	 Supermarket robbery shootout            	 Todd Hallickey                 	 [[Brass]] we matched your prints from a stolen car off the prints from a prior car theft , and bingo , we had a match
+3          	 Supermarket robbery shootout            	 Raul Valdez                    	 [[Nick]] he clocked in for work that night\n [[Nick]] never clocked out
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Trents' execution-style murders         	 NO PERPETRATOR                 	 [[Grissom]] and we suspect that there were two assailants
+1          	 Ex-partner's murder                     	 Kyle_Goode                     	 [[Kyle_Goode]] i was wondering when you guys would get around to me
+1          	 Hit-for-hire murders                    	 NO PERPETRATOR                 	 [[Brass]] you know what that means : hit-for-hire
+2          	 Ex-partner's murder evidence            	 Kyle_Goode                     	 [[Kyle_Goode]] you 're going to break them
+3          	 Trents' contract killing                	 Kyle_Goode                     	 [[Brass]] your $ 20,000 incentive pulled the trigger
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Roller coaster derailment               	 NO PERPETRATOR                 	 [[Grissom]] it 's also a four-eighteen-b
+0          	 Tessa Press homicide                    	 NO PERPETRATOR                 	 [[Catherine]] now ... the body position is inconsistent with her lividity
+1          	 Roller coaster fatalities               	 NO PERPETRATOR                 	 [[Grissom]] dead men do n't ride roller coasters
+1          	 Jim Nevins homicide                     	 NO PERPETRATOR                 	 [[Grissom]] possibly killed by that wrench and stuffed in his own trunk
+1          	 Park security negligence                	 NO PERPETRATOR                 	 [[Zack_Lawrence]] the same key that opens up the men 's room door opens up all the power boxes at the park
+2          	 Roller coaster sabotage                 	 NO PERPETRATOR                 	 [[David_Hodges]] your killer has a rash
+2          	 Tessa Press homicide                    	 Justin_Mack                    	 [[Warrick]] the tip of the shovel glows with the presence of blood
+2          	 Landscaping company link                	 NO PERPETRATOR                 	 [[Warrick]] couple of months back, they were hired by the victim's mother
+3          	 Tessa Press homicide                    	 Raina_Press                    	 [[Raina_Press]] she was trying to steal him from me
+3          	 Jim Nevins homicide                     	 Zack_Lawrence                  	 [[Sara]] you tampered with the screws
+3          	 Roller coaster sabotage                 	 Zack_Lawrence                  	 [[Zack_Lawrence]] guess i just did n't think about it
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Ernie Menlo's murder                    	 NO PERPETRATOR                 	 [[Brass]] two shots to the back of the head
+1          	 Davis Mullins' murder                   	 NO PERPETRATOR                 	 [[Warrick]] looks like the roommate's home after all
+2          	 Teddy Keller's murder                   	 Sam Braun                      	 [[Joseph_Greene]] stop looking at my son... start looking at sam
+2          	 Davis Mullins' murder                   	 Sam Braun                      	 [[Joseph_Greene]] stop looking at my son... start looking at sam
+3          	 Teddy Keller's murder                   	 Joseph_Greene                  	 [[Joe_Greene]] turn around and walk
+3          	 Davis Mullins' murder                   	 Joseph_Greene                  	 [[Joe_Greene]] hey ... hey
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Linley Parker's assault                 	 NO PERPETRATOR                 	 [[Linley_Parker]] 4-4-6
+0          	 Emma Dobbins' murder                    	 NO PERPETRATOR                 	 [[Warrick]] victim was a 32-year-old caucasian female, emma dobbins
+1          	 Linley Parker's rape                    	 NO PERPETRATOR                 	 [[Greg]] todd coombs is not your rapist
+2          	 Linley Parker's murder                  	 NO PERPETRATOR                 	 [[Robbins]] 'cause of death, asphyxia due to strangulation
+2          	 Linley Parker's rape                    	 NO PERPETRATOR                 	 [[Greg]] todd coombs is not your rapist
+2          	 Evidence tampering case                 	 NO PERPETRATOR                 	 [[Warrick]] a pin from the palms linley parker worked at the palms
+3          	 Linley Parker's murder                  	 Todd_Coombs                    	 [[Todd_Coombs]] i raped and murdered emma dobbins and linley parker
+3          	 Emma Dobbins' murder                    	 Todd_Coombs                    	 [[Todd_Coombs]] i raped and murdered emma dobbins and linley parker
+3          	 Linley Parker's rape                    	 Todd_Coombs                    	 [[Todd_Coombs]] i raped and murdered emma dobbins and linley parker
+3          	 Additional victim cases                 	 Todd_Coombs                    	 [[Todd_Coombs]] there are more, but we'll talk about those later
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Alicia's abduction                      	 NO PERPETRATOR                 	 [[April_Perez]] somebody took alicia
+0          	 Suspicious blood stain                  	 NO PERPETRATOR                 	 [[Grissom]] i'm going to need to take your shirt
+0          	 Forced organ donation                   	 Carlos_Perez                   	 [[Carlos_Perez]] alicia is his matching donor
+1          	 Alicia's homicide                       	 NO PERPETRATOR                 	 [[Grissom]] somebody , uh , wanted her intact
+1          	 False abduction claim                   	 April_Perez                    	 [[Grissom]] which means april perez was lying about the abduction
+1          	 Blood evidence discrepancy              	 NO PERPETRATOR                 	 [[Mia_Dickerson]] the blood on the mother 's t-shirt matches the blood on the blanket
+2          	 Alicia's illegal search                 	 Sybil_Perez                    	 [[Archie_Johnson]] sybil perez
+2          	 Shoe print match                        	 Carlos_Perez                   	 [[Warrick]] sees a shoe print that 's familiar
+2          	 Blue fiber evidence                     	 NO PERPETRATOR                 	 [[Warrick]] blue fibers
+2          	 Tripod mark match                       	 Carlos_Perez                   	 [[Nick]] looks like the lividity marks on alicia 's body
+3          	 Alicia's execution                      	 Daniel_Perez                   	 [[Daniel_Perez]] i could n't watch her suffer anymore
+3          	 Parental cover-up                       	 Sybil_Perez                    	 [[Sybil_Perez]] they 'll put him in prison
+3          	 Evidence tampering                      	 Daniel_Perez                   	 [[Grissom]] it dripped out of your nose onto the blanket while you were killing her
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Vanessa Keaton's drowning               	 NO PERPETRATOR                 	 [[Brass]] well , this one sprung a dead woman ... vanessa keaton
+0          	 Landlord's saw murder                   	 NO PERPETRATOR                 	 [[Nick]] killer strolls in next thing you know , landlord 's deli meat
+1          	 Vanessa Keaton's drowning               	 NO PERPETRATOR                 	 [[Greg]] vanessa keaton died in a pool
+1          	 Landlord Bassngi's murder               	 Charlie_Pinscher               	 [[Warrick]] charlie confessed to killing the landlord
+1          	 Melissa Poolie's murder                 	 NO PERPETRATOR                 	 [[Robbins]] blunt-force trauma to the occipital region
+2          	 Vanessa Keaton's drowning               	 NO PERPETRATOR                 	 [[Greg]] vanessa keaton died in a pool
+2          	 Landlord Bassngi's murder               	 Charlie_Pinscher               	 [[Warrick]] charlie confessed to killing the landlord
+2          	 Melissa Poolie's murder                 	 Mrs._Basengi                   	 [[Warrick]] she left her prints behind
+3          	 Vanessa Keaton's drowning               	 Amy_Keaton                     	 [[Amy_Keaton]] we put her in the fountain
+3          	 Melissa Poolie's murder                 	 Mrs._Basengi                   	 [[Warrick]] she left her prints behind
+3          	 Tom Cunningham's statutory rape         	 Tom_Cunningham                 	 [[Brass]] she 's a minor , you 're an adult
+3          	 Landlord Bassngi's murder               	 Charlie_Pinscher               	 [[Warrick]] charlie confessed to killing the landlord
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Pledge's hazing death                   	 NO PERPETRATOR                 	 [[Catherine]] maybe you can explain why the pledge who swallowed this key ended up dead
+1          	 Blonde-haired dummy taunting            	 NO PERPETRATOR                 	 [[Grissom]] now he 's taunting us
+1          	 Debby Reston's abduction                	 NO PERPETRATOR                 	 [[Warrick]] those black trilobal fibers that we found on debby reston 's body were from a chevy
+1          	 Body in van discovery                   	 NO PERPETRATOR                 	 [[Grissom]] this is where he brought them
+2          	 Kaitlin Rackish's disappearance         	 NO PERPETRATOR                 	 [[Mandy_Cooper]] she left for her 7:00 class
+2          	 Debby Reston's murder                   	 John Mathers                   	 [[Nick]] the partial vin number on our van 's a match
+2          	 Killer partnership case                 	 NO PERPETRATOR                 	 [[Nick]] they were partners
+3          	 Debby Reston's murder                   	 John Mathers                   	 [[Sara]] the prints on the comb bindings from the comic books are a match to the prints recovered from the van and the garbagebag that debby reston was in
+3          	 Killer partnership case                 	 Kevin Greer                    	 [[Brass]] kevin greer... works at the copy union
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Wendy Garner's murder                   	 NO PERPETRATOR                 	 [[Catherine]] ... and slash their throat
+0          	 Transgender hate crime                  	 NO PERPETRATOR                 	 [[Grissom]] well, they do n't call it an adam 's apple for nothing
+1          	 Wendy Garner's murder                   	 NO PERPETRATOR                 	 [[Warrick]] fourteen minutes of wendy 's time unaccounted for
+1          	 Botched surgery death                   	 NO PERPETRATOR                 	 [[Robbins]] my theory : surgery one , they botched
+2          	 Vern Saldusky's death                   	 Mona_Lavalle_(Karl_Benway)     	 [[Mona_Lavalle_(Karl_Benway)]] vern was an unfortunate tragedy
+2          	 Wendy Garner's murder                   	 Mona_Lavalle_(Karl_Benway)     	 [[Brass]] she saw you with vern so you killed her
+3          	 Wendy Garner's murder                   	 Francis                        	 [[Francis]] i tried to protect my wife 's work
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Tyson Plummer's murder                  	 Andre                          	 [[Kid_1]] i saw him
+0          	 Young male's death                      	 NO PERPETRATOR                 	 NO DIALOGUE
+0          	 Leo Plummer's murder                    	 NO PERPETRATOR                 	 NO DIALOGUE
+0          	 Samuel Mendez's death                   	 NO PERPETRATOR                 	 [[Prisoner_1]] cops iced the kid
+1          	 Child abuse and starvation              	 NO PERPETRATOR                 	 [[Robbins]] it 's highly specific for abuse
+1          	 Devon Malton's abuse                    	 Lorna_Tenney                   	 [[Sara]] devon malton , age five , last known residence was a foster home run by a lorna tenney
+1          	 Samuel Mendez's identity question       	 NO PERPETRATOR                 	 [[Mr._Mendez]] i do n't know who that is in there , but it 's not my son
+1          	 Samuel Mendez's beating                 	 NO PERPETRATOR                 	 [[Prisoner_1]] cops iced the kid
+2          	 Samuel Mendez's identity question       	 NO PERPETRATOR                 	 [[Mr._Mendez]] i do n't know who that is in there , but it 's not my son
+2          	 Rubber bin print ID                     	 Phillip_Riley                  	 [[Sofia_Curtis]] your print belongs to an enlisted man private first class phillip riley
+2          	 Gun evidence analysis                   	 NO PERPETRATOR                 	 NO DIALOGUE
+2          	 Samuel Mendez's murder                  	 Vincent_Mendoza                	 [[Warrick]] ... and one suspect -- vincent mendoza ... booked for meth manufacture
+3          	 Sam Mendez's murder                     	 Vincent_Mendoza                	 [[Warrick]] your boot prints were found on the victim 's head
+3          	 Devon Malton's abuse/starvation         	 Darlene_Malton                 	 [[Sara]] dna 's a match to one of your hairs that you left on the body of a little boy
+3          	 Child endangerment case                 	 Darlene_Malton                 	 [[Brass]] where are the boys now ?
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Severed head discovery                  	 NO PERPETRATOR                 	 ( The kid gasps . )
+0          	 Hispanic woman's murder                 	 NO PERPETRATOR                 	 [[Catherine]] and a lot of hatred
+0          	 Vincent Decarlo shooting                	 NO PERPETRATOR                 	 [[Sofia_Curtis]] shot was fired from the wheelchair
+1          	 Veronica Juarez murder                  	 NO PERPETRATOR                 	 [[Det._Sam_Vega]] sinaloa cowboys
+1          	 Veronica's alias investigation          	 NO PERPETRATOR                 	 [[Juanito_Concha_(barback)]] that 's carla
+1          	 Stolen wheelchair case                  	 NO PERPETRATOR                 	 [[Warrick]] we found her wheelchair at a crime scene downtown
+2          	 Veronica Juarez murder                  	 NO PERPETRATOR                 	 [[Elindio_Zapata]] i know nothing about this
+2          	 Tire tread evidence                     	 NO PERPETRATOR                 	 [[Catherine]] she was run over by a toyo open country mt 38-by-15.5-by-18
+2          	 Dax Blanchard shooting                  	 NO PERPETRATOR                 	 [[Sofia_Curtis]] head stamp on the casings was a little unusual
+3          	 Vincent Decarlo murder                  	 Stuart_Manslow                 	 [[Stuart_Manslow]] but i got him good the second one
+3          	 Veronica Juarez murder                  	 Juanito_Concha                 	 [[Juanito_Concha]] i gave it my own twist
+3          	 Veronica's decapitation                 	 Elindio_Zapata                 	 [[Elindio_Zapata]] limpia ... esta puta !
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Tar-encased bodies                      	 NO PERPETRATOR                 	 [[Warrick]] whoever buried her sure had access to a lot of tar
+0          	 Mass grave killings                     	 NO PERPETRATOR                 	 [[Sara]] ten to one , it 's domestic abuse
+0          	 Svetlana's disappearance                	 Andrew_Melton                  	 [[Sara]] or got buried a few feet under it
+1          	 Svetlana's murder                       	 Ken Wellstone                  	 [[Warrick]] ken still could have done it
+2          	 Svetlana's murder                       	 Ken Wellstone                  	 [[Warrick]] ken still could have done it
+2          	 Svetlana's murder                       	 Andrew_Melton                  	 [[Catherine]] svetlana 's blood was on the necklace worn by andrew melton 's current child bride
+2          	 Double homicide (Curly Sue & Flat Sally)	 Chloe_Daniels Vlad             	 [[Catherine]] the only people with full access to the salon are chloe and vlad
+3          	 Tar-covered bodies disposal             	 Vlad                           	 [[Vlad]] in russia , i work for certain family
+3          	 Svetlana's murder                       	 Andrew_Melton                  	 [[Andrew_Melton]] she never appreciated me
+3          	 Previous tar burial                     	 Vlad                           	 [[Vlad]] many girls want american husband
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Martha Krell's murder                   	 NO PERPETRATOR                 	 [[Brass]] apparently , she was stabbed to death
+0          	 Ty Hawkins' death                       	 NO PERPETRATOR                 	 [[Det._Chris_Cavaliere]] victim 's in the bedroom
+1          	 Martha Krell's murder                   	 NO PERPETRATOR                 	 [[Robbins]] ms krell was violently stabbed to death
+1          	 Ty Hawkins' death                       	 NO PERPETRATOR                 	 [[Det._Chris_Cavaliere]] victim 's in the bedroom
+1          	 Serial rape case                        	 NO PERPETRATOR                 	 [[Mia_Dickerson]] you are looking at the same rapist
+2          	 Martha Krell's murder                   	 Hayden_Michaels                	 [[Grissom]] so you must have had your vasectomy reversed
+2          	 Serial rape case                        	 Hayden_Michaels                	 [[Mia_Dickerson]] you are looking at the same rapist
+2          	 Ty Hawkins' death                       	 NO PERPETRATOR                 	 [[Nick]] the shoe impression outside ty 's window matches the brother 's
+3          	 Martha Krell's murder                   	 Hayden_Michaels                	 [[Grissom]] subsequent victim had similar characteristics to your first victim
+3          	 Serial rape case                        	 Hayden_Michaels                	 [[Sara]] we have your client on tape
+3          	 Ty Hawkins' death                       	 Matthew_Hawkins                	 [[Matthew_Hawkins]] like i told him , i did it
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Robbie Garson's murder                  	 NO PERPETRATOR                 	 [[Grissom]] nobody mentioned restraints
+0          	 Sexual assault evidence                 	 NO PERPETRATOR                 	 [[Sara]] so the semen that i found on his bed is someone else 's ?
+0          	 Post-mortem assault                     	 Kenny Valdez                   	 NO DIALOGUE
+1          	 Robbie Garson's murder                  	 NO PERPETRATOR                 	 [[Greg]] looks like we have a murder weapon
+1          	 Sexual assault evidence                 	 Adam Trent                     	 [[Sara]] we found adam 's semen in robbie 's bed
+1          	 Mother-son incest                       	 NO PERPETRATOR                 	 [[Valerie_Dino]] mother-son incest is rare and deeply pathological
+2          	 Robbie Garson's murder                  	 Joanne_McKay                   	 [[Sara]] your lipstick is on his underwear
+2          	 Sexual assault evidence                 	 Adam_Trent                     	 [[Sara]] we found adam 's semen in robbie 's bed
+2          	 Post-mortem head trauma                 	 Adam_Trent                     	 [[Adam_Trent]] i took his head and i smashed it into the floor
+3          	 Robbie Garson's murder                  	 Joanne_McKay                   	 [[Sara]] your lipstick is on his underwear
+3          	 Mother-son incest                       	 Joanne_McKay                   	 [[Brass]] your dearest angel
+scene_chunk	 case_summary                            	 perpetrator                    	 evidence_in_dialogue
+0          	 Alice Granger's murder                  	 NO PERPETRATOR                 	 [[Catherine]] maybe she knew her attacker
+1          	 Alice Granger's murder                  	 Jeff_Simon                     	 [[Douglas_Granger]] jeff simon , her ex-boyfriend
+1          	 GPS tracking case                       	 Jeff_Simon                     	 [[Catherine]] he was tracking her car
+2          	 Holly Pearson's murder                  	 Adam_Novak                     	 [[Catherine]] let’s run his prints against this
+2          	 Car break-in theft                      	 NO PERPETRATOR                 	 [[Nick]] somebody could’ve swiped his keycard
+3          	 Alice Granger's murder                  	 Jeff_Simon                     	 [[Jeff_Simon]] (covers Alice's face with her jacket)
+3          	 Holly Pearson's murder                  	 Jeff_Simon                     	 [[Catherine]] you followed her home and worked up the nerve
