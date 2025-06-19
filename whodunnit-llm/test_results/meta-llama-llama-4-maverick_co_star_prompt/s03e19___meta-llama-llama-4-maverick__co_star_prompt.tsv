@@ -1,9 +1,9 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue
-0	Gus Sugarman's murder  NO PERPETRATOR  [[Catherine]] well , what movie did you see this in ?
-0	Timmy McCallum's murder  NO PERPETRATOR  [[Warrick]] there 's casings and blood everywhere
-1	Timmy McCallum's murder  Kevin_McCallum   [[Kevin_McCallum]] i took a sip -- i gave him the rest of the 12-pack
-1	Audrey Hilden's murder  NO PERPETRATOR  [[Catherine]] she may have been killed by someone she knew
-2	Timmy McCallum's murder  Kevin_McCallum   [[Kevin_McCallum]] i ca n't talk about it
-2	Audrey Hilden's murder  Kelly_Goodson   [[Kelly_Goodson]] is it any good ?
-3	Timmy McCallum's murder  NO PERPETRATOR  [[Zachary]] jj found a gun in north town
-3	Audrey Hilden's murder  Kelly_Goodson   [[Grissom]] special recipe
+0	Gus Sugarman's murder	NO PERPETRATOR	[[Catherine]] well , what movie did you see this in ?
+0	Timmy McCallum's murder	NO PERPETRATOR	[[Warrick]] there 's casings and blood everywhere
+1	Timmy McCallum's murder	Kevin_McCallum	[[Kevin_McCallum]] i took a sip -- i gave him the rest of the 12-pack
+1	Audrey Hilden's murder	NO PERPETRATOR	[[Catherine]] she may have been killed by someone she knew
+2	Timmy McCallum's murder	Kevin_McCallum	[[Kevin_McCallum]] i ca n't talk about it
+2	Audrey Hilden's murder	Kelly_Goodson	[[Kelly_Goodson]] is it any good ?
+3	Timmy McCallum's murder	NO PERPETRATOR	[[Zachary]] jj found a gun in north town
+3	Audrey Hilden's murder	Kelly_Goodson	[[Grissom]] special recipe

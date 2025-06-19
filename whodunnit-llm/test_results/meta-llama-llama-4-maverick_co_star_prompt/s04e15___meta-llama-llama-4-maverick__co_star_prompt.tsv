@@ -1,8 +1,8 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue
-0	Murder of Mike Mike's killer [[Laurel_Trent]] She grabs the steering wheel and screams 
-0	Murder of Laurel NO PERPETRATOR [[Robbins]] if you're close enough to stun him, you're close enough to shoot him
-1	Murder of Partner Kyle_Goode   [[Kyle_Goode]] i'd like me for it
-1	Murder of Mike Trent  NO PERPETRATOR  [[Brass]] you know what that means : hit-for-hire
-1	Murder of Laurel Trent  NO PERPETRATOR  [[Brass]] you know what that means : hit-for-hire
-2	NO SUMMARY    NO PERPETRATOR  NO DIALOGUE
-3	Murder of Trent  Kyle_Goode   [[Grissom]] your hatred of trent was stronger than your love for your own child
+0	Murder of Mike	Mike's killer	[[Laurel_Trent]] She grabs the steering wheel and screams 
+0	Murder of Laurel	NO PERPETRATOR	[[Robbins]] if you're close enough to stun him, you're close enough to shoot him
+1	Murder of Partner	Kyle_Goode	[[Kyle_Goode]] i'd like me for it
+1	Murder of Mike Trent	NO PERPETRATOR	[[Brass]] you know what that means : hit-for-hire
+1	Murder of Laurel Trent	NO PERPETRATOR	[[Brass]] you know what that means : hit-for-hire
+2	NO SUMMARY	NO PERPETRATOR	NO DIALOGUE
+3	Murder of Trent	Kyle_Goode	[[Grissom]] your hatred of trent was stronger than your love for your own child

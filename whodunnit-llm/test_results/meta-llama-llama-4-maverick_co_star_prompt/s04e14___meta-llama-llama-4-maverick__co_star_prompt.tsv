@@ -1,13 +1,13 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue
-0	Supermarket shooting    NO PERPETRATOR  [[Brass]] engaged two suspects
+0	Supermarket shooting	NO PERPETRATOR	[[Brass]] engaged two suspects
 0	
-0	Julia Reed's murder  NO PERPETRATOR   [[Brass]] woman at the back is julia reed , cocktail waitress at the tangiers
-0	Rufus Sanders' murder    NO PERPETRATOR  [[Brass]] man on aisle four is rufus sanders , cab driver
-0	Officer Clay's murder   NO PERPETRATOR  [[Brass]] officer clay entered the store unaware of a robbery that was in progress
-1	Officer Clay's murder   Clyde Tremmel  [[Robbins]] officer clay was killed by a single close-range shotgun blast to the back of the head
-1	Officer Clay's murder   Jack Delver    NO DIALOGUE
-1	Rufus Sanders' murder    Jack Delver  [[Robbins]] ... five scattered buckshot perforations on the outer thigh
-1	Julia Reed's murder  Jack Delver   [[Robbins]] single medium-caliber gunshot wound to the left chest
-2	Robbery conspiracy   Todd Hallickey  [[Todd_Hallickey]] i test-drove this old honda accord this guy was trying to unload
-3	Robbery conspiracy Todd Hallickey [[Todd_Hallickey]] look , you want to pin that car on me , you go ahead and try
-3	Robbery conspiracy Raul Valdez [[Nick]] he clocked in for work that night
+0	Julia Reed's murder	NO PERPETRATOR	[[Brass]] woman at the back is julia reed , cocktail waitress at the tangiers
+0	Rufus Sanders' murder	NO PERPETRATOR	[[Brass]] man on aisle four is rufus sanders , cab driver
+0	Officer Clay's murder	NO PERPETRATOR	[[Brass]] officer clay entered the store unaware of a robbery that was in progress
+1	Officer Clay's murder	Clyde Tremmel	[[Robbins]] officer clay was killed by a single close-range shotgun blast to the back of the head
+1	Officer Clay's murder	Jack Delver	NO DIALOGUE
+1	Rufus Sanders' murder	Jack Delver	[[Robbins]] ... five scattered buckshot perforations on the outer thigh
+1	Julia Reed's murder	Jack Delver	[[Robbins]] single medium-caliber gunshot wound to the left chest
+2	Robbery conspiracy	Todd Hallickey	[[Todd_Hallickey]] i test-drove this old honda accord this guy was trying to unload
+3	Robbery conspiracy	Todd Hallickey	[[Todd_Hallickey]] look , you want to pin that car on me , you go ahead and try
+3	Robbery conspiracy	Raul Valdez	[[Nick]] he clocked in for work that night

@@ -1,12 +1,12 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue
-0	Car accident case  NO PERPETRATOR  [[Truck_Driver]] you can breathalize me all you want , but the broad came right at me
-0	Raccoon man's murder  NO PERPETRATOR  [[Grissom]] his suit 's not bulletproof
-0	Freezer death case  NO PERPETRATOR  NO DIALOGUE
-1	Raccoon man's identity  Robert Pitt  [[Warrick]] robert pitt
-1	Freezer murder case  NO PERPETRATOR  [[George_Bartell]] he shot al
-1	George's abduction  NO PERPETRATOR  [[George_Bartell]] i was blindfolded , shoved into the trunk of some car and , uh , drove around for almost an hour
-2	Raccoon case NO PERPETRATOR [[Catherine]] civet oil and ipecac
-2	Freezer murder case George Bartell [[Sara]] george , i 'm afraid you and your pants are going to be here for a while
-2	Car painting case NO PERPETRATOR [[David_Hodges]] bright blue house paint
-3	Freezer murder case  Virgil  [[Virgil]] i should have shot you in that freezer
-3	Car accident case  Ranger  [[Ranger]] took care of it
+0	Car accident case	NO PERPETRATOR	[[Truck_Driver]] you can breathalize me all you want , but the broad came right at me
+0	Raccoon man's murder	NO PERPETRATOR	[[Grissom]] his suit 's not bulletproof
+0	Freezer death case	NO PERPETRATOR	NO DIALOGUE
+1	Raccoon man's identity	Robert Pitt	[[Warrick]] robert pitt
+1	Freezer murder case	NO PERPETRATOR	[[George_Bartell]] he shot al
+1	George's abduction	NO PERPETRATOR	[[George_Bartell]] i was blindfolded , shoved into the trunk of some car and , uh , drove around for almost an hour
+2	Raccoon case	NO PERPETRATOR	[[Catherine]] civet oil and ipecac
+2	Freezer murder case	George Bartell	[[Sara]] george , i 'm afraid you and your pants are going to be here for a while
+2	Car painting case	NO PERPETRATOR	[[David_Hodges]] bright blue house paint
+3	Freezer murder case	Virgil	[[Virgil]] i should have shot you in that freezer
+3	Car accident case	Ranger	[[Ranger]] took care of it

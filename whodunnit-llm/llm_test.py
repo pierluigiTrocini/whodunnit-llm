@@ -150,11 +150,11 @@ def test_openrouter(
 if __name__ == '__main__':
     loggingConfig()
 
-    for filename in sorted(os.listdir(SCENE_LEVEL_N_ASPECTS))[33:]:
+    for filename in sorted(os.listdir(SCENE_LEVEL_N_ASPECTS))[2:]:
         test_openrouter(
             episode = Episode(filename = str(filename)),
             platform = Platform.OPENROUTER_AI_API,
-            model = OPENROUTER__GPT_4_1_MINI,
+            model = OPENROUTER__LLAMA_4_MAVERICK,
             system_instruction = CO_STAR_INSTRUCTION,
             write_on_output_file = True,
             time_sleep = 5,

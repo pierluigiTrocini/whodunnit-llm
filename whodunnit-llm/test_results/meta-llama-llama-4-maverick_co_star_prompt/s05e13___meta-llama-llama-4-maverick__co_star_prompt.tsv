@@ -1,9 +1,9 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue
 0	Here are the cases identified in the given screenplay chunks, formatted as per the required TSV style:
 0	
-0	Murder case    Andrew_Melton   [[Sara]] or got buried a few feet under it
-0	Jane Doe's murder    NO PERPETRATOR   [[Catherine]] well , doc robbins told me that she had severe trauma to the skull , probably what killed her
-0	Svetlana's murder    NO PERPETRATOR   [[Sara]] or got buried a few feet under it
+0	Murder case	Andrew_Melton	[[Sara]] or got buried a few feet under it
+0	Jane Doe's murder	NO PERPETRATOR	[[Catherine]] well , doc robbins told me that she had severe trauma to the skull , probably what killed her
+0	Svetlana's murder	NO PERPETRATOR	[[Sara]] or got buried a few feet under it
 0	
 0	Here's a brief explanation for each case:
 0	
@@ -19,7 +19,7 @@ scene_chunk	case_summary	perpetrator	evidence_in_dialogue
 0	```
 1	Here are the cases identified in the given screenplay chunks, formatted as per the required TSV style:
 1	
-1	Svetlana's murder    Ken Wellstone   [[Chloe_Daniels]] ken wellstone
+1	Svetlana's murder	Ken Wellstone	[[Chloe_Daniels]] ken wellstone
 1	
 1	Here's a brief explanation for the case:
 1	
@@ -32,7 +32,7 @@ scene_chunk	case_summary	perpetrator	evidence_in_dialogue
 1	```
 2	Here are the cases identified in the given screenplay chunks, formatted as per the required TSV style:
 2	
-2	Svetlana's murder    Andrew_Melton   [[Warrick]] he beat her , killed her and took back the only thing he valued
+2	Svetlana's murder	Andrew_Melton	[[Warrick]] he beat her , killed her and took back the only thing he valued
 2	
 2	Here's a brief explanation for the case:
 2	
@@ -45,8 +45,8 @@ scene_chunk	case_summary	perpetrator	evidence_in_dialogue
 2	```
 3	Here are the cases identified in the given screenplay chunks, formatted as per the required TSV style:
 3	
-3	Svetlana's murder    Andrew_Melton   [[Andrew_Melton]] is that what you want ?
-3	Burying bodies    Vlad   [[Vlad]] girl already dead
+3	Svetlana's murder	Andrew_Melton	[[Andrew_Melton]] is that what you want ?
+3	Burying bodies	Vlad	[[Vlad]] girl already dead
 3	
 3	Here's a brief explanation for each case:
 3	
