@@ -91,7 +91,7 @@ Screenplay chunk:
 [[Alice_Foo]] Yes, I did!
 
 Response:
-Bob's murder    Alice_Foo   [[Alice_Foo]] Yes, I did!
+Bob's murder	Alice_Foo	[[Alice_Foo]] Yes, I did!
 
 Screenplay chunk:
 [[Detecive]] Alice killed Bob, and Derek killed Sarah!
@@ -99,13 +99,13 @@ Screenplay chunk:
 [[Derek_Baz]] I want a lawyer!
 
 Response:
-Bob's murder    Alice_Foo   [[Alice_Foo]] Yeah, I confess!
-Sarah's murder  Derek_Baz   [[Derek_Baz]] I want a lawyer!
+Bob's murder	Alice_Foo	[[Alice_Foo]] Yeah, I confess!
+Sarah's murder	Derek_Baz	[[Derek_Baz]] I want a lawyer!
 
 ##############
 """
 
-INSTRUCTION = """
+OPEN_AI_GUIDELINES_INSTRUCTION = """
 # Identity
 You are a forensic specialist that solves crime cases.
 Your task is to analyze provided screenplay chunks and solve the cases.
@@ -116,26 +116,26 @@ A screenplay could have 1 up to 2 cases. For each case, provide:
 2. The name of the perpetrator, or 'no perpetrator' if none ca be identified.
 3. Provide exactly one line of dialogue that supports your determination of the perpetrator, or 'no dialogue' if none can be identified.
 
-Format each case response as:
-<case_summary>, <perpetrator>, <
+Follow the TSV style. Format each case response as:
+<case_summary>	<perpetrator>	<dialogue>
 
 # Examples
 ## Single case example:
 
 Input:
-[[Detective]] Alice, you killed Bob  
-[[Alice]] Yes, I did.  
+[[Detective]] Alice, you killed Bob
+[[Alice_Foo]] Yes, I did!
 
-Response:  
-Bob's murder, alice, [[Alice]] Yes, I did
+Response:
+Bob's murder    Alice_Foo   [[Alice_Foo]] Yes, I did!
 
 ## Multiple cases example:
 Input:
-[[Detective]] Alice killed Bob, and Derek killed Sarah!  
-[[Alice]] Yeah, I confess!
-[[Derek]] I'm a monster!
+[[Detecive]] Alice killed Bob, and Derek killed Sarah!
+[[Alice_Foo]] Yeah, I confess!
+[[Derek_Baz]] I want a lawyer!
 
-Response:  
-Bob's murder, alice, [[Alice]] Yeah, I confess!
-Sarah's murder, derek, [[Derek]] I'm a monster!
+Response:
+Bob's murder	Alice_Foo	[[Alice_Foo]] Yeah, I confess!
+Sarah's murder	Derek_Baz	[[Derek_Baz]] I want a lawyer!
 """.strip()

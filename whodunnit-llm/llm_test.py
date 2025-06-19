@@ -84,7 +84,7 @@ def test_openrouter(
         n_scene_chunks: int = 4,
         platform: Platform = Platform.OPENROUTER_AI_API,
         model: str = OPENROUTER__GPT_4O_MINI,
-        system_instruction: str = INSTRUCTION,
+        system_instruction: str = OPEN_AI_GUIDELINES_INSTRUCTION,
         write_on_output_file: bool = False,
         comment_output_file: str = '',
         time_sleep: int = 0):
@@ -150,14 +150,15 @@ def test_openrouter(
 if __name__ == '__main__':
     loggingConfig()
 
-    for filename in sorted(os.listdir(SCENE_LEVEL_N_ASPECTS))[2:]:
+
+    for filename in sorted(os.listdir(SCENE_LEVEL_N_ASPECTS)):
         test_openrouter(
             episode = Episode(filename = str(filename)),
             platform = Platform.OPENROUTER_AI_API,
-            model = OPENROUTER__LLAMA_4_MAVERICK,
-            system_instruction = CO_STAR_INSTRUCTION,
+            model = OPENROUTER__GPT_4_1_MINI,
+            system_instruction = OPEN_AI_GUIDELINES_INSTRUCTION,
             write_on_output_file = True,
             time_sleep = 5,
 
-            comment_output_file='co_star_prompt'
+            comment_output_file='open_ai_guidelines_format'
         )

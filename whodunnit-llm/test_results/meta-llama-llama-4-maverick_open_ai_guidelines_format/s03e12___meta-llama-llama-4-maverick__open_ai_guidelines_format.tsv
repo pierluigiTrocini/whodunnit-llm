@@ -1,0 +1,8 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue
+0	heart attack case	Daniel_Easton	[[Daniel_Easton]] no
+0	artificial disc murder	Catherine	'no dialogue' is not applicable here as there is a second case; however the correct response is: amy ennis is not the perpetrator, but the victim. The correct case is: Daniel Easton's wife murder. The correct response is: wife's murder	Daniel_Easton	[[Daniel_Easton]] no
+1	Fred's murder	Marty_Gibson	[[Grissom]] i think maybe it 's time to open a relationship with marty gibson
+1	amy ennis murder	Daniel_Easton	[[Daniel_Easton]] no
+2	Fred's murder	Marty_Gibson[[Marty_Gibson]] you want anything ?
+2	amy ennis murder	Daniel_Easton[[Daniel_Easton]] no
+3	kelly's murder	Nora_Easton	[[Nora_Easton]] i do what needs to be done
