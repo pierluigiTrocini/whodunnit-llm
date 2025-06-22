@@ -6,6 +6,8 @@ from perpetrators import PERPETRATORS
 import csv
 
 import matplotlib.pyplot as plt
+import statistics
+import numpy
 
 co_star_prompt_result_folders = [
     f'{RESULTS_PATH}deepseek-deepseek-r1_co_star_prompt/',
@@ -21,14 +23,11 @@ open_ai_guidelines_result_folders = [
     f'{RESULTS_PATH}openai-gpt-4-1-mini_open_ai_guidelines_format/',
 ]
 
-# perpetrators = ', '.join(PERPETRATORS[episode]).split(', ')
 
-
-if __name__ == '__main__':
+def validation(folder: str, plot_title: str):
     total_perpetrators = sum([len(', '.join(PERPETRATORS[k]).split(', ')) for k in PERPETRATORS.keys()])
     data: dict = {}
-
-    for model_results in co_star_prompt_result_folders:
+    for model_results in folder:
         total_perpetrators_identified = 0
 
         model = re.match(pattern = r'.+\/(.+)_(co_star_prompt\/|open_ai_guidelines_format\/)', string = str(model_results)).group(1)
@@ -55,17 +54,45 @@ if __name__ == '__main__':
             
         data[model] = total_perpetrators_identified
         print(f'model: {model} | {total_perpetrators_identified}')
+
+    models = list(data.keys())
+    values = list(data.values())
+    mean_value = statistics.mean(values)
+    models_with_mean = models + ['Average']
+    values_with_mean = values + [mean_value]
+
+    # Genera una lista di colori in toni di grigio per ogni modello, la media sarà arancione
+    greys = plt.cm.Greys(numpy.linspace(0.4, 0.85, len(models)))
+    colors = list(greys) + ['tab:grey']
+
+    fig, ax = plt.subplots(figsize=(10, 6))
+    bars = ax.bar(models_with_mean, values_with_mean, color=colors)
+
+    # Evidenzia la barra della media
+    bars[-1].set_hatch('//')
+
+    # Etichette e titolo
+    ax.set_ylabel('Perpetrators Identified')
+    ax.set_title(plot_title)
+    ax.set_ylim(0, max(values_with_mean) + 2)
+
+    # Ruota i label per evitare sovrapposizioni
+    plt.xticks(rotation=30, ha='right')
+
+    # Mostra il valore sopra ogni barra
+    for bar in bars:
+        height = bar.get_height()
+        ax.annotate(f'{int(height)}',
+                    xy=(bar.get_x() + bar.get_width() / 2, height),
+                    xytext=(0, 3),  # 3 points vertical offset
+                    textcoords="offset points",
+                    ha='center', va='bottom', fontsize=9)
+
+    plt.tight_layout()
+    plt.savefig(plot_title)
+
     
-    fig, ax = plt.subplots()
-    ax.bar(
-        x = sorted(data.keys()),
-        height = [data[k] for k in sorted(data.keys())],
-        color = plt.colormaps['Greys'](range(50, 256, int(205/len(data)))),
-        label = sorted(data.keys())
-    )
 
-    ax.set_ylabel("# perpetrators identified")
-    ax.set_title("Perpetrators identified (CO_STAR prompt)")
-    ax.legend(title = 'Model')
-
-    plt.show()
+if __name__ == '__main__':
+    validation(folder = co_star_prompt_result_folders, plot_title = "Perpetrators identified (CO_STAR prompt)")
+    validation(folder = open_ai_guidelines_result_folders, plot_title = "Perpetrators identified (OpenAI guidelines prompt)")
