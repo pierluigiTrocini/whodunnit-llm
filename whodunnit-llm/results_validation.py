@@ -54,11 +54,13 @@ if __name__ == '__main__':
                     total_perpetrators_identified += 1
             
         data[model] = total_perpetrators_identified
+        print(f'model: {model} | {total_perpetrators_identified}')
     
     fig, ax = plt.subplots()
     ax.bar(
         x = sorted(data.keys()),
-        height = sorted(data.values()),
+        height = [data[k] for k in sorted(data.keys())],
+        color = plt.colormaps['Greys'](range(50, 256, int(205/len(data)))),
         label = sorted(data.keys())
     )
 
@@ -67,16 +69,3 @@ if __name__ == '__main__':
     ax.legend(title = 'Model')
 
     plt.show()
-
-
-        
-
-                
-        
-        
-        
-
-    # for folder in result_folders:
-    #     for episode in sorted(os.listdir(folder)):
-    #         ep = re.match(pattern = r'(s\d+e\d+).+', string = episode).group(1)
-    #         print(ep)
