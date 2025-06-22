@@ -8,7 +8,7 @@ PERPETRATORS: dict = {
     "s02e01" : ["Bonnie_Ritten, Walt_Braun"],
     "s02e04" : ["Julia_Barett", "Manager_Of_Romanini's"],
     "s02e06" : ["Roger_Jennings", "Tina_Kolas"],
-    "s02e09" : ["Officer_Spencer, Darin Hanson, Tammy_Felton"],
+    "s02e09" : ["Officer_Spencer, Darin_Hanson, Tammy_Felton"],
     "s02e10" : ["Ellie_Brass"],
     "s02e15" : ["Russ_Bradley"],
     "s03e03" : ["Peter_Berglund", "Nicole_Exmoor"],
