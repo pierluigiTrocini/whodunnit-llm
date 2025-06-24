@@ -1,0 +1,13 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
+0	Monica Newman's murder	NO PERPETRATOR	[[Grissom]] gunshot , right temple	NO SOURCE
+0	Cal Newman's murder	NO PERPETRATOR	[[Nick]] male d.b	NO SOURCE
+1	Mandy Kirk's murder	NO PERPETRATOR	[[Lockwood]] mandy kirk	NO SOURCE
+1	Cal Newman's drowning	NO PERPETRATOR	[[Robbins]] no surprise here	NO SOURCE
+1	Monica Newman's murder	NO PERPETRATOR	[[Grissom]] she had help	NO SOURCE
+2	Cal Newman's murder	NO PERPETRATOR	[[Grissom]] anything from the pool ?	NO SOURCE
+2	Chuck Darwell's poisoning	NO PERPETRATOR	[[Sara]] yeah	NO SOURCE
+2	Monica Newman's murder	NO PERPETRATOR	[[Warrick]] yeah	NO SOURCE
+2	Nicole Exmoor's poisoning	NO PERPETRATOR	[[Lockwood]] nicole exmoor , 18	NO SOURCE
+3	Mandy Kirk's murder	Nicole_Exmoor	[[Lockwood]] i 'm placing you under arrest for the murder of amanda kirk	NO SOURCE
+3	Greg's foot rash	NO PERPETRATOR	[[Grissom]] you had a reaction	NO SOURCE
+3	Cal & Monica murders	Jeri_Newman	[[Catherine]] yeah	NO SOURCE

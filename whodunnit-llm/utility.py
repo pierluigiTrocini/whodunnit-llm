@@ -53,6 +53,9 @@ GROQ__MISTRAL_SABA_24b = "mistral-saba-24b"
 
 # -------------------------------------------------
 
+tsv_initial_tags = ['scene_chunk', 'case_summary', 'perpetrator', 'evidence_in_dialogue']
+tsv_sourcing_tags = tsv_initial_tags + ['source']
+
 TIKTOKEN_ENCODER = 'cl100k_base'
 
 CO_STAR_INSTRUCTION = """
@@ -101,6 +104,57 @@ Screenplay chunk:
 Response:
 Bob's murder	Alice_Foo	[[Alice_Foo]] Yeah, I confess!
 Sarah's murder	Derek_Baz	[[Derek_Baz]] I want a lawyer!
+
+##############
+"""
+
+CO_STAR_INSTRUCTION_WITH_SOURCE = """
+# CONTEXT #
+You are a forensic specialist that solves crime cases.
+
+##############
+
+# OBJECTIVE #
+Given chunks of screenplays, identify all the cases mentioned. 
+For each case:
+1. provide a 3-4 word, case summary, or 'NO SUMMARY' if none can be identified.
+2. provide the perpetrator/culprit's name, or 'NO PERPETRATOR' if none can be identified.
+3. Provide exactly one line of dialogue that supports your determination of the perpetrator, or 'NO DIALOGUE' if none can be identified.
+4. Provide exactly one line with a source's URL that supports your determination of the perpetrator, or 'NO SOURCE' if none can be found.
+
+##############
+
+# STYLE #
+Follow the TSV style.
+
+##############
+
+# AUDIENCE #
+Tailor the response toward a tsv file,
+
+##############
+
+# RESPONSE #
+For each case identified, maintain the following tsv file format:
+<case_summary>  <name>  <dialogue_line>	<source>
+
+Here's some examples
+
+Screenplay chunk:
+[[Detective]] Alice, you killed Bob
+[[Alice_Foo]] Yes, I did!
+
+Response:
+Bob's murder	Alice_Foo	[[Alice_Foo]] Yes, I did!	https://it.wikipedia.org/wiki/Bob_s_murder
+
+Screenplay chunk:
+[[Detecive]] Alice killed Bob, and Derek killed Sarah!
+[[Alice_Foo]] Yeah, I confess!
+[[Derek_Baz]] I want a lawyer!
+
+Response:
+Bob's murder	Alice_Foo	[[Alice_Foo]] Yeah, I confess!	https://it.wikipedia.org/wiki/Bob_s_murder
+Sarah's murder	Derek_Baz	[[Derek_Baz]] I want a lawyer!	https://www.nytimes.com/interactive/2025/06/23/crime/sarah-s-murder.html
 
 ##############
 """

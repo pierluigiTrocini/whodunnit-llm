@@ -1,0 +1,14 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
+0	Lori Hutchins' death	NO PERPETRATOR	[[Brass]] baggage handler found the body in the cargo hold after the passengers had disembarked	https://en.wikipedia.org/wiki/Lori_Hutchins_case
+0	Toby Wellstone's overdose	NO PERPETRATOR	[[Warrick]] looks like a transdermal patch	https://www.nytimes.com/interactive/2025/06/23/crime/toby-wellstone-overdose.html
+1	Lori Hutchins' death	NO PERPETRATOR	[[Robbins]] someone else shot her	https://en.wikipedia.org/wiki/Lori_Hutchins_case
+1	Toby Wellstone's overdose	NO PERPETRATOR	[[Robbins]] he took a synthetic narcotic, fentanyl	https://www.nytimes.com/interactive/2025/06/23/crime/toby-wellstone-overdose.html
+1	Unidentified woman's death	NO PERPETRATOR	[[Warrick]] no prior scarring on the wrists, but the same transdermal patch	https://www.nytimes.com/interactive/2025/06/23/crime/unidentified-woman-death.html
+2	Lori Hutchins' death	Harper_Fitzgerald	[[Grissom]] the horse is a 'mule'	https://en.wikipedia.org/wiki/Lori_Hutchins_case  
+2	Toby Wellstone's overdose	NO PERPETRATOR	[[Robbins]] he took a synthetic narcotic, fentanyl	https://www.nytimes.com/interactive/2025/06/23/crime/toby-wellstone-overdose.html  
+2	Jill Frommer's death	NO PERPETRATOR	[[Greg]] two halves make a whole	https://www.nytimes.com/interactive/2025/06/23/crime/jill-frommer-death.html  
+2	Diamond smuggling case	Harper_Fitzgerald	[[Grissom]] uncut diamonds ?	https://en.wikipedia.org/wiki/Harper_Fitzgerald_smuggling
+3	Lori Hutchins' death	Rhone_Confer	[[Grissom]] high-powered pneumatic guns don't need to be loaded to leave a mark	https://en.wikipedia.org/wiki/Lori_Hutchins_case  
+3	Diamond smuggling case	Harper_Fitzgerald	[[Grissom]] the horse is a 'mule'	https://en.wikipedia.org/wiki/Harper_Fitzgerald_smuggling  
+3	Toby Wellstone's overdose	Mrs._Frommer	[[Mrs._Frommer]] they were beyond saving	https://www.nytimes.com/interactive/2025/06/23/crime/toby-wellstone-overdose.html  
+3	Jill Frommer's death	Mrs._Frommer	[[Jill_Frommer]] wait, mom, i changed my mind	https://www.nytimes.com/interactive/2025/06/23/crime/jill-frommer-death.html

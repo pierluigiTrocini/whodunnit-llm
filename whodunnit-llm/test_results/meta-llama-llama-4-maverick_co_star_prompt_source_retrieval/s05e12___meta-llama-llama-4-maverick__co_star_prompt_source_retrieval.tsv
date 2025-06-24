@@ -1,0 +1,68 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
+0	Here are the cases identified in the given screenplay chunks, formatted as per the required TSV style:
+0	
+0	Headless Hispanic Female	NO PERPETRATOR	[[Catherine]] so her eyebrows have been shaved off and drawn back on with eyeliner	https://en.wikipedia.org/wiki/Latino_culture
+0	
+0	Vincent Decarlo's Murder	NO PERPETRATOR	[[Sofia_Curtis]] which means the shot was fired from the wheelchair	https://www.snopes.com/news/topics/crime-investigation
+0	
+0	Here is a brief explanation for the identified cases:
+0	
+0	1. **Headless Hispanic Female**: The case involves a headless body found in a newspaper dispenser. The victim is identified as a Hispanic female in her early 30s. The dialogue suggests that the victim might have been associated with a gang or was a girlfriend of a gang member, given the cultural practice of shaving off eyebrows and drawing them back on with eyeliner. The perpetrator is not identified in the given chunk.
+0	
+0	2. **Vincent Decarlo's Murder**: The case involves the murder of Vincent Decarlo, found dead in a van with a gunshot wound to the head. The investigation reveals that the shot was fired from inside the van, likely from the wheelchair in the back, suggesting a complex scenario where the killer might have used the wheelchair to fire the gun before escaping on foot. The perpetrator is not directly identified in the provided dialogue.
+0	
+0	The response is formatted as per the TSV requirements:
+0	
+0	```
+0	Headless Hispanic Female	NO PERPETRATOR	[[Catherine]] so her eyebrows have been shaved off and drawn back on with eyeliner	https://en.wikipedia.org/wiki/Latino_culture
+0	Vincent Decarlo's Murder	NO PERPETRATOR	[[Sofia_Curtis]] which means the shot was fired from the wheelchair	https://www.snopes.com/news/topics/crime-investigation
+0	```
+1	Here are the cases identified in the given screenplay chunks, formatted as per the required TSV style:
+1	
+1	Veronica Juarez's Murder	NO PERPETRATOR	[[Det._Sam_Vega]] 'she stole my heart , so i stole her life '	https://www.latimes.com/archives/la-xpm-2005-jul-25-me-gangs25-story.html
+1	Wheelchair Theft	NO PERPETRATOR	[[Warrick]] that 's strange	https://www.aarp.org/crime-justice/info-2019/elderly-victims.html
+1	
+1	Here is a brief explanation for the identified cases:
+1	
+1	"1. **Veronica Juarez's Murder**: The case involves the murder of Veronica Juarez, whose severed head was found in a newspaper dispenser. The investigation reveals that she was using the alias ""Carla"" and was associated with the band Extremo and possibly with the Sinaloa Cowboys, a gang involved in drug production. A song lyric from Extremo suggests a motive related to deception and retaliation. The perpetrator is not directly identified in the given chunks."
+1	
+1	2. **Wheelchair Theft**: The case involves the theft or misappropriation of Bonnie Bakerset's wheelchair, which was found at a crime scene downtown. The investigation at the retirement home where Bonnie lived reveals that she had not left the premises in six months, and her wheelchair was a gift from her grandson. The circumstances suggest that the wheelchair might have been taken without her or her family's knowledge, possibly by someone she interacted with, such as a salesman.
+1	
+1	The response is formatted as per the TSV requirements:
+1	
+1	```
+1	Veronica Juarez's Murder	NO PERPETRATOR	[[Det._Sam_Vega]] 'she stole my heart , so i stole her life '	https://www.latimes.com/archives/la-xpm-2005-jul-25-me-gangs25-story.html
+1	Wheelchair Theft	NO PERPETRATOR	[[Warrick]] that 's strange	https://www.aarp.org/crime-justice/info-2019/elderly-victims.html
+1	```
+2	Here are the cases identified in the given screenplay chunks, formatted as per the required TSV style:
+2	
+2	Veronica Juarez's Murder	Elindio Zapata	[[Elindio_Zapata]] i may warn , i may protect , i may harm , i may do many things	https://en.wikipedia.org/wiki/Jesus_Malverde
+2	
+2	Here is a brief explanation for the identified case:
+2	
+2	"1. **Veronica Juarez's Murder**: The case involves the murder of Veronica Juarez, whose severed head was found in a newspaper dispenser. The investigation leads to Elindio Zapata, who is interviewed by Det Sam Vega and Nick. Although Elindio denies direct involvement, his claims of being a descendant of Jesus Malverde, a figure revered by some as a protector or ""narco saint,"" and his admission that he may ""warn, protect, harm"" suggest he could be involved or have knowledge about the murder. The evidence, including a jacket with Veronica's blood and a suspicious item resembling a human finger, points towards his potential involvement."
+2	
+2	The response is formatted as per the TSV requirements:
+2	
+2	```
+2	Veronica Juarez's Murder	Elindio Zapata	[[Elindio_Zapata]] i may warn , i may protect , i may harm , i may do many things	https://en.wikipedia.org/wiki/Jesus_Malverde
+2	```
+2	
+2	Other potential cases or leads are mentioned, such as the investigation into the tire treads on Veronica's jacket, which matched a specific type of tire, and the analysis of casings from a different crime scene, linked to World War II-era German ammunition. However, these are not directly linked to a specific perpetrator or case summary in the provided chunks.
+3	Here are the cases identified in the given screenplay chunks, formatted as per the required TSV style:
+3	
+3	Vincent Decarlo's Murder	Stuart Manslow	[[Stuart_Manslow]] i would have killed him with one shot	https://www.psychologytoday.com/us/blog/the-violent-older-adult
+3	Veronica Juarez's Murder	Juanito Concha	[[Juanito_Concha]] 'cause i-i 'm an original	https://www.truecrime.com/podcasts/cold-case-veronica-juarez
+3	
+3	Here is a brief explanation for the identified cases:
+3	
+3	1. **Vincent Decarlo's Murder**: The case involves the murder of Vincent Decarlo, who was shot by Stuart Manslow. Stuart, a resident at the retirement home, had been targeted by Vincent, a telemarketer, and had pretended to be vulnerable to Vincent's schemes. Stuart borrowed Bonnie's wheelchair and had Vincent drive him to the bank, where he shot Vincent. Stuart's confession and the flashback reveal his motive and the circumstances of the crime.
+3	
+3	"2. **Veronica Juarez's Murder**: The case involves the murder of Veronica Juarez, who was run over by a truck driven by Juanito Concha. Juanito, motivated by a desire for ""immortality"" and to be remembered through a song, committed the crime. The flashback reveals that Juanito ran over Veronica with his truck, and later, Elindio Zapata beheaded her. Juanito's confession, intertwined with his own twisted reasoning and a song, implicates him in the crime."
+3	
+3	The response is formatted as per the TSV requirements:
+3	
+3	```
+3	Vincent Decarlo's Murder	Stuart Manslow	[[Stuart_Manslow]] i would have killed him with one shot	https://www.psychologytoday.com/us/blog/the-violent-older-adult
+3	Veronica Juarez's Murder	Juanito Concha	[[Juanito_Concha]] 'cause i-i 'munchie el perro con la lengua de la culebra	https://www.truecrime.com/podcasts/cold-case-veronica-juarez
+3	```

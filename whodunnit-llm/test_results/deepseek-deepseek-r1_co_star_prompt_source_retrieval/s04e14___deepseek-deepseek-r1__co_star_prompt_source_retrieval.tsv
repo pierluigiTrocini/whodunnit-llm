@@ -1,0 +1,17 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
+0	Supermarket robbery	NO PERPETRATOR	[[Grissom]] officer clay entered the store unaware of a robbery that was in progress	NO SOURCE
+0	Julia Reed's death	NO PERPETRATOR	[[Brass]] woman at the back is julia reed, cocktail waitress at the tangiers	NO SOURCE
+0	Rufus Sanders' death	NO PERPETRATOR	[[Brass]] man on aisle four is rufus sanders, cab driver	NO SOURCE
+0	Officer Clay shooting	NO PERPETRATOR	[[Brass]] officer clay entered the store unaware of a robbery that was in progress	NO SOURCE
+1	Supermarket robbery	Clyde Tremmel	[[Robbins]] officer clay was killed by a single close-range shotgun blast to the back of the head	NO SOURCE
+1	Supermarket robbery	Jack Delver	[[Robbins]] two distant-range, medium-caliber gunshot wounds to the front of the chest, with penetration of the lung and heart	NO SOURCE
+1	Julia Reed's death	NO PERPETRATOR	[[Robbins]] julia reed, cocktail waitress... single medium-caliber gunshot wound to the left chest	NO SOURCE
+1	Rufus Sanders' death	NO PERPETRATOR	[[Robbins]] rufus sanders, bystander... one distant-range, medium-caliber gunshot wound to the forehead	NO SOURCE
+1	Officer Clay shooting	Clyde Tremmel	[[Robbins]] officer clay was killed by a single close-range shotgun blast to the back of the head	NO SOURCE
+2	Stolen Honda Accord	Todd_Hallickey	[[Brass]] we matched your prints from a stolen car off the prints from a prior car theft	NO SOURCE  
+2	Supermarket robbery getaway	Clyde Tremmel	[[Brass]] this car was reported stolen about... three weeks ago	NO SOURCE  
+2	Supermarket robbery getaway	Jack Delver	[[Brass]] before the robbery went down, somebody at the store was very eager to talk to our suspects	NO SOURCE
+3	Supermarket robbery	Todd_Hallickey	[[Brass]] you know what sodium hydroxide is?... it's the active ingredient in drain cleaner	NO SOURCE  
+3	Stolen car connection	Todd_Hallickey	[[Brass]] we matched your prints from a stolen car off the prints from a prior car theft	NO SOURCE  
+3	Bullet wound evidence	Todd_Hallickey	[[Warrick]] i got this off the jacket from your apartment... it's a bullet wipe	NO SOURCE  
+3	Inside accomplice	Raul_Valdez	[[Nick]] he clocked in for work that night... never clocked out	NO SOURCE

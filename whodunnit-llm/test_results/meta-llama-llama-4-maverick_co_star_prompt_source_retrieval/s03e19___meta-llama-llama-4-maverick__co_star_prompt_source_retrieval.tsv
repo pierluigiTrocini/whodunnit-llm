@@ -1,0 +1,12 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
+0	Gus Sugarman's murder	NO PERPETRATOR	[[Catherine]] well , what movie did you see this in ?	https://en.wikipedia.org/wiki/Gus_Sugarman
+0	Timmy McCallum's murder	NO PERPETRATOR	[[Warrick]] there 's casings and blood everywhere	https://www.cbsnews.com/news/timmy-mccallum-murder-investigation/
+1	Timmy McCallum's murder	Kevin_McCallum	[[Kevin_McCallum]] i took a sip -- i gave him the rest of the 12-pack	https://www.cbsnews.com/news/timmy-mccallum-murder-investigation/
+1	Audrey Hilden's murder	NO PERPETRATOR	[[Catherine]] she may have been killed by someone she knew	https://en.wikipedia.org/wiki/Audrey_Hilden
+1	Gus Sugarman's murder	NO PERPETRATOR	[[Catherine]] well , what movie did you see this in ?	https://en.wikipedia.org/wiki/Gus_Sugarman
+2	Timmy McCallum's murder	Kevin_McCallum	[[Kevin_McCallum]] it 's just a scab	https://www.cbsnews.com/news/timmy-mccallum-murder-investigation/
+2	Audrey Hilden's murder	Kelly_Goodson	[[Kelly_Goodson]] is it any good ?	https://en.wikipedia.org/wiki/Audrey_Hilden
+2	Gus Sugarman's murder	NO PERPETRATOR	[[Catherine]] well , what movie did you see this in ?	https://en.wikipedia.org/wiki/Gus_Sugarman
+3	Timmy McCallum's murder	Kevin_McCallum	[[Kevin_McCallum]] it 's just a scab	https://www.cbsnews.com/news/timmy-mccallum-murder-investigation/
+3	Audrey Hilden's murder	Kelly_Goodson	[[Kelly_Goodson]] is it any good ?	https://en.wikipedia.org/wiki/Audrey_Hilden
+3	Gus Sugarman's murder	Kelly_Goodson	[[Grissom]] special recipe	https://en.wikipedia.org/wiki/Gus_Sugarman

@@ -1,0 +1,34 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
+0	Strip Strangler Case	NO PERPETRATOR	NO DIALOGUE	NO SOURCE
+0	Eileen Snow's murder	NO PERPETRATOR	NO DIALOGUE	NO SOURCE
+0	
+0	Here is the response in the required TSV format:
+0	
+0	Strip Strangler Case	NO PERPETRATOR	NO DIALOGUE	NO SOURCE
+0	Eileen Snow's murder	NO PERPETRATOR	NO DIALOGUE	NO SOURCE
+0	
+0	However, to better follow the format and provide a more detailed response:
+0	
+0	Serial Killings	NO PERPETRATOR	[[Agent_Rick_Culpepper]] he strangles them near las vegas boulevard then removes their clothes	https://en.wikipedia.org/wiki/CSI:_Crime_Scene_Investigation_(season_1)
+0	Eileen Snow Murder	NO PERPETRATOR	[[Dr._Albert_Robbins]] trauma to the head with a blunt object	https://en.wikipedia.org/wiki/CSI:_Crime_Scene_Investigation_(season_1)
+1	Here is the response in the required TSV format:
+1	
+1	Victim's murder	Brad Walden	[[Grissom]] suspect	https://en.wikipedia.org/wiki/CSI:_Crime_Scene_Investigation_(season_1)
+1	Strip Strangler Case	NO PERPETRATOR	[[Agent_Rick_Culpepper]] that just means his signature 's evolving is n't that right , grissom ?	https://en.wikipedia.org/wiki/CSI:_Crime_Scene_Investigation_(season_1)
+1	
+1	Let me reformat the response for better readability:
+1	
+1	
+1	Victim's murder	Brad Walden	[[Grissom]] suspect	https://en.wikipedia.org/wiki/CSI:_Crime_Scene_Investigation_(season_1)
+1	Serial Murder	NO PERPETRATOR	[[Agent_Rick_Culpepper]] that just means his signature 's evolving is n't that right , grissom ?	https://en.wikipedia.org/wiki/CSI:_Crime_Scene_Investigation_(season_1)
+2	Here is the response in the required TSV format:
+2	
+2	Strip Strangler Case	NO PERPETRATOR[[Warrick]] all three women went to strong 's gym once in the last three months	https://en.wikipedia.org/wiki/CSI:_Crime_Scene_Investigation_(season_1)
+2	Eileen Snow's murder	NO PERPETRATOR[[Nick]] yeah , i 'm looking in front of eileen snow 's apartment	https://en.wikipedia.org/wiki/CSI:_Crime_Scene_Investigation_(season_1)
+2	
+2	Let me reformat the response for better readability:
+2	
+2	
+2	Serial Murder	NO PERPETRATOR[[Warrick]] all three women went to strong 's gym once in the last three months	https://en.wikipedia.org/wiki/CSI:_Crime_Scene_Investigation_(season_1)
+2	Eileen Snow Murder	NO PERPETRATOR[[Nick]] yeah , i 'm looking in front of eileen snow 's apartment	https://en.wikipedia.org/wiki/CSI:_Crime_Scene_Investigation_(season_1)
+3	Strip Strangler Case	Syd Goggle	[[Syd_Goggle]] you know , the thing with women ... is they work out because they want us to look at them	https://en.wikipedia.org/wiki/CSI:_Crime_Scene_Investigation_(season_1)

@@ -1,0 +1,56 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
+0	Tony Braun's murder	NO PERPETRATOR	[[Grissom]] if only life were that simple	NO SOURCE
+0	Sam Braun's potential murder	NO PERPETRATOR	NO DIALOGUE	NO SOURCE
+0	
+0	However, upon closer inspection, it appears that Tony Braun's death is likely an overdose rather than a murder. The presence of drug paraphernalia and the conversation between Grissom, Catherine, and Brass suggest an accidental overdose.
+0	
+0	Here's a revised response:
+0	
+0	Tony Braun's overdose	NO PERPETRATOR	[[Grissom]] if only life were that simple	NO SOURCE
+0	
+0	If we still want to consider it as a potential murder case:
+0	
+0	Tony Braun's death	NO PERPETRATOR	[[Grissom]] if only life were that simple	NO SOURCE
+0	
+0	Here is the response in the required TSV format:
+0	
+0	Tony Braun's death	NO PERPETRATOR	[[Grissom]] if only life were that simple	NO SOURCE
+1	Tony Braun's murder	Janine Haywood	[[Grissom]] janine haywood said that she left the house when the drug dealer arrived	NO SOURCE
+1	
+1	Here is the response in the required TSV format:
+1	
+1	Tony Braun's murder	Janine Haywood	[[Grissom]] janine haywood said that she left the house when the drug dealer arrived	https://en.wikipedia.org/wiki/CSI:_Crime_Scene_Investigation_(season_3) 
+1	
+1	However, the source URL is not directly available. If you have the exact episode information, you can look it up.
+1	
+1	Here is the response:
+1	
+1	Tony Braun's murder	Janine Haywood	[[Grissom]] janine haywood said that she left the house when the drug dealer arrived	NO SOURCE
+2	Tony Braun's murder	Janine Haywood	[[Janine_Haywood]] yeah ... heard that before	NO SOURCE
+2	Walt Braun's alibi	NO PERPETRATOR	[[Grissom]] walt braun lied	NO SOURCE
+2	
+2	Here is the response in the required TSV format:
+2	
+2	Tony Braun's murder	Janine Haywood	[[Janine_Haywood]] yeah ... heard that before	NO SOURCE
+2	Walt Braun's deceit	Walt Braun	[[Grissom]] walt braun lied	NO SOURCE
+2	
+2	However, Walt Braun is not a perpetrator in the given context, he is more of a suspect with a deceitful alibi.
+2	
+2	Here is the revised response:
+2	
+2	Tony Braun's murder	Janine Haywood	[[Janine_Haywood]] yeah ... heard that before	NO SOURCE 
+2	
+2	If we consider Walt Braun as a potential suspect for a different crime (e.g., being at the scene of Tony Braun's murder), we could have:
+2	
+2	Tony Braun's murder	Walt Braun	[[Grissom]] walt braun lied	NO SOURCE
+3	Tony Braun's murder	Bonnie Ritten	[[Catherine]] 'hell hath no fury ... '	NO SOURCE
+3	
+3	Here is the response in the required TSV format:
+3	
+3	Tony Braun's murder	Bonnie Ritten	[[Catherine]] 'hell hath no fury ... '	NO SOURCE
+3	
+3	The dialogue line is not a direct quote from Bonnie Ritten, but it is a reference to a common phrase that is often used to describe a woman scorned, which fits Bonnie Ritten's character and situation. 
+3	
+3	A more accurate response would be:
+3	
+3	Tony Braun's murder	Bonnie Ritten	[[Bonnie_Ritten]] i have had it , okay ?	NO SOURCE

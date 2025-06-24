@@ -32,7 +32,7 @@ def loggingConfig():
     logging.getLogger("groq").setLevel(logging.WARNING)
     logging.getLogger("instructor").setLevel(logging.WARNING)
 
-def show_results(filename: str, model_used: str, response: str, comment: str = '', write_on_file: bool = False):
+def show_results(filename: str, model_used: str, response: str, comment: str = '', tsv_tags: list = tsv_initial_tags, write_on_file: bool = False):
     if response == '' or response == None:
         logging.warning("no response as output")
         return
@@ -57,7 +57,7 @@ def show_results(filename: str, model_used: str, response: str, comment: str = '
 
         if not any(csv_reader):
             if write_on_file:
-                csv_writer.writerow(['scene_chunk', 'case_summary', 'perpetrator', 'evidence_in_dialogue'])
+                csv_writer.writerow(tsv_tags)
 
         logging.info(f'[llm response]\n{response}\n')
         if write_on_file:
@@ -86,6 +86,7 @@ def test_openrouter(
         model: str = OPENROUTER__GPT_4O_MINI,
         system_instruction: str = OPEN_AI_GUIDELINES_INSTRUCTION,
         write_on_output_file: bool = False,
+        tsv_tags: list = tsv_initial_tags,
         comment_output_file: str = '',
         time_sleep: int = 0):
     if episode == None:
@@ -132,7 +133,8 @@ def test_openrouter(
             model_used = model, 
             response = f'{'\n'.join([f'{i}\t{line}' for line in response.strip().split('\n')])}',
             write_on_file = write_on_output_file,
-            comment = comment_output_file
+            comment = comment_output_file,
+            tsv_tags = tsv_tags
         )
 
         messages.append({"role": "assistant", "content": f'{str(response)}'})
@@ -156,9 +158,9 @@ if __name__ == '__main__':
             episode = Episode(filename = str(filename)),
             platform = Platform.OPENROUTER_AI_API,
             model = OPENROUTER__GPT_4_1_MINI,
-            system_instruction = OPEN_AI_GUIDELINES_INSTRUCTION,
+            system_instruction = CO_STAR_INSTRUCTION_WITH_SOURCE,
             write_on_output_file = True,
-            time_sleep = 5,
+            tsv_tags = tsv_sourcing_tags,
 
-            comment_output_file='open_ai_guidelines_format'
+            comment_output_file='co_star_prompt_source_retrieval'
         )
