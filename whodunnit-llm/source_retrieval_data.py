@@ -48,9 +48,6 @@ def source_retrieval_data_extraction():
     source_types_retrieved: dict = {key: 0 for key in source_types}
     
     for model_folder in co_star_prompt_source_retrieval:
-        model = re.match(pattern = r'.+\/(deepseek|google|meta|openai)-(.+)_(co_star_prompt_source_retrieval\/)', string = model_folder).group(2)
-
-
         for episode_filename in os.listdir(model_folder):
             ep_key = re.match(pattern = r'(s\d+e\d+)__.+', string = episode_filename).group(1)
 

@@ -92,6 +92,13 @@ open_ai_guidelines_result_folders = [
     f'{RESULTS_PATH}openai-gpt-4-1-mini_open_ai_guidelines_format/',
 ]
 
+co_star_prompt_source_retrieval = [
+    f'{RESULTS_PATH}deepseek-deepseek-r1_co_star_prompt_source_retrieval/',
+    f'{RESULTS_PATH}google-gemini-2-0-flash-001_co_star_prompt_source_retrieval/',
+    f'{RESULTS_PATH}meta-llama-llama-4-maverick_co_star_prompt_source_retrieval/',
+    f'{RESULTS_PATH}openai-gpt-4-1-mini_co_star_prompt_source_retrieval/'
+]
+
 
 def validation(folder: str, plot_title: str, prompt_type: str):
     total_perpetrators = sum([len(', '.join(PERPETRATORS[k]).split(', ')) for k in PERPETRATORS.keys()])
@@ -101,7 +108,7 @@ def validation(folder: str, plot_title: str, prompt_type: str):
     for model_results in folder:
         total_perpetrators_identified = 0
 
-        model = re.match(pattern = r'.+\/(.+)_(co_star_prompt\/|open_ai_guidelines_format\/)', string = str(model_results)).group(1)
+        model = re.match(pattern = r'.+\/(.+)_(co_star_prompt\/|open_ai_guidelines_format\/|co_star_prompt_source_retrieval\/)', string = str(model_results)).group(1)
 
         for episode_filename in sorted(os.listdir(model_results)):
             ep_key = re.match(pattern = r'(s\d+e\d+).+', string = episode_filename).group(1)
@@ -135,5 +142,6 @@ def validation(folder: str, plot_title: str, prompt_type: str):
     plot_coherence_indicator(list(coherence_indicator.keys()), list(coherence_indicator.values()), f"Coherence Indicator {prompt_type}")
 
 if __name__ == '__main__':
-    validation(folder = co_star_prompt_result_folders, plot_title = "Perpetrators identified", prompt_type = '(CO_STAR prompt)')
-    validation(folder = open_ai_guidelines_result_folders, plot_title = "Perpetrators identified", prompt_type = '(OpenAI guidelines prompt)')
+    validation(folder = co_star_prompt_source_retrieval, plot_title = 'Perpetrators identified #2', prompt_type = '(CO_STAR prompt)')
+    # validation(folder = co_star_prompt_result_folders, plot_title = "Perpetrators identified", prompt_type = '(CO_STAR prompt)')
+    # validation(folder = open_ai_guidelines_result_folders, plot_title = "Perpetrators identified", prompt_type = '(OpenAI guidelines prompt)')
