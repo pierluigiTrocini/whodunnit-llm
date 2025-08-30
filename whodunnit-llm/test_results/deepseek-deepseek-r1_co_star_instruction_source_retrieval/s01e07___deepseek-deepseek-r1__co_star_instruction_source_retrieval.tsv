@@ -1,0 +1,13 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
+0	Tina Collins' assault	NO PERPETRATOR	[[Tina_Collins]] help me !	NO SOURCE
+0	Male's stabbing murder	NO PERPETRATOR	[[Grissom]] multiple stab wounds to the back and neck	NO SOURCE
+0	Quadruple homicide	NO PERPETRATOR	[[Sara]] quadruple	NO SOURCE
+1	Mrs. Collins' murder	NO PERPETRATOR	[[Grissom]] appears to be one stab wound to the throat	NO SOURCE
+1	Sons' murders	NO PERPETRATOR	[[Grissom]] The little boy was stabbed in the back	NO SOURCE
+1	Vehicle escape evidence	Teenager (suspected)	[[Nick]] they 're always taking shortcuts	NO SOURCE
+2	Vehicle linked to suspect	Jesse_Overton	[[Warrick]] a kid four blocks away from the scene owns the same make	NO SOURCE  
+2	Match evidence connection	Jesse_Overton	[[Nick]] matches ?	NO SOURCE  
+2	Forensic match confirmation	Jesse_Overton	[[Nick]] you see how each half of the match lines up ?	NO SOURCE
+3	Mr. Collins' sexual abuse	Mr. Collins	[[Grissom]] we have forensic evidence that your father sexually abused your sister	NO SOURCE  
+3	Collins family murders	Tina_Collins	[[Tina_Collins]] that was the last night he was going to touch her	NO SOURCE  
+3	Murder weapon confession	Jesse_Overton	[[Brass]] once i put the murder weapon in his mug	NO SOURCE

@@ -1,8 +1,0 @@
-scene_chunk	case_summary	perpetrator	evidence_in_dialogue
-0	Alicia's disappearance	Carlos_Perez	[[Carlos_Perez]] alicia is his matching donor
-0	Alicia's disappearance	Sybil_Perez	[[Sybil_Perez]] our daughter is missing
-1	Alicia's murder	Sybil_Perez	[[Sybil_Perez]] our daughter is missing
-1	Alicia's murder	Carlos_Perez	[[Carlos_Perez]] alicia is his matching donor
-2	Alicia's murder	Carlos_Perez	[[Carlos_Perez]] alicia is his matching donor  
-2	Alicia's murder	Sybil_Perez	[[Sybil_Perez]] our daughter is missing
-3	Alicia's murder	Daniel_Perez	[[Daniel_Perez]] i could n't watch her suffer anymore

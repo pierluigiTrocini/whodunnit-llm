@@ -1,8 +1,0 @@
-scene_chunk	case_summary	perpetrator	evidence_in_dialogue
-0	supermarket robbery	Officer_Fromansky	[[Brass]] officer fromansky came in after he heard a shot fired
-0	no summary	no perpetrator	no dialogue
-1	supermarket robbery suspects	Clyde Tremmel	[[Robbins]] suspect clyde tremmel
-1	supermarket robbery suspects	Jack Delver	[[Robbins]] suspect jack delver
-2	robbery getaway car evidence	Todd_Hallickey	[[Brass]] we matched your prints from a stolen car off the prints from a prior car theft , and bingo , we had a match
-3	robbery getaway car evidence	Todd_Hallickey	[[Warrick]] i got this off the jacket from your apartment
-3	robbery inside accomplice	Raul_Valdez	[[Nick]] ran the criminal records for the employees

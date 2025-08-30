@@ -1,8 +1,0 @@
-scene_chunk	case_summary	perpetrator	evidence_in_dialogue
-0	head found in tub	no perpetrator	no dialogue
-0	body buried alive	no perpetrator	no dialogue
-1	missing person investigation	no perpetrator	no dialogue
-1	drug-related sedative use	no perpetrator	no dialogue
-2	discrepancy in victim's whereabouts	Eric_Brooks	[[Catherine]] he has a roommate
-2	no second case	no perpetrator	no dialogue
-3	roommate's involvement	Eric_Brooks	[[Catherine]] you were there

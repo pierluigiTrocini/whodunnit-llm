@@ -1,0 +1,22 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
+0	Case Summary	Perpetrator	Dialogue	Source
+0	Construction site death	NO PERPETRATOR	[[Construction_Worker]] we-we got a problem	NO SOURCE
+0	Blunt force trauma	NO PERPETRATOR	[[Sara]] that 's a hammerhead	NO SOURCE
+0	Marlene Mitchell's shooting	NO PERPETRATOR	[[Mr._Mitchell]] he knows he 's not supposed to come within 100 yards of her	NO SOURCE
+0	Mall suspect tracking	NO PERPETRATOR	[[K-9_Officer]] she 's got a hit on the dumpster	NO SOURCE
+0	Bullet analysis	NO PERPETRATOR	[[Nick]] it looks like a nine millimeter	NO SOURCE
+1	Case Summary	Perpetrator	Dialogue	Source
+1	Theft and blood evidence	NO PERPETRATOR	[[Warrick]] one of our hammers had blood on it	NO SOURCE
+1	Brian Haddick's murder	Ashley Curtwell	[[Grissom]] did brian ever mention the name ashley curtwell?	NO SOURCE
+1	Ballistic testing analysis	NO PERPETRATOR	[[Catherine]] four inches	NO SOURCE
+1	Bullet trajectory calculation	NO PERPETRATOR	[[Nick]] she was shot by a bullet traveling 550 feet per second	NO SOURCE
+2	Case Summary	Perpetrator	Dialogue	Source  
+2	Brian Haddick's murder	Aaron Gilbert	[[Sara]] maybe the music isn't the only thing that aaron gilbert brought to the party	NO SOURCE  
+2	Shoe print evidence	Benny Lizzio	[[Warrick]] the blood on your shoe is a match to brian haddick's	NO SOURCE  
+2	Orthodontic rubber bands	NO PERPETRATOR	[[Greg]] those would be orthodontic rubber bands	NO SOURCE
+3	Case Summary	Perpetrator	Dialogue	Source  
+3	Marlene Mitchell's shooting	NO PERPETRATOR	[[Young_Mother]] johnnie, the idiot behind us, was playing like g.i	NO SOURCE  
+3	Brian Haddick's murder	Jared Gilbert	[[Warrick]] it's perfect for storing dna	NO SOURCE  
+3	Robbery and premeditation	Aaron Gilbert	[[Sara]] getting away with murder	NO SOURCE  
+3	Robbery and premeditation	Benny Lizzio	[[Brass]] benny can't wait to go to jail	NO SOURCE  
+

@@ -1,0 +1,9 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
+0	Theft and Murder	Matthew Orton/Cindy Orton	[[Vincent_Avery]] if i 'm going to be giving you ten grand in chips , i 've just got to know that you 're coming back	NO SOURCE
+0	Vincent Avery's murder	NO PERPETRATOR	[[Grissom]] striking resemblance to judas	https://en.wikipedia.org/wiki/Judas_Iscariot
+1	Ellie's associate's crime	Keith Driscoll	[[Keith_Driscoll]] she turned me on to coke so i could stud for her	NO SOURCE
+1	Murder	NO PERPETRATOR	[[Warrick]] this was the getaway car used in the murder	https://www.example.com/crime-scene-investigation
+2	Keith Driscoll's murder	Brass	[[Warrick]] man , brass did n't shoot this guy	https://www.example.com/brass-investigation.tsv 
+2	Keith Driscoll's murder	NO PERPETRATOR	[[Det_Sam_Vega]] keith driscoll shot in the throat	https://www.example.com/keith-driscoll-murder.tsv
+3	Vincent Avery's murder	Marty Gillmore	[[Marty_Gillmore]] she 's supposed to be in jail for shooting avery at the casino	https://www.example.com/vincent-avery-murder.tsv
+3	Keith Driscoll's murder	Marty Gillmore	[[Warrick]] you shot driscoll ... ... with his firearm	https://www.example.com/keith-driscoll-murder.tsv

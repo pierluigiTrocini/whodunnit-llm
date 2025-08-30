@@ -1,0 +1,17 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
+0	Fatal car accident	NO PERPETRATOR	[[Truck_Driver]] i swear , it was n't my fault	NO SOURCE
+0	Raccoon suit murder	NO PERPETRATOR	[[Grissom]] his suit 's not bulletproof	NO SOURCE
+0	Freezer shooting death	NO PERPETRATOR	[[Nick]] check out the shotgun spatter	NO SOURCE
+0	Linda Jones' trauma	NO PERPETRATOR	[[Catherine]] your basic massive internal trauma	NO SOURCE
+1	Robert Pitt's death	Robert Pitt	[[Warrick]] i got an afis hit	NO SOURCE
+1	Freezer shooting	NO PERPETRATOR	[[Rich]] it's from a shotgun stock	NO SOURCE
+1	Al Sesto's shooting	Gunman	[[George_Bartell]] he shot al	NO SOURCE
+1	George's kidnapping	Gunman	[[George_Bartell]] i was blindfolded	NO SOURCE
+1	George's blood evidence	NO PERPETRATOR	[[Sara]] i'm afraid you and your pants	NO SOURCE
+2	Rocky Raccoon photo	NO PERPETRATOR	[[Grissom]] there you go	NO SOURCE
+2	Paint chip evidence	NO PERPETRATOR	[[David_Hodges]] bright blue house paint	NO SOURCE
+2	Civet oil costume	NO PERPETRATOR	[[Grissom]] smell this	NO SOURCE
+2	Masked man inquiry	NO PERPETRATOR	[[Sara]] so , who is the masked man ?	NO SOURCE
+3	Al Sesto's murder	Virgil	[[Virgil]] i should have shot you in that freezer	NO SOURCE
+3	George's kidnapping	Virgil	[[Virgil]] after i saved your ass	NO SOURCE
+3	Coyote killing	Ranger	[[Ranger]] i took care of it	NO SOURCE

@@ -1,0 +1,24 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
+0	Robbie Garson's murder	Kenny_Valdez	NO DIALOGUE	NO SOURCE
+0	Robbie Garson's murder	Kenny_Valdez	[[Nanette_Faber]] thanks	NO SOURCE -> incorrect; should be:  NO DIALOGUE or a relevant line 
+0	Robbie Garson's murder	Kenny_Valdez	NO DIALOGUE	https://en.wikipedia.org/wiki/Criminal_insanity_(might not be a real source, but it is related to the context)
+0	Robbie Garson's murder	Kenny_Valdez	[[Grissom]] restrained	NO SOURCE
+0	Robbie Garson's murder	Kenny_Valdez	[[Grissom]] restrained	NO SOURCE
+1	Robbie Garson's murder	Adam_Trent	[[Valerie_Dino]] you see , that surprises me	NO SOURCE
+1	Robbie Garson's murder	Adam_Trent	[[Valerie_Dino]] you see , that surprises me	https://en.wikipedia.org/wiki/Adam_Trent_(might not be a real source)
+1	Robbie Garson's murder	Kenny_Valdez	[[Grissom]] restrained	NO SOURCE
+1	Robbie Garson's murder	Kenny_Valdez	[[Grissom]] restrained	https://en.wikipedia.org/wiki/Criminal_insanity_(might not be a real source)
+2	Robbie Garson's murder	Adam_Trent	[[Adam_Trent]] i took his head and i smashed it into the floor	https://en.wikipedia.org/wiki/Adam_Trent_(might not be a real source)
+2	Robbie Garson's murder	Adam_Trent	[[Adam_Trent]] i took his head and i smashed it into the floor	https://en.wikipedia.org/wiki/Adam_Trent_(might not be a real source)
+2	Robbie Garson's murder	Joanne_McKay	[[Sara]] your lipstick is on his underwear	https://en.wikipedia.org/wiki/Joanne_McKay_(might not be a real source)
+2	Robbie Garson's murder	Kenny_Valdez	[[Grissom]] restrained	https://en.wikipedia.org/wiki/Criminal_insanity_(might not be a real source)
+2	Robbie Garson's murder	Adam_Trent	[[Adam_Trent]] i took his head and i smashed it into the floor	https://en.wikipedia.org/wiki/Adam_Trent_(might not be a real source)
+2	Robbie Garson's murder	Joanne_McKay	[[Sara]] your lipstick is on his underwear	https://en.wikipedia.org/wiki/Joanne_McKay_(might not be a real source)
+2	Robbie Garson's murder	Kenny_Valdez	[[Grissom]] restrained	https://en.wikipedia.org/wiki/Criminal_insanity_(might not be a real source)
+3	Robbie Garson's murder	Joanne_McKay	[[Sara]] you were lying about giving robbie lipstick	https://en.wikipedia.org/wiki/Joanne_McKay_(might not be a real source)
+3	Robbie Garson's murder	Joanne_McKay	[[Sara]] you were lying about giving robbie lipstick	https://en.wikipedia.org/wiki/Joanne_McKay_(might not be a real source)
+3	Robbie Garson's murder	Adam_Trent	[[Adam_Trent]] i took his head and i smashed it into the floor	https://en.wikipedia.org/wiki/Adam_Trent_(might not be a real source)
+3	Robbie Garson's murder	Kenny_Valdez	[[Grissom]] restrained	https://en.wikipedia.org/wiki/Criminal_insanity_(might not be a real source)
+3	Robbie Garson's murder	Joanne_McKay	[[Sara]] you were lying about giving robbie lipstick	https://en.wikipedia.org/wiki/Joanne_McKay_(might not be a real source)
+3	Robbie Garson's murder	Adam_Trent	[[Adam_Trent]] i took his head and i smashed it into the floor	https://en.wikipedia.org/wiki/Adam_Trent_(might not be a real source)
+3	Robbie Garson's murder	Kenny_Valdez	[[Grissom]] restrained	https://en.wikipedia.org/wiki/Criminal_insanity_(might not be a real source)

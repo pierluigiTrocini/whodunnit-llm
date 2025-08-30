@@ -1,0 +1,13 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue
+0	Monica Newman's murder	Cal Newman	[[Catherine]] well , you do the math : dead female spouse plus missing husband ... equals murder
+0	Cal Newman's murder	NO PERPETRATOR	[[Nick]] oh , man !
+0	Tuscadero High 419	NO PERPETRATOR	[[Grissom]] dispatch called in a 419 at tuscadero high school
+1	Mandy Kirk's murder	NO PERPETRATOR	[[Sara]] how come nobody heard her scream ?
+1	Cal Newman's murder	NO PERPETRATOR	[[Grissom]] we found his right hand caught in a pool filter
+1	Monica Newman's murder	NO PERPETRATOR	[[Grissom]] she had help
+2	Cal Newman's murder	NO PERPETRATOR	[[Nick]] yeah , so all i 've got is an errant blond hair , a tooth filling and some detritus from the bottom of the pool
+2	Chuck Darwell's poisoning	NO PERPETRATOR	[[Sara]] too bad everybody did n't make it
+2	Nicole Exmoor's illness	NO PERPETRATOR	[[Lockwood]] said that she ate something that did n't agree with her
+3	Mandy Kirk's murder	Nicole_Exmoor	[[Lockwood]] i 'm placing you under arrest for the murder of amanda kirk
+3	Greg's rash	NO PERPETRATOR	[[Grissom]] you had a reaction
+3	Cal & Monica's murder	Jeri_Newman	[[Catherine]] yeah\n[[Catherine]] you hired him to kill your ex-husband and his new wife

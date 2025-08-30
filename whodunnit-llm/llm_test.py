@@ -153,14 +153,18 @@ if __name__ == '__main__':
     loggingConfig()
 
 
-    for filename in sorted(os.listdir(SCENE_LEVEL_N_ASPECTS)):
-        test_openrouter(
-            episode = Episode(filename = str(filename)),
-            platform = Platform.OPENROUTER_AI_API,
-            model = OPENROUTER__GPT_4_1_MINI,
-            system_instruction = CO_STAR_INSTRUCTION_WITH_SOURCE,
-            write_on_output_file = True,
-            tsv_tags = tsv_sourcing_tags,
+    for model in [OPENROUTER__DEEPSEEK_R1]:
+        for filename in sorted(os.listdir(SCENE_LEVEL_N_ASPECTS)[1:]):
+            test_openrouter(
+                episode = Episode(filename = str(filename)),
+                platform = Platform.OPENROUTER_AI_API,
+                model = model,
+                system_instruction = CO_STAR_INSTRUCTION,
+                write_on_output_file = True,
+                tsv_tags = tsv_sourcing_tags,
 
-            comment_output_file='co_star_prompt_source_retrieval'
-        )
+                comment_output_file='co_star_instruction'
+            )
+
+            print(f"[MAIN] end\n")
+            time.sleep(10)

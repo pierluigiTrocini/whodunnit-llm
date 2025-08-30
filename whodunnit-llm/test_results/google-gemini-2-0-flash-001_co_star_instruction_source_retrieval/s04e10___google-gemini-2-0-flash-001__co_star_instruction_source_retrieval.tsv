@@ -1,0 +1,14 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
+0	Construction worker's murder	NO PERPETRATOR	[[Sara]] that 's a hammerhead	NO SOURCE
+0	Marlene Mitchell's shooting	NO PERPETRATOR	[[Nick]] nobody saw anything ?	NO SOURCE
+0	Mall shopper's theft	NO PERPETRATOR	[[Sara]] so , we 're looking for a girl who bought a new outfit	NO SOURCE
+1	Mall theft	Ashley_Curtwell	[[Archie]] she did a walk out	NO SOURCE
+1	Brian Haddick's murder	NO PERPETRATOR	[[Mrs._Haddick]] who could have done this to my baby ?	NO SOURCE
+1	Marlene Mitchell's shooting	NO PERPETRATOR	[[Catherine]] so mrs mitchell was shot by a bullet traveling 550 feet per second	NO SOURCE
+2	Haddick's murder	Benny_Lizzio	[[Warrick]] the blood on your shoe is a match to brian haddick 's	NO SOURCE
+2	Haddick's murder	NO PERPETRATOR	[[Warrick]] benny 's dna does n't match	NO SOURCE
+3	Mitchell's shooting	NO PERPETRATOR	[[Nick]] just curious	NO SOURCE
+3	Haddick's murder	Aaron_Gilbert	[[Sara]] yeah , she gave us your hammer and this	NO SOURCE
+3	Haddick's murder	Jared_Gilbert	[[Warrick]] see all these grooves here ?	NO SOURCE
+3	Haddick's murder	Benny_Lizzio	[[Brass]] and benny ca n't wait to go to jail	NO SOURCE
+3	Haddick's murder	Gregory_Curtwell	[[Brass]] well , if he did n't do it , how did his hammer end up with brian 's blood on it ?	NO SOURCE

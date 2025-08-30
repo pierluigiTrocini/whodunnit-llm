@@ -1,0 +1,7 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
+0	Linley Parker assault	NO PERPETRATOR	[[Linley_Parker]] i was , um , driving home from work	NO SOURCE
+0	Emma Dobbins murder	NO PERPETRATOR	[[Warrick]] victim was a 32-year-old caucasian female , emma dobbins	NO SOURCE
+1	Linley Parker rape	Todd_Coombs	[[Linley_Parker]] that 's the guy who raped me	NO SOURCE
+2	Linley Parker murder	NO PERPETRATOR	[[Robbins]] 'cause of death , asphyxia due to strangulation	NO SOURCE
+3	Emma Dobbins murder	Todd_Coombs	[[Todd_Coombs]] i raped and murdered emma dobbins and linley parker	NO SOURCE
+3	Linley Parker murder	Todd_Coombs	[[Todd_Coombs]] i raped and murdered emma dobbins and linley parker	NO SOURCE
