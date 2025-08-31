@@ -33,7 +33,7 @@ PERPETRATORS: dict = {
     "s05e06" : ["Kevin_Greer"],
     "s05e08" : ["Francis"],
     "s05e10" : ["Divine", "Vincent_Mendoza"], #darlene malton (Divine) solo per la morte di devon malton, ma non per la morte di tyson e leo plummer
-    "s05e12" : ["Juanito_Concha_(barback), Elindio_Zapata", "Stuart_Manslow"],
+    "s05e12" : ["Juanito_Concha, Elindio_Zapata", "Stuart_Manslow"],
     "s05e13" : ["Andrew_Melton, Vlad"], #Andrew Melton per l'omicidio di Svetlana Melton. Vlad per l'occultamento del cadavere di Svetlana Melton e per la sepoltura della seconda vittima non identificata. La seconda vittima non identificata è deceduta a causa di un incidente durante il trasporto, schiacciata in una valigia."
     "s05e17" : ["Hayden_Michaels"], #colpevole di entrambi i casi
     "s05e21" : ["Joanne_McKay"],

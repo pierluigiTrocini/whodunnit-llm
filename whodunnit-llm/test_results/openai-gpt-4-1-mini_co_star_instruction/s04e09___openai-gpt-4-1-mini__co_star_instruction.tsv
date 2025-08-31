@@ -1,7 +1,7 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue
 0	Car bomb explosion	NO PERPETRATOR	NO DIALOGUE
 0	Amelia Rueben's death	NO PERPETRATOR	[[Sara]] mr rueben , i 'm very sorry to have to tell you this , but your wife is dead
-1	Amelia Rueben's poisoning	Sam Hopkins	[[Sara]] it 's a match prt on the hot tub dial was sam hopkins
-2	Explosive device investigation	Beth Dunbar	[[Catherine]] take her in
+1	Amelia Rueben's poisoning	Sam_Hopkins	[[Sara]] it 's a match prt on the hot tub dial was sam hopkins
+2	Explosive device investigation	Beth_Dunbar	[[Catherine]] take her in
 3	Amelia Rueben's poisoning	NO PERPETRATOR	[[Sara]] i dusted the bottle i got prints
-3	Explosive device investigation	Beth Dunbar	[[Catherine]] mrs dunbar , you killed three innocent people
+3	Explosive device investigation	Beth_Dunbar	[[Catherine]] mrs dunbar , you killed three innocent people

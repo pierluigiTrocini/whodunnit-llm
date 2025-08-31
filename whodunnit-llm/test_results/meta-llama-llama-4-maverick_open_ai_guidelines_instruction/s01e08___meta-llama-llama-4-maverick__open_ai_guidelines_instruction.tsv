@@ -1,9 +1,9 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue
-0	murder in hotel	Stuart Rampler's killer	[[Grissom]] it 's backward
+0	murder in hotel	Stuart_Rampler's_killer	[[Grissom]] it 's backward
 0	car crash investigation	no perpetrator	[[Nick]] i 'm calling that beer bottle
-1	staged suicides	serial killer	[[Grissom]] it 's 'fill in the blanks '
+1	staged suicides	serial_killer	[[Grissom]] it 's 'fill in the blanks '
 1	car crash investigation	no perpetrator	[[Warrick]] to what , a deuce ?
-2	staged suicides	Gil Grissom	[[Mandy]] it came back you
+2	staged suicides	Gil_Grissom	[[Mandy]] it came back you
 2	car crash investigation	no perpetrator	[[Warrick]] fiends
-3	car crash investigation	Walter Banglor	[[Walter_Banglor]] i was drunk
-3	staged suicides	Paul Millander	[[Grissom]] paul millander
+3	car crash investigation	Walter_Banglor	[[Walter_Banglor]] i was drunk
+3	staged suicides	Paul_Millander	[[Grissom]] paul millander

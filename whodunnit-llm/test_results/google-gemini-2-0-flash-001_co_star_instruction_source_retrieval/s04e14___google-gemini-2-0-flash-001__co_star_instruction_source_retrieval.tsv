@@ -1,9 +1,9 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
-0	Supermarket robbery	John Does	[[Brass]] the ski masks are john does	NO SOURCE
-1	Officer Clay's murder	Clyde Tremmel	[[Robbins]] excessive penetration and laceration of the brain suspect clyde tremmel	NO SOURCE
-1	Jack Delver's murder	Officer Clay	[[Robbins]] suspect jack delver	NO SOURCE
-1	Rufus Sanders's murder	John Does	[[Robbins]] rufus sanders , bystander	NO DIALOGUE	NO SOURCE
-1	Julia Reed's murder	John Does	[[Robbins]] julia reed , cocktail waitress	NO DIALOGUE	NO SOURCE
+0	Supermarket robbery	John_Does	[[Brass]] the ski masks are john does	NO SOURCE
+1	Officer Clay's murder	Clyde_Tremmel	[[Robbins]] excessive penetration and laceration of the brain suspect clyde tremmel	NO SOURCE
+1	Jack Delver's murder	Officer_Clay	[[Robbins]] suspect jack delver	NO SOURCE
+1	Rufus Sanders's murder	John_Does	[[Robbins]] rufus sanders , bystander	NO DIALOGUE	NO SOURCE
+1	Julia Reed's murder	John_Does	[[Robbins]] julia reed , cocktail waitress	NO DIALOGUE	NO SOURCE
 2	Car theft	Todd_Hallickey	[[Todd_Hallickey]] look , i do n't know why you guys brought me here , but you got no right tossing my apartment	NO SOURCE
 3	Felony murder	Todd_Hallickey	[[Warrick]] hallickey 's got no connection to the grocery store	NO SOURCE
-3	Grocery store insider	Raul Valdez	[[Nick]] ran the criminal records for the employees	NO SOURCE
+3	Grocery store insider	Raul_Valdez	[[Nick]] ran the criminal records for the employees	NO SOURCE

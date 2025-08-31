@@ -1,7 +1,7 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
 0	Roller coaster derailment	NO PERPETRATOR	[[Brass]] six dead	NO SOURCE
 0	Tessa Press's murder	NO PERPETRATOR	[[Warrick]] guess it was n't worth the killer 's time	NO SOURCE
-1	Jim Nevins's murder	Jim Nevins	[[Grissom]] nevins may have never been in the roller coaster	NO SOURCE
-2	Tessa Press's murder	Justin Mack	[[Warrick]] did you pick her up that afternoon ?	NO SOURCE
-3	Tessa Press's murder	Raina Press	[[Raina_Press]] she was trying to steal him from me	NO SOURCE
-3	Jim Nevins's murder	Zack Lawrence	[[Sara]] you tampered with the screws	NO SOURCE
+1	Jim Nevins's murder	Jim_Nevins	[[Grissom]] nevins may have never been in the roller coaster	NO SOURCE
+2	Tessa Press's murder	Justin_Mack	[[Warrick]] did you pick her up that afternoon ?	NO SOURCE
+3	Tessa Press's murder	Raina_Press	[[Raina_Press]] she was trying to steal him from me	NO SOURCE
+3	Jim Nevins's murder	Zack_Lawrence	[[Sara]] you tampered with the screws	NO SOURCE

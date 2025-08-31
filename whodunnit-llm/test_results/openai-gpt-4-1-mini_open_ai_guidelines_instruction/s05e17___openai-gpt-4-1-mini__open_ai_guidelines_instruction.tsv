@@ -3,7 +3,7 @@ scene_chunk	case_summary	perpetrator	evidence_in_dialogue
 0	ty hawkins' murder	no perpetrator	no dialogue
 1	ty hawkins' murder	no perpetrator	no dialogue
 1	martha krell's rape and murder	no perpetrator	no dialogue
-2	ty hawkins' murder	matt hawkins	[[Nick]] the shoe impression outside ty 's window matches the brother 's
-2	martha krell's murder	hayden michaels	[[Grissom]] so you must have had your vasectomy reversed
-3	martha krell's rape and murder	hayden michaels	[[Grissom]] so you must have had your vasectomy reversed
-3	ty hawkins' murder	matthew hawkins	[[Matthew_Hawkins]] like i told him , i did it
+2	ty hawkins' murder	Matthew_Hawkins	[[Nick]] the shoe impression outside ty 's window matches the brother 's
+2	martha krell's murder	Hayden_Michaels	[[Grissom]] so you must have had your vasectomy reversed
+3	martha krell's rape and murder	Hayden_Michaels	[[Grissom]] so you must have had your vasectomy reversed
+3	ty hawkins' murder	Matthew_Hawkins	[[Matthew_Hawkins]] like i told him , i did it

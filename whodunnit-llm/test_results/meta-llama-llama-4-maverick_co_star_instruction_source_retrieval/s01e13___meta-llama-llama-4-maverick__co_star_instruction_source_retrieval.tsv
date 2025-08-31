@@ -1,32 +1,32 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
-0	Bombing at Cooley Real Estate	Jake_Richards' killer	NO DIALOGUE	NO SOURCE
+0	Bombing at Cooley Real Estate	Jake_Richards'_killer	NO DIALOGUE	NO SOURCE
 0	Bombing at Cooley Real Estate	NO PERPETRATOR	NO DIALOGUE	NO SOURCE
 0	Kristy Hopkins' harassment	Jack_Willman	[[Jack_Willman]] see you around , baby	NO SOURCE
 0	Bombing at Cooley Real Estate	NO PERPETRATOR	[[Catherine]] will he do it again ?	https://www.example.com/crime-scene-investigation
 0	Kristy Hopkins' harassment	Jack_Willman	[[Jack_Willman]] see you around , baby	NO SOURCE
-0	Bombing at Cooley Real Estate	Jake_Richards' killer	NO DIALOGUE	NO SOURCE
+0	Bombing at Cooley Real Estate	Jake_Richards'_killer	NO DIALOGUE	NO SOURCE
 0	Kristy Hopkins' harassment	Jack_Willman	[[Jack_Willman]] see you around , baby	NO SOURCE
-0	Bombing at Cooley Real Estate	Jake_Richards' killer	NO DIALOGUE	https://www.crime-scene-investigations.com/case-files
+0	Bombing at Cooley Real Estate	Jake_Richards'_killer	NO DIALOGUE	https://www.crime-scene-investigations.com/case-files
 0	Kristy Hopkins' harassment	Jack_Willman	[[Jack_Willman]] see you around , baby	NO SOURCE
 1	Bombing at Cooley Real Estate	NO PERPETRATOR	[[Catherine]] whoever did this is playing with us	https://www.crime-scene-investigations.com/case-files
 1	Kristy Hopkins' murder	NO PERPETRATOR	[[Officer_Arvington]] it 's a 419	https://www.lasvegaspolice.com/case-files
-1	Bombing at Cooley Real Estate	Dominic Kretzker	NO DIALOGUE	https://www.crime-scene-investigations.com/case-files
+1	Bombing at Cooley Real Estate	Dominic_Kretzker	NO DIALOGUE	https://www.crime-scene-investigations.com/case-files
 1	Bombing at Cooley Real Estate	NO PERPETRATOR	[[Catherine]] whoever did this is playing with us	https://www.crime-scene-investigations.com/case-files
 1	Kristy Hopkins' murder	NO PERPETRATOR	[[Officer_Arvington]] it 's a 419	https://www.lasvegaspolice.com/case-files
 1	Bombing at Cooley Real Estate	NO PERPETRATOR	[[Catherine]] whoever did this is playing with us	https://www.crime-scene-investigations.com/case-files
 1	Kristine Hopkins' murder	NO PERPETRATOR	[[Officer_Arvington]] it 's a 419	https://www.lasvegaspolice.com/case-files
 2	Kristy Hopkins' murder	NO PERPETRATOR	[[Catherine]] evidence , doc	https://www.crime-scene-investigations.com/kristy-hopkins-case
-2	Bombing at Thrift-Right Car Rental	Norman Stirling	[[Brass]] take him in come on , let 's go	https://www.fbi.gov/bombing-investigations
-2	Bombing at Hansen Building	Norman Stirling	[[Brass]] take him in come on , let 's go	https://www.fbi.gov/bombing-investigations
+2	Bombing at Thrift-Right Car Rental	Norman_Stirling	[[Brass]] take him in come on , let 's go	https://www.fbi.gov/bombing-investigations
+2	Bombing at Hansen Building	Norman_Stirling	[[Brass]] take him in come on , let 's go	https://www.fbi.gov/bombing-investigations
 2	Kristy Hopkins' murder	NO PERPETRATOR	[[Catherine]] evidence , doc	https://www.crime-scene-investigations.com/kristy-hopkins-case
-2	Bombing at Thrift-Right	Norman Stirling	[[Brass]] take him in come on , let 's go	https://www.fbi.gov/bombing-investigations
+2	Bombing at Thrift-Right	Norman_Stirling	[[Brass]] take him in come on , let 's go	https://www.fbi.gov/bombing-investigations
 2	Kristine Hopkins' murder	NO PERPETRATOR	[[Catherine]] evidence , doc	https://www.crime-scene-investigations.com/kristy-hopkins-case
-2	Thrift-Right bombing	Norman Stirling	[[Brass]] take him in come on , let 's go	https://www.fbi.gov/bombing-investigations
+2	Thrift-Right bombing	Norman_Stirling	[[Brass]] take him in come on , let 's go	https://www.fbi.gov/bombing-investigations
 2	Kristine Hopkins' murder	NO PERPETRATOR	[[Catherine]] evidence , doc	https://www.crime-scene-investigations.com/kristy-hopkins-case
-2	Thrift-Right bombing	Norman Stirling	[[Brass]] take him in come on , let 's go	https://www.fbi.gov/bombing-investigations
-3	Kristine Hopkins' murder	Jack Willman	[[Jack_Willman]] i was her pimp	https://www.lasvegaspolice.com/case-files
-3	Thrift-Right bombing	Tyler Stirling	[[Tyler_Stirling]] i did it for you	https://www.fbi.gov/bombing-investigations
-3	Kristine Hopkins' murder	Jack Willman	[[Jack_Willman]] i was her pimp	https://www.lasvegaspolice.com/case-files
-3	Thrift-Right bombing	Tyler Stirling	[[Tyler_Stirling]] i did it for you	https://www.fbi.gov/bombing-investigations
-3	Kristine Hopkins' murder	Jack Willman	[[Jack_Willman]] i was her pimp	https://www.lasvegaspolice.com/case-files
-3	Thrift-Right bombing	Tyler Stirling	[[Tyler_Stirling]] i did it for you	https://www.fbi.gov/bombing-investigations
+2	Thrift-Right bombing	Norman_Stirling	[[Brass]] take him in come on , let 's go	https://www.fbi.gov/bombing-investigations
+3	Kristine Hopkins' murder	Jack_Willman	[[Jack_Willman]] i was her pimp	https://www.lasvegaspolice.com/case-files
+3	Thrift-Right bombing	Tyler_Stirling	[[Tyler_Stirling]] i did it for you	https://www.fbi.gov/bombing-investigations
+3	Kristine Hopkins' murder	Jack_Willman	[[Jack_Willman]] i was her pimp	https://www.lasvegaspolice.com/case-files
+3	Thrift-Right bombing	Tyler_Stirling	[[Tyler_Stirling]] i did it for you	https://www.fbi.gov/bombing-investigations
+3	Kristine Hopkins' murder	Jack_Willman	[[Jack_Willman]] i was her pimp	https://www.lasvegaspolice.com/case-files
+3	Thrift-Right bombing	Tyler_Stirling	[[Tyler_Stirling]] i did it for you	https://www.fbi.gov/bombing-investigations

@@ -2,10 +2,10 @@ scene_chunk	case_summary	perpetrator	evidence_in_dialogue
 0	Casino robbery and shooting	NO PERPETRATOR	NO DIALOGUE
 0	Store clerk Dustin Bale murder	NO PERPETRATOR	NO DIALOGUE
 1	Adam Brower shooting	Red	[[Grissom]] that must be the one that killed brower
-1	Tammy Felton involvement	Tammy Felton	[[Catherine]] tammy felton
-2	Potato silencer on bullet	Tammy Felton	[[Catherine]] there was potato on the bullet because there was potato inside the barrel of the gun
-2	Tammy Felton found dead	Tammy Felton	[[Catherine]] it 's tammy
+1	Tammy Felton involvement	Tammy_Felton	[[Catherine]] tammy felton
+2	Potato silencer on bullet	Tammy_Felton	[[Catherine]] there was potato on the bullet because there was potato inside the barrel of the gun
+2	Tammy Felton found dead	Tammy_Felton	[[Catherine]] it 's tammy
 2	Silica dust evidence	NO PERPETRATOR	NO DIALOGUE
-3	Darin Hanson execution	Darin Hanson	[[Grissom]] say hello to darin hanson
-3	Max Duncan mole revealed	Max Duncan	[[Warrick]] pit boss ' name is max duncan
+3	Darin Hanson execution	Darin_Hanson	[[Grissom]] say hello to darin hanson
+3	Max Duncan mole revealed	Max_Duncan	[[Warrick]] pit boss ' name is max duncan
 3	Officer Spencer corruption	Officer_Spencer	[[Officer_Spencer]] $ 250,000 turned a career cop bad

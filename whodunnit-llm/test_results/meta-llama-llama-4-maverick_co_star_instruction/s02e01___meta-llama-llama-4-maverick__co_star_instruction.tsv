@@ -1,6 +1,6 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue
 0	Tony Braun's murder	NO PERPETRATOR	NO DIALOGUE
 0	Sam Braun's potential downfall	Walt_Braun	[[Walt_Braun]] should i call security or just handle it , or what ?
-1	Tony Braun's murder	Janine Haywood	[[Grissom]] janine haywood said that she left the house when the drug dealer arrived
-2	Tony Braun's murder	Walt Braun	[[Grissom]] walt braun lied
-3	Tony Braun's murder	Bonnie Ritten	[[Catherine]] 'hell hath no fury ... '
+1	Tony Braun's murder	Janine_Haywood	[[Grissom]] janine haywood said that she left the house when the drug dealer arrived
+2	Tony Braun's murder	Walt_Braun	[[Grissom]] walt braun lied
+3	Tony Braun's murder	Bonnie_Ritten	[[Catherine]] 'hell hath no fury ... '

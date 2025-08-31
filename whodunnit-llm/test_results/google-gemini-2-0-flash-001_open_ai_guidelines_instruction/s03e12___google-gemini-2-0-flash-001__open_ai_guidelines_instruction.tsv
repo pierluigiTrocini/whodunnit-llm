@@ -1,9 +1,9 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue
 0	reviving fred stearns	no perpetrator	no dialogue
-0	spinal disc identification	Amy Ennis	[[Robbins]] narrowed it down to one
-1	snake venom poisoning	Marty Gibson	[[Grissom]] the organic poison came back snake venom
-1	identity theft	Kelly Easton	[[Nick]] prints came back to somebody named 'kelly easton '
-2	monacled cobra dog death	Marty Gibson	[[Grissom]] marty gibson
-2	poisoning fred stearns	Marty Gibson	[[Grissom]] well , sometimes access is all you need
-3	mother's murder	Nora Easton	[[Brass]] you 're under arrest for the murder of kelly easton
+0	spinal disc identification	Amy_Ennis	[[Robbins]] narrowed it down to one
+1	snake venom poisoning	Marty_Gibson	[[Grissom]] the organic poison came back snake venom
+1	identity theft	Kelly_Easton	[[Nick]] prints came back to somebody named 'kelly easton '
+2	monacled cobra dog death	Marty_Gibson	[[Grissom]] marty gibson
+2	poisoning fred stearns	Marty_Gibson	[[Grissom]] well , sometimes access is all you need
+3	mother's murder	Nora_Easton	[[Brass]] you 're under arrest for the murder of kelly easton
 3	imagined pregnancy	no perpetrator	no dialogue

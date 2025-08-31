@@ -1,9 +1,9 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue
-0	bombing at office	dominic kretzker	[[Dominic_Kretzker]] i 'll tell you , though this is going to be worth a lot of money someday
-0	domestic disturbance	jack willman	[[Jack_Willman]] nobody tells me to do anything
-1	bombing at office	dominic kretzker	[[Grissom]] dominic kretzker
+0	bombing at office	Dominic_Kretzker	[[Dominic_Kretzker]] i 'll tell you , though this is going to be worth a lot of money someday
+0	domestic disturbance	Jack_Willman	[[Jack_Willman]] nobody tells me to do anything
+1	bombing at office	Dominic_Kretzker	[[Grissom]] dominic kretzker
 1	kristy hopkins murder	no perpetrator	no dialogue
-2	kristy hopkins murder	nick	no dialogue
+2	kristy hopkins murder	Nick	no dialogue
 2	bombing at office/norman stirling	Norman_Stirling	[[Norman_Stirling]] i want to call my lawyer
 3	bombing at office	Tyler_Stirling	[[Tyler_Stirling]] i did it for you
 3	kristy hopkins murder	Jack_Willman	[[Jack_Willman]] i was her pimp

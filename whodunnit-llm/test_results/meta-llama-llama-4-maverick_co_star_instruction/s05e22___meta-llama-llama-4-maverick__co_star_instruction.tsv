@@ -1,6 +1,6 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue
 0	Alice Granger's murder	NO PERPETRATOR	[[Grissom]] usually when a killer covers the victim 's face , it suggests familiarity
-1	Alice Granger's murder	Jeff Simon	[[Catherine]] he was tracking her car
-2	Holly Pearson's murder	Jeff Simon	[[Catherine]] it looks like he was lying
-3	Alice Granger's murder	Jeff Simon	[[Catherine]] you were obsessed with alice , and when you saw adam having at her , you flipped out
-3	Holly Pearson's murder	Jeff Simon	[[Catherine]] it was just bad luck that holly pearson met adam that night
+1	Alice Granger's murder	Jeff_Simon	[[Catherine]] he was tracking her car
+2	Holly Pearson's murder	Jeff_Simon	[[Catherine]] it looks like he was lying
+3	Alice Granger's murder	Jeff_Simon	[[Catherine]] you were obsessed with alice , and when you saw adam having at her , you flipped out
+3	Holly Pearson's murder	Jeff_Simon	[[Catherine]] it was just bad luck that holly pearson met adam that night

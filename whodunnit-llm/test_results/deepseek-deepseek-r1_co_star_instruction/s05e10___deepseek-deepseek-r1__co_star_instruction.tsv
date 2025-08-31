@@ -1,12 +1,12 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue
 0	Tyson Plummer's murder	NO PERPETRATOR	[[Kid_2]] man, you know andre did n't cap him like that
 0	Leo Plummer's murder	NO PERPETRATOR	[[Officer]] we 've got a four-fifteen-a on scene
-0	Samuel Mendez's death	Police Officers	[[Prisoner_1]] cops iced the kid
-0	Prisoner beatings	Police Officers	[[Prisoner_3]] same thing they did to me
+0	Samuel Mendez's death	Police_Officers	[[Prisoner_1]] cops iced the kid
+0	Prisoner beatings	Police_Officers	[[Prisoner_3]] same thing they did to me
 0	Inmate fatal assault	NO PERPETRATOR	[[Catherine]] those are shoe prints on his face
 1	Child abuse and starvation	Lorna_Tenney	[[Sara]] devon malton , age five , last known residence was a foster home run by a lorna tenney  
 1	Samuel Mendez's identity dispute	NO PERPETRATOR	[[Mr._Mendez]] i do n't know who that is in there , but it 's not my son  
-1	Samuel Mendez's beating	Police Officers	[[Prisoner_1]] cops iced the kid
+1	Samuel Mendez's beating	Police_Officers	[[Prisoner_1]] cops iced the kid
 2	Child's death investigation	Phillip_Riley	[[Sofia_Curtis]] your print belongs to an enlisted man  
 2	Samuel Mendez's identity error	NO PERPETRATOR	[[Mr._Mendez]] i do n't know who that is in there , but it 's not my son  
 2	Firearm evidence recovery	NO PERPETRATOR	[[Mia]] takes a swab of the flesh  

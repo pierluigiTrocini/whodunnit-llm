@@ -1,5 +1,5 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue
 0	alice granger's murder	no perpetrator	no dialogue
-1	tracking alice's car	Jeff Simon	[[Catherine]] he was tracking her car
+1	tracking alice's car	Jeff_Simon	[[Catherine]] he was tracking her car
 2	holly pearson's murder	no perpetrator	no dialogue
-3	alice and holly's murder	Jeff Simon	[[Catherine]] then why did we find your prints in it ?
+3	alice and holly's murder	Jeff_Simon	[[Catherine]] then why did we find your prints in it ?

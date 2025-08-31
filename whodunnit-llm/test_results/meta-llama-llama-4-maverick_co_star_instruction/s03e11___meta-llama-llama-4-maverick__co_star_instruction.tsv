@@ -1,5 +1,4 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue
-0	Here are the cases identified in the given screenplay chunks, in TSV format:
 0	Human hand in meat grinder	NO PERPETRATOR	NO DIALOGUE
 0	Linda Damen's death	NO PERPETRATOR	[[Sara]] hmmm
 0	Petrov Samsko's ID	NO PERPETRATOR	NO DIALOGUE
@@ -12,10 +11,10 @@ scene_chunk	case_summary	perpetrator	evidence_in_dialogue
 1	Petrov Samsko's murder	Ross_Halpo	[[Catherine]] we 're thinking that you did the actual filleting
 1	Linda Damen's death	NO PERPETRATOR	[[Sara]] there 's no way she could have fought somebody off if they were coming after her with a straight razor
 2	Knife analysis	NO PERPETRATOR	NO DIALOGUE
-2	Linda Damen's death	Jane Damen	[[Det._'Sully'_Sulik]] her mother does -- jane damen	
+2	Linda Damen's death	Jane_Damen	[[Det._'Sully'_Sulik]] her mother does -- jane damen	
 2	Mysterious smudge on knife	NO PERPETRATOR	NO DIALOGUE
-2	Linda Damen's death	Jane Damen	[[Det._'Sully'_Sulik]] her mother does -- jane damen
-3	Linda Damen's death	John Damen	[[John_Damen]] it was supposed to be a suicide attempt
+2	Linda Damen's death	Jane_Damen	[[Det._'Sully'_Sulik]] her mother does -- jane damen
+3	Linda Damen's death	John_Damen	[[John_Damen]] it was supposed to be a suicide attempt
 3	Petrov Samsko's murder	Hostess	[[Hostess]] well , i 've seen you
-3	Linda Damen's death	John Damen	[[John_Damen]] it was supposed to be a suicide attempt
+3	Linda Damen's death	John_Damen	[[John_Damen]] it was supposed to be a suicide attempt
 3	Petrov Samsko's murder	Hostess	[[Hostess]] well , i 've seen you

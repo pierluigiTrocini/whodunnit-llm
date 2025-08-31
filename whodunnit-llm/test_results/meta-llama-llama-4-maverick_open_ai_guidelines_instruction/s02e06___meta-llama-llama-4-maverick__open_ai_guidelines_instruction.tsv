@@ -1,9 +1,9 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue
-0	murder at office	Benjamin Jennings	no dialogue
-0	Oliver Dunne's murder	Benjamin Jennings	[[Sara]] when are you set to interview ben ?
-1	second body found	Benjamin Jennings	[[Grissom]] any more bodies you want to tell me about?
-1	Shelley Danvers' death	Tina Kolas	[[Catherine]] we need someone to give us the truth about last night
-2	second victim identified	Benjamin Jennings	[[Nick]] we might have been wrong
-2	Shelley Danvers' murder	Tina Kolas	[[Brass]] that tina and shelley were having a catfight over some dude named jeremy the day she died
-3	murder at gas station	Roger Jennings	[[Grissom]] the flour said you did
-3	Shelley Danvers' murder	Tina Kolas	[[Tina_Kolas]] i did n't mean to kill her
+0	murder at office	Benjamin_Jennings	no dialogue
+0	Oliver Dunne's murder	Benjamin_Jennings	[[Sara]] when are you set to interview ben ?
+1	second body found	Benjamin_Jennings	[[Grissom]] any more bodies you want to tell me about?
+1	Shelley Danvers' death	Tina_Kolas	[[Catherine]] we need someone to give us the truth about last night
+2	second victim identified	Benjamin_Jennings	[[Nick]] we might have been wrong
+2	Shelley Danvers' murder	Tina_Kolas	[[Brass]] that tina and shelley were having a catfight over some dude named jeremy the day she died
+3	murder at gas station	Roger_Jennings	[[Grissom]] the flour said you did
+3	Shelley Danvers' murder	Tina_Kolas	[[Tina_Kolas]] i did n't mean to kill her

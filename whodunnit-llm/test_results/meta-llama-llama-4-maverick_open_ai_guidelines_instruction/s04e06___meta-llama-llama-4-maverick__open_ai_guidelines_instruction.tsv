@@ -1,7 +1,7 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue
 0	head in a box	murderer	no dialogue
 0	buried victim	murderer	no dialogue
-1	missing roommate	leland brooks	no dialogue
-1	murder investigation	Leland Brooks	no dialogue
-2	ross jenson's murder	Eric Brooks	no dialogue
-3	murder coverup	Eric Brooks	[[Catherine]] you were there
+1	missing roommate	Leland_Brooks	no dialogue
+1	murder investigation	Leland_Brooks	no dialogue
+2	ross jenson's murder	Eric_Brooks	no dialogue
+3	murder coverup	Eric_Brooks	[[Catherine]] you were there

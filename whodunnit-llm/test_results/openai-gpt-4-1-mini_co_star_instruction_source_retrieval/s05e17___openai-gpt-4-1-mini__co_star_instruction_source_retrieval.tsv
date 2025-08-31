@@ -3,7 +3,7 @@ scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
 1	Child abuse homicide	NO PERPETRATOR	[[Nick]] beaten to death	NO SOURCE
 1	Martha Krell's rape and murder	NO PERPETRATOR	[[Robbins]] she was raped	NO SOURCE
 1	Martha Krell's rape and murder	NO PERPETRATOR	[[Mia_Dickerson]] you are looking at the same rapist	NO SOURCE
-2	Ty Hawkins' murder	Matthew Hawkins	[[Nick]] the shoe impression outside ty 's window matches the brother 's	NO SOURCE
-2	Martha Krell's murder	Hayden Michaels	[[Grissom]] so you must have had your vasectomy reversed	NO SOURCE
-3	Martha Krell's murder	Hayden Michaels	[[Grissom]] so you must have had your vasectomy reversed	NO SOURCE
-3	Ty Hawkins' murder	Matthew Hawkins	[[Matthew_Hawkins]] like i told him , i did it	NO SOURCE
+2	Ty Hawkins' murder	Matthew_Hawkins	[[Nick]] the shoe impression outside ty 's window matches the brother 's	NO SOURCE
+2	Martha Krell's murder	Hayden_Michaels	[[Grissom]] so you must have had your vasectomy reversed	NO SOURCE
+3	Martha Krell's murder	Hayden_Michaels	[[Grissom]] so you must have had your vasectomy reversed	NO SOURCE
+3	Ty Hawkins' murder	Matthew_Hawkins	[[Matthew_Hawkins]] like i told him , i did it	NO SOURCE

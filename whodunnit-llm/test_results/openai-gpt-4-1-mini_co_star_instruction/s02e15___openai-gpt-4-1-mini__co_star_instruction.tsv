@@ -1,8 +1,8 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue
-0	Body farm murder	Mike Kimble	[[Catherine]] oh , it 's not a john doe anymore
-0	Gunshot wound mystery	Mike Kimble	[[Catherine]] oh , it 's not a john doe anymore
+0	Body farm murder	Mike_Kimble	[[Catherine]] oh , it 's not a john doe anymore
+0	Gunshot wound mystery	Mike_Kimble	[[Catherine]] oh , it 's not a john doe anymore
 1	Arson cover-up fire	NO PERPETRATOR	[[Nick]] this fire is just a cover up
-1	Mike Kimble's murder	Russ Bradley	[[Russ_Bradley]] i mean , i 'm the last person who would have killed him
+1	Mike Kimble's murder	Russ_Bradley	[[Russ_Bradley]] i mean , i 'm the last person who would have killed him
 2	Frozen meat bullet test	NO PERPETRATOR	[[Robbins]] the meat disintegrates
 2	Boat ownership inquiry	NO PERPETRATOR	[[Warrick]] your fiancé , mike , did he own a boat ?
 3	NO SUMMARY	NO PERPETRATOR	NO DIALOGUE

@@ -3,7 +3,7 @@ scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
 0	Raccoon suit murder	NO PERPETRATOR	[[Grissom]] his suit 's not bulletproof	NO SOURCE
 0	Freezer shooting death	NO PERPETRATOR	[[Nick]] check out the shotgun spatter	NO SOURCE
 0	Linda Jones' trauma	NO PERPETRATOR	[[Catherine]] your basic massive internal trauma	NO SOURCE
-1	Robert Pitt's death	Robert Pitt	[[Warrick]] i got an afis hit	NO SOURCE
+1	Robert Pitt's death	Robert_Pitt	[[Warrick]] i got an afis hit	NO SOURCE
 1	Freezer shooting	NO PERPETRATOR	[[Rich]] it's from a shotgun stock	NO SOURCE
 1	Al Sesto's shooting	Gunman	[[George_Bartell]] he shot al	NO SOURCE
 1	George's kidnapping	Gunman	[[George_Bartell]] i was blindfolded	NO SOURCE

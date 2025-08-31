@@ -1,14 +1,14 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
-0	Gus Kenyon's murder	Gus's Manager	[[Manager]] he killed himself	NO SOURCE
+0	Gus Kenyon's murder	Gus's_Manager	[[Manager]] he killed himself	NO SOURCE
 0	Woman's Disappearance	ZEPHYR	[[Zephyr]] and ladies and gentleman i assure you she 's quite all right	https://en.wikipedia.org/wiki/Escape_artistry
-1	Gus Kenyon's murder	Gus's Manager	[[Manager]] he killed himself	https://en.wikipedia.org/wiki/Heroin_overdose
+1	Gus Kenyon's murder	Gus's_Manager	[[Manager]] he killed himself	https://en.wikipedia.org/wiki/Heroin_overdose
 1	Woman's Disappearance	ZEPHYR	[[Zephyr]] and ladies and gentleman i assure you she 's quite all right	https://en.wikipedia.org/wiki/Escape_artistry
 1	Zoe Clein's Disappearance	Zephyr	[[Grissom]] what 's he doing there ?	https://www.csi-lasvegas.com/cases/zoe-clein-disappearance
 2	Gus Kenyon's murder	Samantha Dean	[[Catherine]] kick ass	https://www.csi-lasvegas.com/cases/gus-kenyon-murder
 2	Woman's Disappearance	ZEPHYR	[[Zephyr]] and ladies and gentleman i assure you she 's quite all right	https://en.wikipedia.org/wiki/Escape_artistry
 2	Zoe Clein's Disappearance	Zephyr	[[Grissom]] what 's he doing there ?	https://www.csi-lasvegas.com/cases/zoe-clein-disappearance
 2	Zephyr's Death	NO PERPETRATOR	NO DIALOGUE	NO SOURCE
-3	Gus Kenyon's murder	Samantha Dean	[[Samantha_Dean]] i carry needles in my kit	https://www.csi-lasvegas.com/cases/gus-kenyon-murder
+3	Gus Kenyon's murder	Samantha_Dean	[[Samantha_Dean]] i carry needles in my kit	https://www.csi-lasvegas.com/cases/gus-kenyon-murder
 3	Woman's Disappearance	ZEPHYR	[[Zephyr]] and ladies and gentleman i assure you she 's quite all right	https://en.wikipedia.org/wiki/Escape_artistry
 3	Zoe Clein's Disappearance	Zephyr	[[Grissom]] what 's he doing there ?	https://www.csi-lasvegas.com/cases/zoe-clein-disappearance
 3	Punky Dillinger's murder	Zephyr	[[Zephyr]] yeah , but he served better as a prop	https://www.csi-lasvegas.com/cases/punky-dillinger-murder

@@ -1,6 +1,6 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
 0	Male stabbing murder	NO PERPETRATOR	[[Tina_Collins]] help me !	NO SOURCE
 1	Collins family murders	NO PERPETRATOR	[[Tina_Collins]] help me !	NO SOURCE
-2	Collins family murders	Jesse Overton	[[Jesse_Overton]] i want a lawyer	NO SOURCE
-3	Collins family murders	Jesse Overton	[[Grissom]] the lawyer 's pleading him guilty	NO SOURCE
-3	Sexual abuse and family tragedy	Tina Collins	[[Grissom]] we have forensic evidence that your father sexually abused your sister	NO SOURCE
+2	Collins family murders	Jesse_Overton	[[Jesse_Overton]] i want a lawyer	NO SOURCE
+3	Collins family murders	Jesse_Overton	[[Grissom]] the lawyer 's pleading him guilty	NO SOURCE
+3	Sexual abuse and family tragedy	Tina_Collins	[[Grissom]] we have forensic evidence that your father sexually abused your sister	NO SOURCE

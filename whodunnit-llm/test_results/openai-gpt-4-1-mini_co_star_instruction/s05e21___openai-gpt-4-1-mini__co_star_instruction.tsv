@@ -2,7 +2,7 @@ scene_chunk	case_summary	perpetrator	evidence_in_dialogue
 0	Robbie Garson's assault	NO PERPETRATOR	NO DIALOGUE
 1	Robbie Garson's smothering	NO PERPETRATOR	[[Sara]] looks like we have a murder weapon
 1	Robbie Garson's contraband photograph	NO PERPETRATOR	[[Joanne_McKay]] a photograph
-1	Adam Trent's pathological abuse	Adam Trent	[[Valerie_Dino]] when he was a teenager he was unable to retaliate against his mother and incapable of actual intimacy , so ... he started raping women
-2	Robbie Garson's murder	Adam Trent	[[Adam_Trent]] did i kill him ? yes
-2	Lipstick on victim's clothes	Joanne McKay	[[Sara]] your lipstick is on his underwear
-3	Adam Trent and Joanne McKay's abuse	Joanne McKay	[[Sara]] you were lying about giving robbie lipstick
+1	Adam Trent's pathological abuse	Adam_Trent	[[Valerie_Dino]] when he was a teenager he was unable to retaliate against his mother and incapable of actual intimacy , so ... he started raping women
+2	Robbie Garson's murder	Adam_Trent	[[Adam_Trent]] did i kill him ? yes
+2	Lipstick on victim's clothes	Joanne_McKay	[[Sara]] your lipstick is on his underwear
+3	Adam Trent and Joanne McKay's abuse	Joanne_McKay	[[Sara]] you were lying about giving robbie lipstick

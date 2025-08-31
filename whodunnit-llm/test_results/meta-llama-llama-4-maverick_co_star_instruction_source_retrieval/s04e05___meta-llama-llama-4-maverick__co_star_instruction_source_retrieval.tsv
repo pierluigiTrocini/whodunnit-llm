@@ -1,10 +1,10 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
 0	Vehicle collision	NO PERPETRATOR	[[Grissom]] this was not a fair fight	NO SOURCE
-0	Man in Raccoon suit murder	Raccoon suit wearer	[[Grissom]] his suit 's not bulletproof	https://en.wikipedia.org/wiki/CSI:Crime_Scene_Investigation_episode_guide
-1	Man in Raccoon suit murder	Robert Pitt	[[Warrick]] robert pitt	https://en.wikipedia.org/wiki/CSI:Crime_Scene_Investigation_episode_guide
+0	Man in Raccoon suit murder	Raccoon_suit_wearer	[[Grissom]] his suit 's not bulletproof	https://en.wikipedia.org/wiki/CSI:Crime_Scene_Investigation_episode_guide
+1	Man in Raccoon suit murder	Robert_Pitt	[[Warrick]] robert pitt	https://en.wikipedia.org/wiki/CSI:Crime_Scene_Investigation_episode_guide
 1	Al Sesto murder	Gunman	[[Gunman]] shut up !	NO SOURCE
 1	NO SUMMARY	NO PERPETRATOR	NO DIALOGUE	NO SOURCE
-2	Al Sesto murder	George Bartell	[[George_Bartell]] i-i was in pahrump	NO SOURCE
+2	Al Sesto murder	George_Bartell	[[George_Bartell]] i-i was in pahrump	NO SOURCE
 2	NO SUMMARY	NO PERPETRATOR	NO DIALOGUE	NO SOURCE
 2	NO SUMMARY	NO PERPETRATOR	NO DIALOGUE	NO SOURCE
 3	Al Sesto murder	Virgil	[[Virgil]] i should have shot you in that freezer	https://en.wikipedia.org/wiki/CSI:_Crime_Scene_Investigation

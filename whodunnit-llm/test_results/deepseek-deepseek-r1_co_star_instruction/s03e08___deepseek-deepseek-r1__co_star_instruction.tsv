@@ -8,7 +8,7 @@ scene_chunk	case_summary	perpetrator	evidence_in_dialogue
 1	Snuff film DNA evidence	NO PERPETRATOR	[[Catherine]] i'll process for dna, run it through codis
 2	Body dump soil match	NO PERPETRATOR	[[Warrick]] remember that body dump a couple years back ?  
 2	Spur match evidence	NO PERPETRATOR	NO DIALOGUE  
-2	Spur ownership identification	Billy Rattison	[[Pete_Banson]] billy rattison
+2	Spur ownership identification	Billy_Rattison	[[Pete_Banson]] billy rattison
 3	Susan Hodap's murder	NO PERPETRATOR	[[Robbins]] susan hodap was already on borrowed time  
 3	Corrosion timeline analysis	NO PERPETRATOR	[[Grissom]] corrosion versus time  
-3	Randy Traschel's murder	Billy Rattison	[[Nick]] positive for blood
+3	Randy Traschel's murder	Billy_Rattison	[[Nick]] positive for blood

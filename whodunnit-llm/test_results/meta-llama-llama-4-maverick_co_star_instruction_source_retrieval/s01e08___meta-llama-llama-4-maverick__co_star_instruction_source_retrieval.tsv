@@ -5,10 +5,10 @@ scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
 1	Stuart Rampler's murder	NO PERPETRATOR	[[Grissom]] the killer 's got him at gunpoint , right ?	https://en.wikipedia.org/wiki/Crime_scene_reconstruction
 1	Royce Harmon's murder	NO PERPETRATOR	[[Grissom]] about three months ago , brass and i found this guy dead in his own bathtub , but his 'suicide ' was staged	https://en.wikipedia.org/wiki/Royce_Harmon
 1	Walter Banglor's accident	NO PERPETRATOR	[[Warrick]] must have been one hell of a fall to knock his watch and his ring off	NO SOURCE
-2	Stuart Rampler's murder	Paul Millander	[[Grissom]] he 's the guy who makes the rubber hands	https://en.wikipedia.org/wiki/Paul_Millander
-2	Royce Harmon's murder	Paul Millander	[[Grissom]] about three months ago , brass and i found this guy dead in his own bathtub , but his 'suicide ' was staged	https://en.wikipedia.org/wiki/Royce_Harmon
+2	Stuart Rampler's murder	Paul_Millander	[[Grissom]] he 's the guy who makes the rubber hands	https://en.wikipedia.org/wiki/Paul_Millander
+2	Royce Harmon's murder	Paul_Millander	[[Grissom]] about three months ago , brass and i found this guy dead in his own bathtub , but his 'suicide ' was staged	https://en.wikipedia.org/wiki/Royce_Harmon
 2	Grissom's stalking	NO PERPETRATOR	[[Grissom]] i get it , whoever it is is telling me that he 's got me under his thumb	NO SOURCE
-3	Stuart Rampler's murder	Paul Millander	[[Grissom]] paul millander , he set me up	https://en.wikipedia.org/wiki/Paul_Millander
-3	Royce Harmon's murder	Paul Millander	[[Grissom]] about three months ago , brass and i found this guy dead in his own bathtub , but his 'suicide ' was staged	https://en.wikipedia.org/wiki/Royce_Harmon
+3	Stuart Rampler's murder	Paul_Millander	[[Grissom]] paul millander , he set me up	https://en.wikipedia.org/wiki/Paul_Millander
+3	Royce Harmon's murder	Paul_Millander	[[Grissom]] about three months ago , brass and i found this guy dead in his own bathtub , but his 'suicide ' was staged	https://en.wikipedia.org/wiki/Royce_Harmon
 3	Walter Banglor's accident	NO PERPETRATOR	[[Walter_Banglor]] i was drunk .. really drunk	NO SOURCE
-3	John Millander's death	Hotel Security Guards	[[Sara]] two hotel security guards exonerated in alleged 'staged ' suicide	https://en.wikipedia.org/wiki/John_Millander
+3	John Millander's death	Hotel_Security_Guards	[[Sara]] two hotel security guards exonerated in alleged 'staged ' suicide	https://en.wikipedia.org/wiki/John_Millander

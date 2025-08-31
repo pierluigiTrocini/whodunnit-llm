@@ -1,9 +1,9 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
 0	Human hand discovery	NO PERPETRATOR	( His eyes widen as he sees a bloody human hand sticking out . )	NO SOURCE
 0	Linda Damen's suicide	NO PERPETRATOR	[[Det._'Sully'_Sulik]] girl 's name is linda damen , 23 , apparent suicide	NO SOURCE
-0	Print database match	Petrov Samsko	[[Grissom]] petrov samsko	NO SOURCE
+0	Print database match	Petrov_Samsko	[[Grissom]] petrov samsko	NO SOURCE
 1	Petrov Samsko's murder	NO PERPETRATOR	[[Catherine]] i bet they 'd forgive a murder , les	NO SOURCE
 1	Linda Damen's suicide	NO PERPETRATOR	[[Sara]] she ends up committing suicide	NO SOURCE
-2	Linda Damen's suicide	Jane Damen	[[Det._'Sully'_Sulik]] her mother does -- jane damen	NO SOURCE
-3	Linda Damen's murder	John Damen	[[John_Damen]] it was supposed to be a suicide attempt	https://en.wikipedia.org/wiki/Manslaughter
+2	Linda Damen's suicide	Jane_Damen	[[Det._'Sully'_Sulik]] her mother does -- jane damen	NO SOURCE
+3	Linda Damen's murder	John_Damen	[[John_Damen]] it was supposed to be a suicide attempt	https://en.wikipedia.org/wiki/Manslaughter
 3	Petrov Samsko's murder	Hostess	[[Hostess]] well , i 've seen you	NO SOURCE

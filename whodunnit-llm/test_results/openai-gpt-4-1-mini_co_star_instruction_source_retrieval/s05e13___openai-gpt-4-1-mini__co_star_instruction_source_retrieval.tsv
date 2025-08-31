@@ -1,7 +1,7 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
 0	Buried bodies in tar	NO PERPETRATOR	[[Catherine]] so we 've got a killer who digs a grave , dumps a body , covers it with tar , comes back three years later , digs again and dumps another one on top of it ?	NO SOURCE
-0	Domestic abuse suspicion	Andrew Melton	[[Andrew_Melton]] i never hit her	NO SOURCE
-1	Svetlana Melton's death	Ken Wellstone	[[Brass]] you recognize this guy ?	NO SOURCE
-2	Svetlana Melton's murder	Andrew Melton	[[Warrick]] he beat her , killed her and took back the only thing he valued	NO SOURCE
+0	Domestic abuse suspicion	Andrew_Melton	[[Andrew_Melton]] i never hit her	NO SOURCE
+1	Svetlana Melton's death	Ken_Wellstone	[[Brass]] you recognize this guy ?	NO SOURCE
+2	Svetlana Melton's murder	Andrew_Melton	[[Warrick]] he beat her , killed her and took back the only thing he valued	NO SOURCE
 3	Cover-up and murder	Vlad	[[Warrick]] you cleaned up the scene , buried her ,	NO SOURCE
-3	Domestic abuse and murder	Andrew Melton	[[Andrew_Melton]] which i never did	NO SOURCE
+3	Domestic abuse and murder	Andrew_Melton	[[Andrew_Melton]] which i never did	NO SOURCE

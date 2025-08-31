@@ -1,12 +1,12 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue
 0	monica newman's murder	no perpetrator	[[Brass]] so what are we calling this , murder , suicide , what ?
-1	cheerleader's murder by human attacker	David_Phillips	[[David_Phillips]] so whoever did this to her also has e-coli
-1	cal newman's death no perpetrator	[[Robbins]] he drowned
-1	monica newman's murder with help no perpetrator	[[Grissom]] she had help
-2	cal newman's murder by unknown perpetrator	no perpetrator	[[Greg]] major donor is still unaccounted for
-2	chuck darwell's poisoning no perpetrator	[[Greg]] dude 's dose was off the charts
-2	pool boy suspicion no perpetrator	[[Warrick]] who wears a white wet suit in a pool ?
-2	nicole exmoor's poisoning no perpetrator	[[Lockwood]] school nurse said she could n't stop throwing up
-3	mandy kirk's murder by nicole exmoor	Nicole_Exmoor	[[Lockwood]] i 'm placing you under arrest for the murder of amanda kirk
-3	greg's mildew infection no perpetrator	[[Grissom]] it 's a mildew-induced skin rash
-3	murder for hire involving jeri newman and peter berglund	Jeri_Newman	[[Catherine]] you hired him to kill your ex-husband and his new wife
+1	cheerleader's murder	David_Phillips	[[David_Phillips]] so whoever did this to her also has e-coli
+1	cal newman's death	no perpetrator	[[Robbins]] he drowned
+1	monica newman's murder	no perpetrator	[[Grissom]] she had help
+2	cal newman's murder	no perpetrator	[[Greg]] major donor is still unaccounted for
+2	chuck darwell's poisoning	no perpetrator	[[Greg]] dude 's dose was off the charts
+2	pool boy suspicion	no perpetrator	[[Warrick]] who wears a white wet suit in a pool ?
+2	nicole exmoor's poisoning	no perpetrator	[[Lockwood]] school nurse said she could n't stop throwing up
+3	mandy kirk's murder	Nicole_Exmoor	[[Lockwood]] i 'm placing you under arrest for the murder of amanda kirk
+3	greg's mildew infection	no perpetrator	[[Grissom]] it 's a mildew-induced skin rash
+3	murder for hire	Jeri_Newman	[[Catherine]] you hired him to kill your ex-husband and his new wife

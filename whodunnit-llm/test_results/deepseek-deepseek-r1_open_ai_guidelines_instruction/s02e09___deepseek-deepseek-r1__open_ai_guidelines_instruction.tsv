@@ -2,8 +2,8 @@ scene_chunk	case_summary	perpetrator	evidence_in_dialogue
 0	casino robbery	no perpetrator	[[Brass]] three women-organized and muscled
 0	store clerk murder	no perpetrator	[[Sara]] a poor man 's silencer
 1	casino heist murder	no perpetrator	[[Grissom]] that must be the one that killed brower
-1	store clerk murder	Tammy Felton	[[Technician]] tammy felton
-2	adam brower's murder	Red-haired robber	[[Grissom]] that must be the one that killed brower
-2	store clerk murder	Tammy Felton	[[Technician]] tammy felton
-3	casino heist conspiracy	Max Duncan	[[Grissom]] you found our mole
-3	corrupt officer theft/murder	Officer Spencer	[[Catherine]] they offered you a finder 's fee
+1	store clerk murder	Tammy_Felton	[[Technician]] tammy felton
+2	adam brower's murder	Red-haired_robber	[[Grissom]] that must be the one that killed brower
+2	store clerk murder	Tammy_Felton	[[Technician]] tammy felton
+3	casino heist conspiracy	Max_Duncan	[[Grissom]] you found our mole
+3	corrupt officer theft/murder	Officer_Spencer	[[Catherine]] they offered you a finder 's fee

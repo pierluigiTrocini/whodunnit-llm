@@ -1,9 +1,9 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
 0	Tony Braun's murder	NO PERPETRATOR	[[Grissom]] if only life were that simple	NO SOURCE
 0	Sam Braun's potential exploitation	Catherine	[[Catherine]] it would 've never worked	https://en.wikipedia.org/wiki/Sexual_exploitation_of_minors
-1	Tony Braun's murder	Janine Haywood	[[Grissom]] janine haywood said that she left the house when the drug dealer arrived	https://www.cbs.com/shows/csi/news/100306/csi-tony-braun-murder-case-100306/
+1	Tony Braun's murder	Janine_Haywood	[[Grissom]] janine haywood said that she left the house when the drug dealer arrived	https://www.cbs.com/shows/csi/news/100306/csi-tony-braun-murder-case-100306/
 1	Curt Ritten's case	NO PERPETRATOR	[[Mandy]] maybe you have the wrong suspects	NO SOURCE
-2	Tony Braun's murder	Walt Braun	[[Grissom]] walt braun lied	https://www.cbs.com/shows/csi/news/100306/csi-tony-braun-murder-case-100306/
-2	Curt Ritten's marital issue	Curt Ritten	[[Curt_Ritten]] sorry , janine	NO SOURCE
-3	Tony Braun's murder	Bonnie Ritten	[[Grissom]] whoever 's prints are on the duct tape is missing an earring back	https://www.cbs.com/shows/csi/news/100306/csi-tony-braun-murder-case-100306/
-3	Curt Ritten's marital issue	Curt Ritten	[[Curt_Ritten]] sorry , janine	NO SOURCE
+2	Tony Braun's murder	Walt_Braun	[[Grissom]] walt braun lied	https://www.cbs.com/shows/csi/news/100306/csi-tony-braun-murder-case-100306/
+2	Curt Ritten's marital issue	Curt_Ritten	[[Curt_Ritten]] sorry , janine	NO SOURCE
+3	Tony Braun's murder	Bonnie_Ritten	[[Grissom]] whoever 's prints are on the duct tape is missing an earring back	https://www.cbs.com/shows/csi/news/100306/csi-tony-braun-murder-case-100306/
+3	Curt Ritten's marital issue	Curt_Ritten	[[Curt_Ritten]] sorry , janine	NO SOURCE

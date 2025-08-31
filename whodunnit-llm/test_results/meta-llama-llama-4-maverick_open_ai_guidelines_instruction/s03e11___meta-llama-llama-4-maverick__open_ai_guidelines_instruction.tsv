@@ -1,9 +1,9 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue
-0	murder at factory	HARLAN	no dialogue
-0	linda's apparent suicide	JOHN or JANE DAMEN	no dialogue
-1	chef's murder	ROSS HALPO	[[Ross_Halpo]] it does n't mean they 'd cut a body up for me
-1	linda's death	LINDA'S BOYFRIEND	[[Sara]] there 's no way she could have fought somebody off if they were coming after her with a straight razor
+0	murder at factory	Harlan	no dialogue
+0	linda's apparent suicide	John_Damen or Jane_Damen	no dialogue
+1	chef's murder	Ross_Halpo	[[Ross_Halpo]] it does n't mean they 'd cut a body up for me
+1	linda's death	Linda's_Boyfriend	[[Sara]] there 's no way she could have fought somebody off if they were coming after her with a straight razor
 2	murder investigation	no perpetrator	no dialogue
-2	linda's death	JANE DAMEN	[[Det._'Sully'_Sulik]] her mother does -- jane damen
-3	linda's death	JOHN DAMEN	[[John_Damen]] it was supposed to be a suicide attempt
-3	chef's murder	THE HOSTESS	[[Hostess]] she was different
+2	linda's death	Jane_Damen	[[Det._'Sully'_Sulik]] her mother does -- jane damen
+3	linda's death	John_Damen	[[John_Damen]] it was supposed to be a suicide attempt
+3	chef's murder	Hostess	[[Hostess]] she was different

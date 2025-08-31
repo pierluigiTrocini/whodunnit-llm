@@ -3,7 +3,7 @@ scene_chunk	case_summary	perpetrator	evidence_in_dialogue
 0	premeditated coffee shop murders	no perpetrator	no dialogue
 1	coffee shop murders	no perpetrator	no dialogue
 1	hit and run	no perpetrator	no dialogue
-2	hit and run suspect	Adam Walkey	no dialogue
+2	hit and run suspect	Adam_Walkey	no dialogue
 2	erin's murder	no perpetrator	no dialogue
-3	hit and run	Mark Rucker	[[Mark_Rucker]] i want a lawyer
-3	erin's murder	Brad Kendall	[[Brad_Kendall]] it was a one-time thing
+3	hit and run	Mark_Rucker	[[Mark_Rucker]] i want a lawyer
+3	erin's murder	Brad_Kendall	[[Brad_Kendall]] it was a one-time thing

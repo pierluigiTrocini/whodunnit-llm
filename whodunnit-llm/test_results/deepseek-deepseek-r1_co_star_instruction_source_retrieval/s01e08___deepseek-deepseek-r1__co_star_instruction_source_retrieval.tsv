@@ -7,10 +7,10 @@ scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
 1	DUI crash investigation	NO PERPETRATOR	[[Nick]] i'm thinking dui	NO SOURCE
 1	Scripted suicide notes	NO PERPETRATOR	[[Grissom]] it's 'fill in the blanks'	NO SOURCE
 1	Birthday pattern homicides	NO PERPETRATOR	[[Sara]] both have the same birthday	NO SOURCE
-2	Royce Harmon's staged suicide	Paul Millander	[[Mandy]] the top print came back paul millander	NO SOURCE  
-2	Stuart Rampler's murder	Paul Millander	[[Grissom]] he's the guy who makes the rubber hands	NO SOURCE  
-2	ATM message investigation	Paul Millander	[[Grissom]] he's obviously making a point	NO SOURCE  
+2	Royce Harmon's staged suicide	Paul_Millander	[[Mandy]] the top print came back paul millander	NO SOURCE  
+2	Stuart Rampler's murder	Paul_Millander	[[Grissom]] he's the guy who makes the rubber hands	NO SOURCE  
+2	ATM message investigation	Paul_Millander	[[Grissom]] he's obviously making a point	NO SOURCE  
 2	DUI crash investigation	NO PERPETRATOR	[[Nick]] i'm thinking dui	NO SOURCE
-3	John Millander's murder	Paul Millander	[[Bum]] he had a narrow chin uh ... his eyes were blue -- deep-sea blue	NO SOURCE  
-3	Staged suicides revenge	Paul Millander	[[Sara]] he was killing men who were born on the same day that his father died	NO SOURCE  
+3	John Millander's murder	Paul_Millander	[[Bum]] he had a narrow chin uh ... his eyes were blue -- deep-sea blue	NO SOURCE  
+3	Staged suicides revenge	Paul_Millander	[[Sara]] he was killing men who were born on the same day that his father died	NO SOURCE  
 3	DUI crash case	NO PERPETRATOR	[[Walter_Banglor]] i was drunk .. really drunk	NO SOURCE

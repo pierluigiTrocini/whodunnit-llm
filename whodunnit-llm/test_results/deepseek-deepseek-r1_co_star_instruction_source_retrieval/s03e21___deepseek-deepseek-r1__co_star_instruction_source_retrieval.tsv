@@ -1,15 +1,15 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
 0	Lori Hutchins' death	NO PERPETRATOR	[[Grissom]] of course	NO SOURCE
-0	Toby Wellstone's overdose	Toby Wellstone	[[Warrick]] intentional overdose	NO SOURCE
+0	Toby Wellstone's overdose	Toby_Wellstone	[[Warrick]] intentional overdose	NO SOURCE
 1	Lori Hutchins' death	NO PERPETRATOR	[[Robbins]] someone else shot her	NO SOURCE
-1	Toby Wellstone's overdose	Toby Wellstone	[[Warrick]] intentional overdose	NO SOURCE
+1	Toby Wellstone's overdose	Toby_Wellstone	[[Warrick]] intentional overdose	NO SOURCE
 1	Prom dress suicide	NO PERPETRATOR	[[Warrick]] the same transdermal patch	NO SOURCE
 2	Lori Hutchins' death	NO PERPETRATOR	[[Robbins]] someone else shot her	NO SOURCE
-2	Toby Wellstone's overdose	Toby Wellstone	[[Warrick]] intentional overdose	NO SOURCE
-2	Jill Frommer's suicide	Jill Frommer	[[Greg]] their baby	NO SOURCE
-2	Diamond smuggling case	Harper Fitzgerald	[[Grissom]] the horse is a 'mule'	NO SOURCE
+2	Toby Wellstone's overdose	Toby_Wellstone	[[Warrick]] intentional overdose	NO SOURCE
+2	Jill Frommer's suicide	Jill_Frommer	[[Greg]] their baby	NO SOURCE
+2	Diamond smuggling case	Harper_Fitzgerald	[[Grissom]] the horse is a 'mule'	NO SOURCE
 3	Lori Hutchins' death	Rhone_Confer	[[Robbins]] someone else shot her	NO SOURCE
-3	Toby Wellstone's overdose	Toby Wellstone	[[Warrick]] intentional overdose	NO SOURCE
+3	Toby Wellstone's overdose	Toby_Wellstone	[[Warrick]] intentional overdose	NO SOURCE
 3	Jill Frommer's suicide	Mrs._Frommer	[[Greg]] their baby	NO SOURCE
 3	Diamond smuggling case	Harper Fitzgerald	[[Grissom]] the horse is a 'mule'	NO SOURCE
 3	Jill and Toby's deaths	Mrs._Frommer	[[Sara]] we're going to write you up on murder	NO SOURCE

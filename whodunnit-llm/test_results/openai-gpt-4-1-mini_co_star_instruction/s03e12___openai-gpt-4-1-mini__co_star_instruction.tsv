@@ -1,8 +1,8 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue
-0	Fred Stearns death	Fred Stearns	[[Robbins]] case 03-615
-0	Artificial disc owner	Amy Ennis	[[Robbins]] amy ennis
-0	Blood in trash	Daniel Easton	[[Daniel_Easton]] you found blood ... in my trash can ?
-1	Organic poison case	Marty Gibson	[[Grissom]] the organic poison came back snake venom
-1	Prints match Kelly Easton	Kelly Easton	[[Nick]] prints came back to somebody named 'kelly easton '
-2	Snake venom poisoning	Marty Gibson	[[Grissom]] ( Quick flashback to : MARTY GIBSON pours the cup of coffee . )
-3	Kelly Easton murder	Nora Easton	[[Brass]] you 're under arrest for the murder of kelly easton
+0	Fred Stearns death	Fred_Stearns	[[Robbins]] case 03-615
+0	Artificial disc owner	Amy_Ennis	[[Robbins]] amy ennis
+0	Blood in trash	Daniel_Easton	[[Daniel_Easton]] you found blood ... in my trash can ?
+1	Organic poison case	Marty_Gibson	[[Grissom]] the organic poison came back snake venom
+1	Prints match Kelly Easton	Kelly_Easton	[[Nick]] prints came back to somebody named 'kelly easton '
+2	Snake venom poisoning	Marty_Gibson	[[Grissom]] ( Quick flashback to : MARTY GIBSON pours the cup of coffee . )
+3	Kelly Easton murder	Nora_Easton	[[Brass]] you 're under arrest for the murder of kelly easton

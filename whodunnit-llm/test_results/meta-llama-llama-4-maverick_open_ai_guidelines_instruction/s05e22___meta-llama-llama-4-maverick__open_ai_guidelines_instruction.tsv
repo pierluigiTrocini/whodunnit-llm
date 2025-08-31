@@ -1,7 +1,7 @@
 scene_chunk	case_summary	perpetrator	evidence_in_dialogue
-0	murder in parking	Alice's killer	no dialogue
+0	murder in parking	Alice's_killer	no dialogue
 0	Catherine's injury	Catherine	[[Catherine]] i walked into a door
-1	Alice's murder	Jeff Simon	[[Douglas_Granger]] guy was stalking her
-2	Holly's murder	Adam Novak	[[Catherine]] adam novak 's a public defender
-3	Alice's murder	Jeff Simon	[[Catherine]] you were obsessed with alice , and when you saw adam having at her , you flipped out
-3	Holly's murder	Jeff Simon	[[Catherine]] it was just bad luck that holly pearson met adam that night
+1	Alice's murder	Jeff_Simon	[[Douglas_Granger]] guy was stalking her
+2	Holly's murder	Adam_Novak	[[Catherine]] adam novak 's a public defender
+3	Alice's murder	Jeff_Simon	[[Catherine]] you were obsessed with alice , and when you saw adam having at her , you flipped out
+3	Holly's murder	Jeff_Simon	[[Catherine]] it was just bad luck that holly pearson met adam that night

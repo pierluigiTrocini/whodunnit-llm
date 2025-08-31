@@ -3,10 +3,10 @@ scene_chunk	case_summary	perpetrator	evidence_in_dialogue
 0	Dustin Bale's homicide	NO PERPETRATOR	[[Officer_Spencer]] body 's behind the counter
 1	Adam Brower's murder	NO PERPETRATOR	[[Robbins]] i.d 'd as adam brower , shot in the back with a hollow point -- close range
 1	Casino Heist/Murder	NO PERPETRATOR	[[Grissom]] that must be the one that killed brower
-1	Dustin Bale's murder	Tammy Felton	[[Catherine]] match
-2	Casino Heist/Murder	Tammy Felton	[[Grissom]] three armed robbers
-2	Dustin Bale's murder	Tammy Felton	[[Grissom]] so tammy kills dad ... and she and darin hanson run off together
+1	Dustin Bale's murder	Tammy_Felton	[[Catherine]] match
+2	Casino Heist/Murder	Tammy_Felton	[[Grissom]] three armed robbers
+2	Dustin Bale's murder	Tammy_Felton	[[Grissom]] so tammy kills dad ... and she and darin hanson run off together
 2	Tammy Felton's murder	NO PERPETRATOR	[[Catherine]] it 's tammy
 3	Darin Hanson's murder	NO PERPETRATOR	[[Warrick]] shot with a .45
-3	Casino Heist Conspiracy	Max Duncan	[[Grissom]] well done , warrick
-3	Dustin Bale's murder	Officer Spencer	[[Officer_Spencer]] more than i 'd make in a lifetime
+3	Casino Heist Conspiracy	Max_Duncan	[[Grissom]] well done , warrick
+3	Dustin Bale's murder	Officer_Spencer	[[Officer_Spencer]] more than i 'd make in a lifetime
