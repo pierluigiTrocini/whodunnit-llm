@@ -144,10 +144,6 @@ def test_openrouter(
     
     logging.info(f'[Test] end of test')
 
-    # logging.info(f'[time_sleep] time sleep: {time_sleep} sec')
-    # time.sleep(time_sleep)
-
-
 
 if __name__ == '__main__':
     loggingConfig()
@@ -165,6 +161,3 @@ if __name__ == '__main__':
 
                 comment_output_file='co_star_instruction'
             )
-
-            print(f"[MAIN] end\n")
-            time.sleep(10)
