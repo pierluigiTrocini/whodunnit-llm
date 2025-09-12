@@ -10,17 +10,16 @@ import matplotlib.pyplot as plt
 from utility import *
 
 co_star_prompt_source_retrieval = [
-    f'{RESULTS_PATH}deepseek-deepseek-r1_co_star_prompt_source_retrieval/',
-    f'{RESULTS_PATH}google-gemini-2-0-flash-001_co_star_prompt_source_retrieval/',
-    f'{RESULTS_PATH}meta-llama-llama-4-maverick_co_star_prompt_source_retrieval/',
-    f'{RESULTS_PATH}openai-gpt-4-1-mini_co_star_prompt_source_retrieval/'
+    f'{RESULTS_PATH}deepseek-deepseek-r1_co_star_instruction_source_retrieval/',
+    f'{RESULTS_PATH}google-gemini-2-0-flash-001_co_star_instruction_source_retrieval/',
+    f'{RESULTS_PATH}meta-llama-llama-4-maverick_co_star_instruction_source_retrieval/',
+    f'{RESULTS_PATH}openai-gpt-4-1-mini_co_star_instruction_source_retrieval/'
 ]
-
 source_types = [
-    'unavailable web sites',
-    'csi info web sites',
-    'other sources',
-    'no source'
+    'Siti web non disponibili',
+    'Siti web relativi a \'Csi: Crime Scene Investigation\'',
+    'Altre fonti',
+    'Nessuna fonte dichiarata'
 ]
 
 def plot_source_types_pie(source_types_retrieved):
@@ -41,6 +40,9 @@ def plot_source_types_pie(source_types_retrieved):
     )
     ax.set_title('Source type distribution', fontsize=16)
     plt.tight_layout()
+
+    plt.savefig('source_type_distribution.png')
+
     plt.show()
 
 def source_retrieval_data_extraction():
@@ -59,23 +61,23 @@ def source_retrieval_data_extraction():
                         total_source_occurance += 1
 
                         if source.lower() == 'no source':
-                            source_types_retrieved['no source'] += 1
+                            source_types_retrieved['Nessuna fonte dichiarata'] += 1
                         elif source.startswith('http://') or source.startswith('https://'):
                             try:
                                 response = requests.head(source, allow_redirects=False, verify=False, timeout=5)
                                 if response.status_code == requests.codes.not_found:
-                                    source_types_retrieved['unavailable web sites'] += 1
+                                    source_types_retrieved['Siti web non disponibili'] += 1
                                 elif response.status_code == requests.codes.ok:
                                     if 'csi' in source.lower():
                                         source_types_retrieved['csi info web sites'] += 1
                                     else:
-                                        source_types_retrieved['other sources'] += 1
+                                        source_types_retrieved['Altre fonti'] += 1
                                 else:
-                                    source_types_retrieved['other sources'] += 1
+                                    source_types_retrieved['Altre fonti'] += 1
                             except requests.RequestException:
-                                source_types_retrieved['unavailable web sites'] += 1
+                                source_types_retrieved['Siti web non disponibili'] += 1
                         else:
-                            source_types_retrieved['other sources'] += 1
+                            source_types_retrieved['Altre fonti'] += 1
                         
     for source in source_types_retrieved.keys():
         print(f'source: {source}: {source_types_retrieved[source]}')

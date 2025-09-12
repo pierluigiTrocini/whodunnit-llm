@@ -11,7 +11,7 @@ def plot_coherence_indicator(models, values, plot_title):
     import numpy
 
     mean_value = statistics.mean(values) if values else 0
-    models_with_mean = models + ['Average']
+    models_with_mean = models + ['Media']
     values_with_mean = values + [mean_value]
 
     greys = plt.cm.Greys(numpy.linspace(0.4, 0.85, len(models)))
@@ -22,7 +22,7 @@ def plot_coherence_indicator(models, values, plot_title):
 
     bars[-1].set_hatch('//')
 
-    ax.set_ylabel('Coherent Identifications')
+    ax.set_ylabel('# colpevoli')
     ax.set_title(plot_title)
     ax.set_ylim(0, max(values_with_mean) + 2)
 
@@ -45,7 +45,7 @@ def plot_perpetrators_identified(models, values, plot_title):
     import numpy
 
     mean_value = statistics.mean(values)
-    models_with_mean = models + ['Average']
+    models_with_mean = models + ['Media']
     values_with_mean = values + [mean_value]
 
     # Genera una lista di colori in toni di grigio per ogni modello, la media sarà arancione
@@ -59,7 +59,7 @@ def plot_perpetrators_identified(models, values, plot_title):
     bars[-1].set_hatch('//')
 
     # Etichette e titolo
-    ax.set_ylabel('Perpetrators Identified')
+    ax.set_ylabel('# colpevoli')
     ax.set_title(plot_title)
     ax.set_ylim(0, max(values_with_mean) + 2)
 
@@ -139,9 +139,9 @@ def validation(folder: str, plot_title: str, prompt_type: str):
         print(f'model: {model} | {total_perpetrators_identified}')
 
     plot_perpetrators_identified(list(cases_solved.keys()), list(cases_solved.values()), f'{plot_title} {prompt_type}')
-    plot_coherence_indicator(list(coherence_indicator.keys()), list(coherence_indicator.values()), f"Coherence Indicator {prompt_type}")
+    plot_coherence_indicator(list(coherence_indicator.keys()), list(coherence_indicator.values()), f"Colpevoli identificati - informazione incompleta {prompt_type}")
 
 if __name__ == '__main__':
-    validation(folder = open_ai_guidelines_result_folders, plot_title = "Perpetrators identified", prompt_type = '(OpenAI guidelines)')
-    validation(folder = co_star_prompt_result_folders, plot_title = "Perpetrators identified", prompt_type = '(CO_STAR Framework)')
-    validation(folder = co_star_prompt_source_retrieval, plot_title = 'Perpetrators identified', prompt_type = '(CO_STAR Framework - with source retrieval)')
+    validation(folder = open_ai_guidelines_result_folders, plot_title = "Colpevoli identificati - informazione completa", prompt_type = '(OpenAI guidelines)')
+    validation(folder = co_star_prompt_result_folders, plot_title = "Colpevoli identificati - informazione completa", prompt_type = '(CO_STAR Framework)')
+    validation(folder = co_star_prompt_source_retrieval, plot_title = 'Colpevoli identificati - informazione completa', prompt_type = '(CO_STAR Framework - recupero delle fonti)')
