@@ -1,0 +1,12 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
+0	Alice Granger's murder	NO PERPETRATOR	[[Grissom]] usually when a killer covers the victim 's face , it suggests familiarity	NO SOURCE
+0	Alice Granger's murder	NO PERPETRATOR	NO DIALOGUE	https://www.crime-scene.com/alice-granger-case
+0	Alice Granger's murder	NO PERPETRATOR	[[Grissom]] usually when a killer covers the victim 's face , it suggests familiarity	NO SOURCE
+1	Alice Granger's murder	Jeff_Simon	[[Douglas_Granger]] jeff simon , her ex-boyfriend	https://www.crime-scene.com/alice-granger-case
+1	Alice Granger's murder	Jeff_Simon	[[Douglas_Granger]] jeff simon , her ex-boyfriend	https://www.crime-scene.com/alice-granger-case
+2	Holly Pearson's murder	Adam_Novak	[[Catherine]] adam novak 's a public defender	https://www.crime-scene.com/holly-pearson-case
+2	Holly Pearson's murder	Adam_Novak	[[Catherine]] adam novak 's a public defender	https://www.crime-scene.com/holly-pearson-case
+3	Alice Granger's murder	Jeff_Simon	[[Catherine]] you were obsessed with alice , and when you saw adam having at her , you flipped out	https://www.crime-scene.com/alice-granger-case
+3	Holly Pearson's murder	Jeff_Simon	[[Catherine]] it was just bad luck that holly pearson met adam that night	https://www.crime-scene.com/holly-pearson-case
+3	Alice Granger's murder	Jeff_Simon	[[Catherine]] you were obsessed with alice , and when you saw adam having at her , you flipped out	https://www.crime-scene.com/alice-granger-case
+3	Holly Pearson's murder	Jeff_Simon	[[Catherine]] it was just bad luck that holly pearson met adam that night	https://www.crime-scene.com/holly-pearson-case

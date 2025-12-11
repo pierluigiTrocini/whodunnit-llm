@@ -1,0 +1,9 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue
+0	theater patron murder	no perpetrator	no dialogue
+0	teenager's warehouse shooting	no perpetrator	no dialogue
+1	theater patron murder	no perpetrator	no dialogue
+1	teenager's warehouse shooting	no perpetrator	no dialogue
+2	theater patron murder	Kelly_Goodson	[[Grissom]] it was written above 'strangers on a train '	
+2	teenager's warehouse shooting	Kevin_McCallum	[[Kevin_McCallum]] i bought beer for timmy
+3	theater patron murder	Kelly_Goodson	[[Grissom]] it was written above 'strangers on a train '	
+3	teenager's warehouse shooting	Kevin_McCallum	[[Kevin_McCallum]] i bought beer for timmy

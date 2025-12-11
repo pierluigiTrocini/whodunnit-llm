@@ -1,0 +1,21 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
+0	Case Summary	Perpetrator	Dialogue Line
+0	Royce Harmon's staged suicide	NO PERPETRATOR	[[Brass]] killer may have struck again
+0	Stuart Rampler's murder	NO PERPETRATOR	[[Grissom]] i think the killer has killed again
+0	DUI crash case	NO PERPETRATOR	[[Nick]] i'm thinking dui
+1	Case Summary	Perpetrator	Dialogue Line
+1	Royce Harmon's murder	NO PERPETRATOR	[[Dr._Albert_Robbins]] they were both murdered
+1	Stuart Rampler's murder	NO PERPETRATOR	[[Brass]] killer may have struck again
+1	DUI crash investigation	NO PERPETRATOR	[[Nick]] i'm thinking dui
+1	Scripted suicide recordings	NO PERPETRATOR	[[Catherine]] he's just reading from a suicide script
+2	Case Summary	Perpetrator	Dialogue Line
+2	Royce Harmon's murder	NO PERPETRATOR	[[Dr._Albert_Robbins]] they were both murdered
+2	Stuart Rampler's murder	NO PERPETRATOR	[[Grissom]] i think the killer has killed again
+2	DUI crash investigation	NO PERPETRATOR	[[Nick]] i'm thinking dui
+2	Scripted suicide recordings	NO PERPETRATOR	[[Catherine]] he's just reading from a suicide script
+2	Grissom's print evidence	NO PERPETRATOR	[[Mandy]] it came back you
+2	ATM footage mystery	NO PERPETRATOR	[[Grissom]] there's our guy ... handing it off
+3	Case Summary	Perpetrator	Dialogue Line  
+3	Walter Banglor's DUI crash	Walter_Banglor	[[Walter_Banglor]] i was drunk .. really drunk  
+3	Paul Millander's setup	Paul_Millander	[[Grissom]] paul millander he set me up  
+3	John Millander's murder	Paul_Millander	[[Sara]] paul millander, age ten, testified that he watched... his father, john, was escorted... into his own bathtub at gunpoint...

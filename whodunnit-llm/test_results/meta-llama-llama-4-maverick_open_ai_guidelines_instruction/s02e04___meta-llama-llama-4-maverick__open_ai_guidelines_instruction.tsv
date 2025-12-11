@@ -1,0 +1,25 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue
+0	vandalism and murder	unknown perpetrator	no dialogue
+0	Barry's murder	Derek_Baz	no dialogue is not correct, however the correct response can be deduced from the text. Here is the correct response:
+0	vandalism gone wrong	unknown perpetrator	no dialogue 
+0	vandalism gone wrong	Barry_Schickle	[[Barry_Schickle]] later , losers
+0	Barry's murder	no perpetrator	no dialogue 
+0	vandalism	Barry_Schickle	[[Barry_Schickle]] later , losers
+0	Barry's murder	no perpetrator	no dialogue 
+0	vandalism	Barry_Schickle	[[Barry_Schickle]] later , losers
+0	Barry's murder	no perpetrator	no dialogue
+1	victim identification	NICK	[[Nick]] you know , sara , a lot of homeless guys get these army jackets cheap at salvage stores is not a correct supporting line. A more plausible response is:
+1	victim identification	Sara	[[Sara]] i'm going to get homicide to check the va medical database for a 'w
+1	murder investigation	Nick	[[Nick]] i have is a more plausible response for the second case.
+1	victim identification	Sara	[[Sara]] i'm going to get homicide to check the va medical database for a 'w
+1	murder investigation	Nick	[[Nick]] i have
+2	murder investigation	Manager_Of_Romanini's	[[Manager_Of_Romanini's]] that 's the last i saw of him
+2	victim identification	Sara	[[Sara]] that 's funny we found his body is not a correct supporting line for Sara, however a more plausible response is:
+2	murder investigation	Manager_Of_Romanini's	[[Manager_Of_Romanini's]] i tried to reason with him
+2	victim identification	Det._O'Riley	[[Det._O'Riley]] he 's a second lieutenant william cartsen
+2	victim identification	Det._O'Riley	[[Det._O'Riley]] he 's a second lieutenant william cartsen
+2	murder investigation	Manager_Of_Romanini's	[[Manager_Of_Romanini's]] i tried to reason with him
+3	murder	Julia_Barett	[[Julia_Barett]] i did this for my kids
+3	investigation	Grissom	[[Grissom might might want to mention that to your lawyer
+3	Barry's murder	Julia_Barett	[[Julia_Barett]] i did this for my kids
+3	crime scene analysis	Grissom	[[Grissom]] you might want to mention that to your lawyer

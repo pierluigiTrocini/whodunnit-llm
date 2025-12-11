@@ -1,0 +1,16 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue
+0	Stuart Rampler's murder	NO PERPETRATOR	[[Grissom]] i think the killer has killed again
+0	Royce Harmon's murder	NO PERPETRATOR	[[Brass]] we had a case like this three months ago -- a guy found dead in his bathtub
+0	Car crash	NO PERPETRATOR	NO DIALOGUE
+1	Stuart Rampler's murder	NO PERPETRATOR	[[Grissom]] we know how he gets his vics into the tub and we know that both deaths were homicides
+1	Royce Harmon's murder	NO PERPETRATOR	[[Grissom]] we know how he gets his vics into the tub and we know that both deaths were homicides
+1	Walter Banglor's accident	NO PERPETRATOR	NO DIALOGUE
+2	Stuart Rampler's murder	Paul_Millander	[[Paul_Millander]] yeah\n [[Paul_Millander]] how 's that going ?
+2	Royce Harmon's murder	Paul_Millander	[[Paul_Millander]] yeah\n [[Paul_Millander]] how 's that going ?
+2	Stuart Rampler's murder	Gil_Grissom	[[Grissom]] i get it\n [[Grissom]] whoever it is is telling me that he 's got me under his thumb
+2	Royce Harmon's murder	Gil_Grissom	[[Grissom]] i get it\n [[Grissom]] whoever it is is telling me that he 's got me under his thumb
+2	Walter Banglor's accident	NO PERPETRATOR	NO DIALOGUE
+3	Walter Banglor's accident	NO PERPETRATOR	[[Walter_Banglor]] i was drunk .. really drunk
+3	Stuart Rampler's murder	Paul_Millander	[[Grissom]] paul millander\n [[Grissom]] he set me up
+3	Royce Harmon's murder	Paul_Millander	[[Grissom]] paul millander\n [[Grissom]] he set me up
+3	John Millander's death	Paul_Millander	[[Sara]] paul millander , age ten , testified that he watched in the closet while his father , john , was escorted by two hotel security guards into his own bathtub at gunpoint where he was found shot to death

@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "whodunnit-llm"
+version = "0.1.0"
+description = ""
+authors = ["pierluigitrc <pierluigitrc@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.81.0"
+numpy = "^2.2.6"
+tiktoken = "^0.9.0"
+groq = "^0.26.0"
+matplotlib = "^3.10.3"
+tk = "^0.1.0"
+pyqt5 = "^5.15.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

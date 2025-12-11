@@ -1,0 +1,195 @@
+from enum import Enum
+from pydantic import BaseModel, Field
+from typing import Annotated
+
+class Platform(Enum):
+    OPEN_AI_API = 1,
+    GROQ_AI_API = 2,
+    OPENROUTER_AI_API = 3,
+    GEMINI_AI_API = 4
+
+SCENE_LEVEL_N_ASPECTS = "csi-corpus/screenplay_summarization/scene_level_n_aspects/"
+PERPETRATOR_IDENTIFICATION = "csi-corpus/perpetrator_identification/"
+LOGS_PATH = 'logs/'
+RESULTS_PATH = 'test_results/'
+
+GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
+OPENAI_BASE_URL = "https://api.openai.com/v1/"
+DEEPSEEK_BASE_URL = "https://api.deepseek.com/"
+
+OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
+
+
+# Models for OpenAI platform
+OPENAI__GPT_4O_MINI = "gpt-4o-mini"
+
+# Models for Gemini platform
+GEMINI__GEMINI_2_0_FLASH = "gemini-2.0-flash"
+
+# Models for Openrouter platform
+OPENROUTER__GPT_4O_MINI = "openai/gpt-4o-mini"
+OPENROUTER__DEEPSEEK_R1_FREE = "deepseek/deepseek-r1:free"
+OPENROUTER__GEMINI_2_0_FLASH_EXPERIMENTAL_FREE = "google/gemini-2.0-flash-exp:free"
+OPENROUTER__LLAMA_SCOUT_4_FREE = "meta-llama/llama-4-scout:free"
+OPENROUTER__DEEPSEEK_V3_BASE_FREE = "deepseek/deepseek-v3-base:free"
+
+OPENROUTER__DEEPSEEK_R1 = 'deepseek/deepseek-r1-0528:free'
+
+# Other openrouter models
+OPENROUTER__LLAMA_4_MAVERICK = 'meta-llama/llama-4-maverick'
+OPENROUTER__GPT_4_1_NANO = 'openai/gpt-4.1-nano'
+OPENROUTER__GPT_4_1_MINI = 'openai/gpt-4.1-mini'
+OPENROUTER__DEEPSEEK_R1 = 'deepseek/deepseek-r1'
+OPENROUTER__GEMINI_2_0_FLASH = 'google/gemini-2.0-flash-001'
+# -------------------------------------------------
+
+# Models for Groq platform
+GROQ__LLAMA_3_3_70B_VERSATILE = "llama-3.3-70b-versatile"
+GROQ__GEMMA_2_9B_IT = "gemma2-9b-it"
+GROQ__DEEPSEEK_R1_DISTILL_LLAMA_70b = "deepseek-r1-distill-llama-70b"
+GROQ__QWEN_QWQ_32B = "qwen-qwq-32b"
+GROQ__MISTRAL_SABA_24b = "mistral-saba-24b"
+
+
+# -------------------------------------------------
+
+tsv_initial_tags = ['scene_chunk', 'case_summary', 'perpetrator', 'evidence_in_dialogue']
+tsv_sourcing_tags = tsv_initial_tags + ['source']
+
+TIKTOKEN_ENCODER = 'cl100k_base'
+
+CO_STAR_INSTRUCTION = """
+# CONTEXT #
+You are a forensic specialist that solves crime cases.
+
+##############
+
+# OBJECTIVE #
+Given chunks of screenplays, identify all the cases mentioned. 
+For each case:
+1. provide a 3-4 word, case summary, or 'NO SUMMARY' if none can be identified.
+2. provide the perpetrator/culprit's name, or 'NO PERPETRATOR' if none can be identified.
+3. Provide exactly one line of dialogue that supports your determination of the perpetrator, or 'NO DIALOGUE' if none can be identified.
+
+##############
+
+# STYLE #
+Follow the TSV style.
+
+##############
+
+# AUDIENCE #
+Tailor the response toward a tsv file,
+
+##############
+
+# RESPONSE #
+For each case identified, maintain the following tsv file format:
+<case_summary>  <name>  <dialogue_line>
+
+Here's some examples
+
+Screenplay chunk:
+[[Detective]] Alice, you killed Bob
+[[Alice_Foo]] Yes, I did!
+
+Response:
+Bob's murder	Alice_Foo	[[Alice_Foo]] Yes, I did!
+
+Screenplay chunk:
+[[Detecive]] Alice killed Bob, and Derek killed Sarah!
+[[Alice_Foo]] Yeah, I confess!
+[[Derek_Baz]] I want a lawyer!
+
+Response:
+Bob's murder	Alice_Foo	[[Alice_Foo]] Yeah, I confess!
+Sarah's murder	Derek_Baz	[[Derek_Baz]] I want a lawyer!
+
+##############
+"""
+
+CO_STAR_INSTRUCTION_WITH_SOURCE = """
+# CONTEXT #
+You are a forensic specialist that solves crime cases.
+
+##############
+
+# OBJECTIVE #
+Given chunks of screenplays, identify all the cases mentioned. 
+For each case:
+1. provide a 3-4 word, case summary, or 'NO SUMMARY' if none can be identified.
+2. provide the perpetrator/culprit's name, or 'NO PERPETRATOR' if none can be identified.
+3. Provide exactly one line of dialogue that supports your determination of the perpetrator, or 'NO DIALOGUE' if none can be identified.
+4. Provide exactly one line with a source's URL that supports your determination of the perpetrator, or 'NO SOURCE' if none can be found.
+
+##############
+
+# STYLE #
+Follow the TSV style.
+
+##############
+
+# AUDIENCE #
+Tailor the response toward a tsv file,
+
+##############
+
+# RESPONSE #
+For each case identified, maintain the following tsv file format:
+<case_summary>  <name>  <dialogue_line>	<source>
+
+Here's some examples
+
+Screenplay chunk:
+[[Detective]] Alice, you killed Bob
+[[Alice_Foo]] Yes, I did!
+
+Response:
+Bob's murder	Alice_Foo	[[Alice_Foo]] Yes, I did!	https://it.wikipedia.org/wiki/Bob_s_murder
+
+Screenplay chunk:
+[[Detecive]] Alice killed Bob, and Derek killed Sarah!
+[[Alice_Foo]] Yeah, I confess!
+[[Derek_Baz]] I want a lawyer!
+
+Response:
+Bob's murder	Alice_Foo	[[Alice_Foo]] Yeah, I confess!	https://it.wikipedia.org/wiki/Bob_s_murder
+Sarah's murder	Derek_Baz	[[Derek_Baz]] I want a lawyer!	https://www.nytimes.com/interactive/2025/06/23/crime/sarah-s-murder.html
+
+##############
+"""
+
+OPEN_AI_GUIDELINES_INSTRUCTION = """
+# Identity
+You are a forensic specialist that solves crime cases.
+Your task is to analyze provided screenplay chunks and solve the cases.
+
+# Instruction
+A screenplay could have 1 up to 2 cases. For each case, provide:
+1. A 3-4 word summary of the case in lowercase, or 'no summary' if none can be identified.
+2. The name of the perpetrator, or 'no perpetrator' if none ca be identified.
+3. Provide exactly one line of dialogue that supports your determination of the perpetrator, or 'no dialogue' if none can be identified.
+
+Follow the TSV style. Format each case response as:
+<case_summary>	<perpetrator>	<dialogue>
+
+# Examples
+## Single case example:
+
+Input:
+[[Detective]] Alice, you killed Bob
+[[Alice_Foo]] Yes, I did!
+
+Response:
+Bob's murder    Alice_Foo   [[Alice_Foo]] Yes, I did!
+
+## Multiple cases example:
+Input:
+[[Detecive]] Alice killed Bob, and Derek killed Sarah!
+[[Alice_Foo]] Yeah, I confess!
+[[Derek_Baz]] I want a lawyer!
+
+Response:
+Bob's murder	Alice_Foo	[[Alice_Foo]] Yeah, I confess!
+Sarah's murder	Derek_Baz	[[Derek_Baz]] I want a lawyer!
+""".strip()

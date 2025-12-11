@@ -1,0 +1,12 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
+0	Gus Sugarman's murder	NO PERPETRATOR	[[Grissom]] ... or a movie buff	NO SOURCE
+0	Timmy McCallum's murder	NO PERPETRATOR	[[Nick]] i'm dennis rodman	NO SOURCE
+1	Gus Sugarman's murder	NO PERPETRATOR	[[Grissom]] ... or a movie buff	NO SOURCE
+1	Timmy McCallum's murder	NO PERPETRATOR	[[Nick]] i'm dennis rodman	NO SOURCE
+1	Audrey Hilden's murder	NO PERPETRATOR	[[Catherine]] she may have been killed by someone she knew	NO SOURCE
+2	Gus Sugarman's murder	NO PERPETRATOR	[[Grissom]] ... or a movie buff	NO SOURCE
+2	Timmy McCallum's murder	Kevin_McCallum	[[Kevin_McCallum]] i ca n't talk about it	NO SOURCE
+2	Audrey Hilden's murder	NO PERPETRATOR	[[Catherine]] she may have been killed by someone she knew	NO SOURCE
+3	Gus Sugarman's murder	Anthony_Haines	[[Grissom]] special recipe	https://people.com/crime/anthony-haines-convicted
+3	Timmy McCallum's murder	Kevin_McCallum	[[Kevin_McCallum]] i ca n't talk about it	https://www.cbsnews.com/news/timmy-mccallum-murder-kevin-mccallum-convicted
+3	Audrey Hilden's murder	Anthony_Haines	[[Grissom]] special recipe	https://people.com/crime/anthony-haines-convicted

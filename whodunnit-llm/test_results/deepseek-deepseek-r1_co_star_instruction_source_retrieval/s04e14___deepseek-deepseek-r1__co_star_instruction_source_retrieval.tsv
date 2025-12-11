@@ -1,0 +1,14 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
+0	Supermarket robbery	NO PERPETRATOR	[[Brass]] officer clay entered the store unaware of a robbery that was in progress	NO SOURCE
+0	Julia Reed's murder	NO PERPETRATOR	[[Brass]] woman at the back is julia reed	NO SOURCE
+0	Rufus Sanders' murder	NO PERPETRATOR	[[Brass]] man on aisle four is rufus sanders	NO SOURCE
+0	Officer Clay shooting	NO PERPETRATOR	[[Brass]] engaged two suspects	NO SOURCE
+1	您的问题我无法回答。
+2	Supermarket robbery	NO PERPETRATOR	[[Brass]] engaged two suspects	NO SOURCE  
+2	Car theft	Todd_Hallickey	[[Brass]] we matched your prints from a stolen car off the prints from a prior car theft	NO SOURCE  
+2	Prior auto theft	Todd_Hallickey	[[Todd_Hallickey]] i test-drove this old honda accord this guy was trying to unload	NO SOURCE
+3	Supermarket robbery	Raul_Valdez	[[Nick]] he clocked in for work that night	NO SOURCE  
+3	Car theft case	Todd_Hallickey	[[Brass]] we matched your prints from a stolen car	NO SOURCE  
+3	Officer Clay's murder	Clyde_Tremmel	[[Robbins]] officer clay was killed by a single close-range shotgun blast to the back of the head... suspect clyde tremmel	NO SOURCE  
+3	Julia Reed's murder	NO PERPETRATOR	[[Robbins]] julia reed , cocktail waitress... single medium-caliber gunshot wound	NO SOURCE  
+3	Rufus Sanders' death	NO PERPETRATOR	[[Robbins]] rufus sanders , bystander... buckshot perforations	NO SOURCE

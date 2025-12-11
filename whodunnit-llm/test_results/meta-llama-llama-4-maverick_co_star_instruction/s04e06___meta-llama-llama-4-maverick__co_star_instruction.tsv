@@ -1,0 +1,7 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue
+0	Head's murder	NO PERPETRATOR	NO DIALOGUE
+0	Body in the hole	NO PERPETRATOR	NO DIALOGUE
+1	Ross Jenson's murder	NO PERPETRATOR	[[Eric_Brooks]] he 's an art student , you know
+1	Leland Brooks' potential involvement	NO PERPETRATOR	[[Dale_Sterling]] here she is
+2	Ross Jenson's murder	Eric_Brooks	[[Catherine]] yeah , his name is ... eric brooks
+3	Ross Jenson's murder	Eric_Brooks	[[Catherine]] you were there

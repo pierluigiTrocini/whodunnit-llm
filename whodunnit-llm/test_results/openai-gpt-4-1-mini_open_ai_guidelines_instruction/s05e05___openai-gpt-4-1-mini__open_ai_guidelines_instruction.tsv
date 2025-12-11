@@ -1,0 +1,14 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue
+0	woman drowned fountain	 no perpetrator	 no dialogue
+0	landlord saw murder	 no perpetrator	 no dialogue
+1	drowning location mismatch	no perpetrator	no dialogue
+1	body hidden arcade machine	no perpetrator	no dialogue
+1	swinger party affair	Paul_Brady	[[Paul_Brady]] yeah, yeah, it's fun
+1	landlord murder	Charlie_Pinscher	[[Warrick]] charlie confessed to killing the landlord
+2	pornographic photo fake victim	no perpetrator	no dialogue
+2	arcade murder weapon found	no perpetrator	no dialogue
+2	landlord murder suspect	Mrs._Basengi	[[Warrick]] luckily, she left her prints behind
+2	fake victim identity	no perpetrator	no dialogue
+3	murder weapon barbecue fork	Amy_Keaton	[[Sara]] you were having an affair with tom cunningham
+3	affair with minor	Tom_Cunningham	[[Tom_Cunningham]] amy came on to me
+3	murder cover-up	Amy_Keaton	[[Amy_Keaton]] so we put her in the fountain

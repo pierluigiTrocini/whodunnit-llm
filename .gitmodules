@@ -1,0 +1,3 @@
+[submodule "whodunnit-llm/csi-corpus"]
+	path = whodunnit-llm/csi-corpus
+	url = https://github.com/EdinburghNLP/csi-corpus.git

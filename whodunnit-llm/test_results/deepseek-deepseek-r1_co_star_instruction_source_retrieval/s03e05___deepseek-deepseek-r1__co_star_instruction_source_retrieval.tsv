@@ -1,0 +1,17 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
+0	Gus Kenyon's murder	NO PERPETRATOR	[[Nick]] the tourniquet... it's tied the other way, pulled away from him	NO SOURCE
+0	Gus Kenyon's murder	NO PERPETRATOR	[[Robbins]] embolism to the heart... air can be deadlier than heroin	NO SOURCE
+1	Gus Kenyon's murder	NO PERPETRATOR	[[Nick]] the tourniquet... it's tied the other way, pulled away from him	NO SOURCE  
+1	Gus Kenyon's murder	NO PERPETRATOR	[[Robbins]] embolism to the heart... air can be deadlier than heroin	NO SOURCE  
+1	Volunteer disappearance	NO PERPETRATOR	[[Matilda]] i don't know where she is	NO SOURCE  
+1	Zoe Clein's involvement	NO PERPETRATOR	[[Grissom]] designed by zoe clein	NO SOURCE
+2	Gus Kenyon's murder	NO PERPETRATOR	[[Nick]] the tourniquet... it's tied the other way, pulled away from him	NO SOURCE  
+2	Gus Kenyon's murder	NO PERPETRATOR	[[Robbins]] embolism to the heart... air can be deadlier than heroin	NO SOURCE  
+2	Volunteer disappearance	NO PERPETRATOR	[[Matilda]] i don't know where she is	NO SOURCE  
+2	Zoe Clein's involvement	NO PERPETRATOR	[[Grissom]] designed by zoe clein	NO SOURCE  
+2	Zephyr's death by fire	NO PERPETRATOR	[[Robbins]] he swallowed fire	NO SOURCE  
+2	Samantha Dean connection	NO PERPETRATOR	[[Catherine]] samantha dean... she knows him	NO SOURCE
+3	Gus Kenyon's murder	Samantha_Dean	[[Samantha_Dean]] i carry needles in my kit	NO SOURCE  
+3	Punky Dillinger's murder	Zephyr_Dillinger	[[Grissom]] zephyr murdered his son	NO SOURCE  
+3	Zoe Clein's disappearance	Zephyr_Dillinger	[[Grissom]] you made her disappear	NO SOURCE  
+3	Toby Arcane's framing	Zephyr_Dillinger	[[Grissom]] you switched with your son... to set up toby arcane	NO SOURCE

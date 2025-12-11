@@ -1,0 +1,13 @@
+scene_chunk	case_summary	perpetrator	evidence_in_dialogue	source
+0	Shelley's murder	NO PERPETRATOR	[[Brass]] body is shelley danvers	NO SOURCE
+0	Oliver Dunne's murder	NO PERPETRATOR	[[Grissom]] why would a guy shoot a man three times and then strangle him with his own tie ?	NO SOURCE
+0	NO SUMMARY	Benjamin_Jennings	[[Sgt._O'Riley]] ben jennings	https://example.com/benjamin-jennings-case
+1	Shelley's murder	NO PERPETRATOR	[[Catherine]] oh , i hope that 's shelley danvers the woman from the hotel spa	NO SOURCE
+1	Oliver Dunne's murder	Benjamin_Jennings	[[Benjamin_Jennings]] i 'm not a bad person	https://example.com/oliver-dunne-case
+1	New Body	NO PERPETRATOR	[[Sara]] point of disturbance	NO SOURCE
+2	Shelley's murder	NO PERPETRATOR	[[Brass]] my guy in the hotel lounge tells me that tina and shelley were having a catfight over some dude named jeremy the day she died	NO SOURCE
+2	Oliver Dunne's murder	Benjamin_Jennings	[[Benjamin_Jennings]] i 'm not a bad person	https://example.com/oliver-dunne-case
+2	Kenny Ramirez's murder	Benjamin_Jennings	[[Grissom]] i should have looked deeper into ben 's character	https://example.com/kenny-ramirez-case
+3	Shelley's murder	Tina_Kolas	[[Tina_Kolas]] i did n't mean to kill her	https://example.com/shelley-danvers-case
+3	Oliver Dunne's murder	Roger_Jennings	[[Grissom]] the perpetrator 's hands left flour on the victim 's face	https://example.com/oliver-dunne-case
+3	Kenny Ramirez's murder	Benjamin_Jennings	[[Benjamin_Jennings]] look what i did -- i just lost my head	https://example.com/kenny-ramirez-case
